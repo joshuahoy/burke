@@ -1,0 +1,3836 @@
+[
+  {
+    "id": "10154",
+    "name": "J.W. Mickleborough House",
+    "address": "Chestnut Park Rd",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": null,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "First Occupant: J.W. Mickleborough",
+    "construction_status": "No heritage status",
+    "building_type": "Arena",
+    "current_use": "Abandoned",
+    "former_use": "",
+    "heritage_status": "",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [],
+    "images": [],
+    "thumbnail_url": null,
+    "lat": 43.6790722,
+    "lng": -79.3857144,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=10154"
+  },
+  {
+    "id": "4602",
+    "name": "Harris Henry Fudger House",
+    "address": "10 Maple Avenue",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1888,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "First Occupant: Hirschfelder, Jacob M 1889-189 First OccupantÂ´s Occupation: Professor U of T",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Gordon & Helliwell",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1592"
+      },
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/nnodBMDZB6.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/nnodBMDZB6.jpg",
+    "lat": 43.6750345,
+    "lng": -79.3762399,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4602"
+  },
+  {
+    "id": "7269",
+    "name": "Metropolitan Community Church",
+    "address": "115 Simpson Avenue",
+    "city": "Toronto",
+    "neighbourhood": "North Riverdale",
+    "year_built": 1907,
+    "alternate_name": "Simpson Avenue United Church",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Religious",
+    "current_use": "Religious",
+    "former_use": "",
+    "heritage_status": "Listed",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "role": "General contractor",
+        "name": "Elgie and Page",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/l4O9SSGgFk.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/MetropolitCommunityChurch2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/l4O9SSGgFk.jpg",
+    "lat": 43.667097,
+    "lng": -79.3477438,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=7269"
+  },
+  {
+    "id": "4836",
+    "name": "James Ryrie House",
+    "address": "116 South Drive",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1905,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "First Occupant: James Ryrie The house was later occupied by John E. Stone",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/R80rlIa6q2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/R80rlIa6q2.jpg",
+    "lat": 43.6776852,
+    "lng": -79.3770675,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4836"
+  },
+  {
+    "id": "3945",
+    "name": "University of Toronto St. George Campus; St. George Street- 123",
+    "address": "123 St. George Street",
+    "city": "Toronto",
+    "neighbourhood": "University",
+    "year_built": 1899,
+    "alternate_name": "T.M. Harris House",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Educational",
+    "former_use": "Residential",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/TMHarrisHouse.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/TMHarrisHouse.jpg",
+    "lat": 43.6668886,
+    "lng": -79.3992635,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3945"
+  },
+  {
+    "id": "4409",
+    "name": "124 Crescent Road",
+    "address": "124 Crescent Road",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1903,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "First Occupant: Mortimer, Charles H",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/UHY8j47WSK.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/UHY8j47WSK.jpg",
+    "lat": 43.6787649,
+    "lng": -79.381841,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4409"
+  },
+  {
+    "id": "3220",
+    "name": "Osgoode Hall",
+    "address": "130 Queen Street West",
+    "city": "Toronto",
+    "neighbourhood": "Yonge-Bay Corridor",
+    "year_built": 1832,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "The first part of this building to be completed was the East Wing in 1829-32. Many additions followed, including: addition of a West Wing and alterations to the East Wing, 1844-46, the centre rebuilt in 1857, First and Second Law School additions in 1880 and 1889, additions in 1897, a third story addition in 1910, additions in 1925, a Third Law School addition in 1937, a Fourth Law School addition in 1956 from Chestnut St. through to University Avenue.",
+    "construction_status": "Completed",
+    "building_type": "Low-rise",
+    "current_use": "Office",
+    "former_use": "",
+    "heritage_status": "National Historic Site",
+    "heritage_conservation_district": "",
+    "main_style": "Classical Revival",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "William G. Storm",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1339"
+      },
+      {
+        "role": "Architect",
+        "name": "Taylor Hazell Architects",
+        "url": "http://www.taylorhazell.com/"
+      },
+      {
+        "role": "Architect",
+        "name": "Henry Bowyer Lane",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1430"
+      },
+      {
+        "role": "Architect",
+        "name": "Vaux Chadwick",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1607"
+      },
+      {
+        "role": "Architect",
+        "name": "Bryan Chadwick",
+        "url": "http://dictionaryofarchitectsincanada.org/node/903"
+      },
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "role": "Architect",
+        "name": "Saunders & Ryrie",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Cumberland and Storm",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "John Ewart",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "Osgoode Hall",
+        "author": "Taylor Hazell Architects",
+        "url": "http://www.taylorhazell.com/portfolio/osgoode-hall-2/"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/OsgoodeHall1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/OsgoodeHall3.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/OsgoodeHall4.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/OsgoodeHall5.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/OsgoodeHall6.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/OsgoodeHall7.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/OsgoodeHall8.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/OsgoodeHall9.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/OsgoodeHall1.jpg",
+    "lat": 43.6520876,
+    "lng": -79.3855254,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3220"
+  },
+  {
+    "id": "4411",
+    "name": "132 Crescent Road",
+    "address": "132 Crescent Road",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1904,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "First Occupant: Mortimer, Charles H.",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/ipZba1PM0a.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/ipZba1PM0a.jpg",
+    "lat": 43.6788058,
+    "lng": -79.3813851,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4411"
+  },
+  {
+    "id": "5226",
+    "name": "Ukrainian Evangelical Baptist Church",
+    "address": "148 Tecumseth Street",
+    "city": "Toronto",
+    "neighbourhood": "West Queen West",
+    "year_built": 1897,
+    "alternate_name": "Memorial Baptist Church",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Religious",
+    "current_use": "Religious , Church",
+    "former_use": "",
+    "heritage_status": "Listed",
+    "heritage_conservation_district": "",
+    "main_style": "Arts and Crafts",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "role": "Architect",
+        "name": "Langley & Langley",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2432658&propertyRsn=179849"
+      },
+      {
+        "title": "Toronto Architect Edmund Burke: Redefining Canadian Architecture",
+        "author": "Angela Carr",
+        "url": ""
+      },
+      {
+        "title": "Ukrainian Baptist Church",
+        "author": "Ontario Heritage Trust",
+        "url": "https://www.heritagetrust.on.ca/en/places-of-worship/places-of-worship-database/search/powresults/details?id=368&backlinkslug=associated-records&"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/IB0CQAroMO.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/IB0CQAroMO.jpg",
+    "lat": 43.646069,
+    "lng": -79.4066019,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=5226"
+  },
+  {
+    "id": "3329",
+    "name": "15 Elm Avenue",
+    "address": "15 Elm Avenue",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1902,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "First Occupant: Ellis, Mathew C First OccupantÂ´s Occupation: V.P. P. W. Ellis & Co",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/cETH9JpDso.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/cETH9JpDso.jpg",
+    "lat": 43.6745243,
+    "lng": -79.3789617,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3329"
+  },
+  {
+    "id": "10152",
+    "name": "160 Park Road",
+    "address": "160 Park Road",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1899,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "First Resident: William A. Martin",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [],
+    "images": [],
+    "thumbnail_url": null,
+    "lat": 43.6766525,
+    "lng": -79.3820065,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=10152"
+  },
+  {
+    "id": "8529",
+    "name": "165 Crescent Road",
+    "address": "165 Crescent Road",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1900,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/PY8UC5N1yX.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/PY8UC5N1yX.jpg",
+    "lat": 43.6778007,
+    "lng": -79.3786952,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=8529"
+  },
+  {
+    "id": "4731",
+    "name": "Edward Fisher House",
+    "address": "166 Crescent Road",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1899,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "First Occupant: Fisher, Edward",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/Jk6ulgsJm0.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/166CrescentRd2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/Jk6ulgsJm0.jpg",
+    "lat": 43.6781982,
+    "lng": -79.3791504,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4731"
+  },
+  {
+    "id": "2842",
+    "name": "The Bay Queen Street",
+    "address": "176 Yonge Street",
+    "city": "Toronto",
+    "neighbourhood": "Yonge-Bay Corridor",
+    "year_built": 1895,
+    "alternate_name": "Simpson Department Store",
+    "awards": "",
+    "notes": "This building burnt in 1894 and was rebuilt in 1895. It received many additions and alterations over the years.",
+    "construction_status": "Completed",
+    "building_type": "Mid-rise",
+    "current_use": "Commercial",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Horwood & White",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "role": "Architect",
+        "name": "Chapman & Oxley",
+        "url": "https://en.wikipedia.org/wiki/Chapman_and_Oxley"
+      },
+      {
+        "role": "Architect",
+        "name": "John B. Parkin Associates",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1973"
+      },
+      {
+        "role": "Architect",
+        "name": "Bregman + Hamann Architects",
+        "url": "https://bharchitects.com/en/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/TheBayQueen1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/TheBayQueen2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/TheBayQueen3.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/TheBayQueen4.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/TheBayQueen5.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/TheBayQueen6.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/TheBayQueen7.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/TheBayQueen1.jpg",
+    "lat": 43.6517906,
+    "lng": -79.3801688,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2842"
+  },
+  {
+    "id": "7366",
+    "name": "Percival Leadlay House",
+    "address": "21 Elm Avenue",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1904,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "At the time this photo was taken, this house appeared to be uninhabited. First Occupant: Percival Leadlay",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/21ElmAve.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/21ElmAve.jpg",
+    "lat": 43.6747162,
+    "lng": -79.3783584,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=7366"
+  },
+  {
+    "id": "1986",
+    "name": "Royal Conservatory of Music",
+    "address": "273 Bloor Street West",
+    "city": "Toronto",
+    "neighbourhood": "University",
+    "year_built": 1881,
+    "alternate_name": "Toronto Baptist College / McMaster Hall / TELUS Centre for Performance and Learning / Ihnatowycz Hall",
+    "awards": "2005: Canadian Architect Award Award of Excellence. For additions to the building underway in 2005-06",
+    "notes": "Formerly McMaster Hall as part of the Toronto Baptist College (what would later become McMaster University), the building was completed in 1881. The Royal Conservatory of Music moved into the building in 1962. The building was designated under Part IV of the Ontario Heritage Act in 1976, and was formally recognized as a National Historic Site of Canada in 1995 A proposal for a Master Plan for this building won a Canadian Architect Award in 1991, which was eventually adapted in the addition of the TELUS Centre for Performance and Learning. The addition won a Canadian Architect Award of Excellence in 2005, and was completed in 2009. The main portion of the building facing Bloor Street West was renamed Ihnatowycz Hall in 2005, following a donation made by Mr. Ian Ihnatowycz and Dr. Marta Witer to support the revitalization of the historic building. From Canada's Historic Places: The Royal Conservatory of Music National Historic Site of Canada faces a busy street in downtown Toronto. Since 1963, this influential and distinguished school of music has resided in a large, richly ornamented four-storey building of eclectic late-Victorian design. This older building forms the central element amongst a cluster of later, large additions that now form a small complex. Its symmetrically disposed fa&ccedil;ade features boldly handled detailing including rock-faced masonry, decorative brickwork, projecting bays, stringcourses and a lively, complex roofline that contrasts with the materials and treatment. Official recognition refers to the building on its footprint at the time of designation (1995). The Royal Conservatory of Music was designated a national historic site of Canada in 1995 because of: - its influence on the musical life of Canada over the last century; - its graduates included some of the most prominent musicians and music teachers in Canada; - it has a far-reaching influence on music education in Canada because of its system of graded examinations which are taken by music teachers across the country; - the systems of music education, which it pioneered in Canada. Founded in 1886, the Royal Conservatory of Music is a rare survivor of the many conservatories founded in Canada in the 19th century. Its longevity may be partly ascribed to the excellence of its instruction, the caliber of its graduates, its adherence to high standards and its sound administration. From its inception it was a large-scale enterprise, with a large number of students and substantial funding. Remarkable growth in the early years resulted in a purpose-built structure with the later addition of further facilities and the opening of branches in residential areas. The current building, McMaster Hall, formerly the Toronto Baptist College, was purchased by the University of Toronto from the government in 1936, and has served as the main teaching and rehearsal facility for the Royal Conservatory of Music since 1963. Affiliated with the University of Toronto until 1991, the Royal Conservatory of Music is now an independent institution. Source: Historic Sites and Monuments Board of Canada, Minutes, November 1974. The key elements that contribute to the heritage character of this site include: - its prominent location in Toronto; - its design, purpose-built as an educational establishment, also, the essential elements of the exterior and interior plans, and the various adaptations and extensions, constructed in stages, which continue to facilitate and enhance the Conservatory&rsquo;s operational requirements regarding performance, rehearsal and administrative needs and which speak to the Conservatory&rsquo;s important ongoing role in the development of a system music education in Canada. (info provided by Sarah Campbell)",
+    "construction_status": "Completed",
+    "building_type": "Low-rise",
+    "current_use": "Educational , Cultural",
+    "former_use": "",
+    "heritage_status": "National Historic Site",
+    "heritage_conservation_district": "",
+    "main_style": "Gothic Revival",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "KPMB Architects",
+        "url": "http://www.kpmb.com/"
+      },
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Daily Commercial News and Construction Record",
+        "author": "",
+        "url": ""
+      },
+      {
+        "title": "Daily Commercial News and Construction Record",
+        "author": "",
+        "url": ""
+      },
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2433714&propertyRsn=224634"
+      },
+      {
+        "title": "The Globe and Mail",
+        "author": "Robert Everett-Green",
+        "url": ""
+      },
+      {
+        "title": "The Globe and Mail",
+        "author": "Sandra Martin",
+        "url": ""
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "Toronto Star",
+        "author": "Alfred Holden",
+        "url": ""
+      },
+      {
+        "title": "Toronto Star",
+        "author": "Christopher Hume",
+        "url": ""
+      },
+      {
+        "title": "Toronto Star",
+        "author": "Christopher Hume",
+        "url": ""
+      },
+      {
+        "title": "Toronto Star",
+        "author": "Christopher Hume",
+        "url": ""
+      },
+      {
+        "title": "The 2005 Canadian Architect Awards Of Excellence Winners Announced",
+        "author": "Canadian Architect",
+        "url": "https://www.canadianarchitect.com/the-2005-i-canadian-architect-i-awards-of-excellence-winners-announced/"
+      },
+      {
+        "title": "McMaster University",
+        "author": "The Canadian Encyclopedia",
+        "url": "https://www.thecanadianencyclopedia.ca/en/article/mcmaster-university"
+      },
+      {
+        "title": "Royal Conservatory of Music",
+        "author": "Canuckistan (Flickr)",
+        "url": "https://www.flickr.com/photos/canuckistan/5769631202/in/album-72157626827737778/"
+      },
+      {
+        "title": "Developing human potential through leadership in music and arts",
+        "author": "KPMB Architects",
+        "url": "http://www.kpmb.com/project/royal-conservatory-telus-centre-for-performance-and-learning/"
+      },
+      {
+        "title": "Ihnatowycz Hall",
+        "author": "The Royal Conservatory of Music",
+        "url": "https://www.rcmusic.com/performance/plan-your-visit/venues/ihnatowycz-hall"
+      },
+      {
+        "title": "Royal Conservatory of Music National Historic Site of Canada",
+        "author": "Canada's Historic Places",
+        "url": "https://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id=12044&pid=0"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/BiLD3veShd.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/RoyalConservatory2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/RoyalConservatory3.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/RoyalConservatory4.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/BiLD3veShd.jpg",
+    "lat": 43.66813903792356,
+    "lng": -79.39627467130276,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=1986"
+  },
+  {
+    "id": "3363",
+    "name": "University of Toronto St. George Campus; Munk School of Global Affairs at the Observatory",
+    "address": "315 Bloor Street West",
+    "city": "Toronto",
+    "neighbourhood": "University",
+    "year_built": 1908,
+    "alternate_name": "Dominion Meteorological Building/Admissions Office",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Low-rise",
+    "current_use": "Educational",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "role": "Architect",
+        "name": "ERA Architects Inc.",
+        "url": "http://www.eraarch.ca/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/CwE4OjVgKe.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/CwE4OjVgKe.jpg",
+    "lat": 43.6676498,
+    "lng": -79.3986522,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3363"
+  },
+  {
+    "id": "5301",
+    "name": "Walmer Road Baptist Church",
+    "address": "38 Walmer Road",
+    "city": "Toronto",
+    "neighbourhood": "",
+    "year_built": 1892,
+    "alternate_name": "Walmer Centre Theatre",
+    "awards": "",
+    "notes": "1892: Church completed, designed by Langley & Burke. 1901: Addition by Burke & Horwood. 1906: Addition by Burke & Horwood. 1913: Sunday school addition by Burke, Horwood & White.",
+    "construction_status": "Completed",
+    "building_type": "Religious",
+    "current_use": "Religious , Church",
+    "former_use": "",
+    "heritage_status": "Listed",
+    "heritage_conservation_district": "",
+    "main_style": "Arts and Crafts",
+    "firm": "Langley & Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley & Burke",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2436768&propertyRsn=191321"
+      },
+      {
+        "title": "Toronto Architect Edmund Burke: Redefining Canadian Architecture",
+        "author": "Angela Carr",
+        "url": ""
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "Walmer Road Baptist Church",
+        "author": "Ontario Heritage Trust",
+        "url": "https://www.heritagetrust.on.ca/en/places-of-worship/places-of-worship-database/search/powresults/details?id=369&backlinkslug=associated-records&"
+      },
+      {
+        "title": "Biographical Dictionary of Architects in Canada 1800-1950",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      },
+      {
+        "title": "Biographical Dictionary of Architects in Canada 1800-1950",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "title": "Walmer Road Park, Walmer Rd. at Lowther Ave.",
+        "author": "Toronto Public Library",
+        "url": "https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-PICTURES-R-3448&R=DC-PICTURES-R-3448"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/WalmerRdBaptistChurch1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/WalmerRdBaptistChurch2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/WalmerRdBaptistChurch3.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/WalmerRdBaptistChurch4.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/4206286c.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/WalmerRdBaptistChurch1.jpg",
+    "lat": 43.668575,
+    "lng": -79.4067421,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=5301"
+  },
+  {
+    "id": "2369",
+    "name": "H.H. Fudger House",
+    "address": "40 Maple Avenue",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1897,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "First Occupant: Fudger, Harris Henry First OccupantÂ´s Occupation: Pres. Robt. Simpson Co. Ltd.",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Gordon & Helliwell",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1592"
+      },
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/HdG8Eusdcj.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/HHFudgerHouse2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/HHFudgerHouse3.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/HdG8Eusdcj.jpg",
+    "lat": 43.6755702,
+    "lng": -79.3738185,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2369"
+  },
+  {
+    "id": "2159",
+    "name": "Betty Oliphant Theatre",
+    "address": "404 Jarvis Street",
+    "city": "Toronto",
+    "neighbourhood": "Church-Wellesley",
+    "year_built": 1863,
+    "alternate_name": "Blaikie/Alexander House",
+    "awards": "",
+    "notes": "This was originally built for J. Blaikie and W. Alexander. No. 404 was altered in 1882, and No. 400 was altered in 1899. In 1988-89 the building was extensive renovated and a theatre added to the rear portion of the historic houses.",
+    "construction_status": "Completed",
+    "building_type": "Semi-detached house",
+    "current_use": "Cultural",
+    "former_use": "Residential",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Gundry & Langley",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Gundry & Langley",
+        "url": "http://dictionaryofarchitectsincanada.org/node/757"
+      },
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "role": "Architect",
+        "name": "Diamond Schmitt Architects",
+        "url": "https://dsai.ca/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/400-404Jarvis1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/400-404Jarvis2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/400-404Jarvis3.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/400-404Jarvis1.jpg",
+    "lat": 43.664229,
+    "lng": -79.3780133,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2159"
+  },
+  {
+    "id": "3365",
+    "name": "Samuel Building",
+    "address": "431 King Street West",
+    "city": "Toronto",
+    "neighbourhood": "Wellington Place",
+    "year_built": 1908,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "The sixth floor of this building was added in 1913. The Samuel Building is architecturally significant as a good example of the early tall commercial building type, identified by the Classical organization and the application of Classical and Gothic-inspired detailing. With its size and visible location on the southwest corner of King Street West and Spadina Avenue, the building contributes contextually to the character of the King-Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the north and east facades. Rising six stories above a basement, the structure extends ten bays along both King Street West and Spadina Avenue. The north and east elevations are faced with red brick and trimmed with brick and stone. The base of the building, which incorporates the basement and first floor, is filled with banded brickwork and stone trim (some of the window openings on the north elevation have been altered). The entrances on both walls are set in round-arched banded surrounds between segmental-headed window openings with stone keystones. Above a cornice, rows of flat-headed window openings are recessed between brick piers that terminate in banded tops with Gothic ornament at the fifth floor. The corners of the east wall and one bay on the north elevation project slightly and contain a mix of segmental- and flat-headed openings. At the sixth storey, a band course follows the pattern of the window heads beneath the flat roof. The west wall is blank above the neighbouring structure that abuts it.",
+    "construction_status": "Completed",
+    "building_type": "Mid-rise",
+    "current_use": "Office",
+    "former_use": "",
+    "heritage_status": "Designated under Part V, Ontario Heritage Act",
+    "heritage_conservation_district": "King-Spadina Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2434700&propertyRsn=209644"
+      },
+      {
+        "title": "King-Spadina Heritage Conservation District Study",
+        "author": "Taylor Hazell Architects Ltd.",
+        "url": "https://hcdtoronto.wordpress.com/category/king-spadina/page/2/"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/SamuelBldg.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/SamuelBldg.jpg",
+    "lat": 43.6452002,
+    "lng": -79.3953703,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3365"
+  },
+  {
+    "id": "3020",
+    "name": "Bank of British North America",
+    "address": "49 Yonge Street",
+    "city": "Toronto",
+    "neighbourhood": "Downtown Yonge East",
+    "year_built": 1873,
+    "alternate_name": "Canadian Imperial Bank of Commerce, Irish Embassy Pub",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Mid-rise",
+    "current_use": "Commercial",
+    "former_use": "Bank",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "Second Empire",
+    "firm": "Henry Langley",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Henry Langley",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      },
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/XDk4tSFwlI.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/BankBritishNorthAm2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/XDk4tSFwlI.jpg",
+    "lat": 43.6480451,
+    "lng": -79.3771074,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3020"
+  },
+  {
+    "id": "4399",
+    "name": "54 Chestnut Park",
+    "address": "54 Chestnut Park",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1907,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/54ChestnutPark.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/54ChestnutPark.jpg",
+    "lat": 43.67995,
+    "lng": -79.3854252,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4399"
+  },
+  {
+    "id": "3530",
+    "name": "Davis and Henderson Building",
+    "address": "578 King Street West",
+    "city": "Toronto",
+    "neighbourhood": "Wellington Place",
+    "year_built": 1904,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "In the Inventory of Heritage Properties as 578 King Street West. The Davis and Henderson Building is architecturally significant as a good example of an early 20th century commercial warehouse with detailing from Classical and Gothic decorative elements. Located on the north side of King Street West near Portland Street, the building contributes contextually to the character of the King-Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) facade. The structure, clad with red brick and trimmed with stone, rises two stories above a basement. A series of gables marks the flat roof. The south facade is organized into five bays by a mix of brick piers and pilasters with scrolled stone coping. The main entrance, found at street level in the right (east) bay, has a wood entablature with dentils that is supported by stone brackets. Flat-headed window openings with stone lintels light the basement. The segmental-arched window openings in the first floor and the semielliptical openings in the second storey are decorated with brick voussoirs. The east and west elevations abut the neighbouring structures.",
+    "construction_status": "Completed",
+    "building_type": "Low-rise",
+    "current_use": "Office",
+    "former_use": "",
+    "heritage_status": "Designated under Part V, Ontario Heritage Act",
+    "heritage_conservation_district": "King-Spadina Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2437942&propertyRsn=703456"
+      },
+      {
+        "title": "King-Spadina Heritage Conservation District Study",
+        "author": "Taylor Hazell Architects Ltd.",
+        "url": "https://hcdtoronto.wordpress.com/category/king-spadina/page/2/"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/DavisandHendersonBldg.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/DavisandHendersonBldg.jpg",
+    "lat": 43.6448257,
+    "lng": -79.3993258,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3530"
+  },
+  {
+    "id": "6858",
+    "name": "The Church Lofts",
+    "address": "701-703 Dovercourt Road",
+    "city": "Toronto",
+    "neighbourhood": "Palmerston-Little Italy",
+    "year_built": 1906,
+    "alternate_name": "Centennial Japanese United Church; Centennial Methodist Church",
+    "awards": "",
+    "notes": "Centennial Methodist Church was completed in 1906, designed by Burke & Horwood. The current Gothic Revival church replaced an earlier church which was completed in 1891 and designed by Herbert George Paull. An addition by Horwood & White was completed in 1921. The church was converted into condominiums in 2010.",
+    "construction_status": "Completed",
+    "building_type": "Religious",
+    "current_use": "Residential",
+    "former_use": "Church",
+    "heritage_status": "Designated under Part IV Ontario Heritage Act",
+    "heritage_conservation_district": "",
+    "main_style": "Gothic Revival",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "role": "Architect",
+        "name": "Herbert G. Paull",
+        "url": "http://dictionaryofarchitectsincanada.org/node/605"
+      },
+      {
+        "role": "Architect",
+        "name": "Horwood & White",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2435399&propertyRsn=740743"
+      },
+      {
+        "title": "Toronto Star",
+        "author": "",
+        "url": ""
+      },
+      {
+        "title": "Biographical Dictionary of Architects in Canada 1800-1950",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/605"
+      },
+      {
+        "title": "Biographical Dictionary of Architects in Canada 1800-1950",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "title": "Biographical Dictionary of Architects in Canada 1800-1950",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1530"
+      },
+      {
+        "title": "Centennial Methodist (United) Church, Dovercourt Rd., east side, between Hepbourne & Bloor St. W., Toronto, Ont.",
+        "author": "Toronto Public Library",
+        "url": "https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-E9-83&R=DC-E9-83"
+      },
+      {
+        "title": "703 Dovercourt Road (Centennial Japanese Church) â€“ Intention to Designate, Part IV, Ontario Heritage Act, Approval of Alterations to a Heritage Building, and Authority to Enter into a Heritage Easement Agreement.",
+        "author": "Ted Tyndorf, Chief Planner and Executive Director, City Planning, City of Toronto",
+        "url": "https://www.toronto.ca/legdocs/mmis/2007/te/bgrd/backgroundfile-6414.pdf"
+      },
+      {
+        "title": "Notice of Passing of By-Law",
+        "author": "Ulli S. Watkiss, City Clerk, City of Toronto",
+        "url": "https://www.heritagetrust.on.ca/en/index.php/oha/details/file?id=4842&id=4842"
+      },
+      {
+        "title": "Centennial Japanese Church",
+        "author": "Ontario Heritage Act Register",
+        "url": "https://www.heritagetrust.on.ca/en/oha/details?id=2737"
+      },
+      {
+        "title": "The Church Lofts",
+        "author": "condos.ca",
+        "url": "https://condos.ca/toronto/the-church-lofts-701-dovercourt-rd"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/IzeLLpItUx.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/f601e771.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/IzeLLpItUx.jpg",
+    "lat": 43.6601393,
+    "lng": -79.4286539,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=6858"
+  },
+  {
+    "id": "3497",
+    "name": "Bathurst Street Theatre",
+    "address": "736 Bathurst Street",
+    "city": "Toronto",
+    "neighbourhood": "Palmerston-Little Italy",
+    "year_built": 1888,
+    "alternate_name": "Methodist Church",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Religious",
+    "current_use": "Cultural",
+    "former_use": "Church",
+    "heritage_status": "Listed",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Gordon & Helliwell",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1592"
+      },
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/cBviZPavVh.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/cBviZPavVh.jpg",
+    "lat": 43.663583,
+    "lng": -79.41084,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3497"
+  },
+  {
+    "id": "3453",
+    "name": "James Mickleborough House",
+    "address": "86 Chestnut Park",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1904,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "First Occupant: Mickleborough James W. First OccupantÂ´s Occupation: (Mickleborough, Muldrew & Co)",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke & Horwood",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke & Horwood",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/86ChestnutPark1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/86ChestnutPark2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/86ChestnutPark1.jpg",
+    "lat": 43.679864,
+    "lng": -79.3830243,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3453"
+  },
+  {
+    "id": "4385",
+    "name": "James Ryrie House",
+    "address": "1 Chestnut Park",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1913,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Designated under Part V, Ontario Heritage Act",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "Neo-Georgian",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/nyTPg4R5Ag.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/nyTPg4R5Ag.jpg",
+    "lat": 43.6782265,
+    "lng": -79.3887958,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4385"
+  },
+  {
+    "id": "2841",
+    "name": "Upper Canada Bible & Tract Societies Building",
+    "address": "104 Yonge Street",
+    "city": "Toronto",
+    "neighbourhood": "Yonge-Bay Corridor",
+    "year_built": 1886,
+    "alternate_name": "102 Yonge",
+    "awards": "",
+    "notes": "This building was altered in 1910 for Dunfield and Company. N 1985-86 the façade of the building was incorporated into the larger Scotia Plaza complex.",
+    "construction_status": "Completed",
+    "building_type": "Mid-rise",
+    "current_use": "Commercial",
+    "former_use": "",
+    "heritage_status": "Partial heritage",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Gordon & Helliwell",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1592"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/UpperCanadaBibleTract.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/UpperCanadaBibleTract.jpg",
+    "lat": 43.650019,
+    "lng": -79.378472,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2841"
+  },
+  {
+    "id": "3171",
+    "name": "Pilkington Bros. Ltd. Offices",
+    "address": "1108-110 George Street South Mercer Street",
+    "city": "Toronto",
+    "neighbourhood": "St Lawrence-East Bayfront-The Islands",
+    "year_built": 1878,
+    "alternate_name": "Verral Cab, Omnibus and Baggage Transfer Co.",
+    "awards": "",
+    "notes": "The two storey portion of this building (the only part shown) was originally used for stables and built in 1878. An addition was made to the two storey building in 1894 by David B. Dick. There was a four storey addition in 1909 and an art deco addition was added in 1939. A pair of 45 stoery towers will be built atop this building facade very shortly",
+    "construction_status": "Completed",
+    "building_type": "Low-rise",
+    "current_use": "Commercial",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Langley, Langley and Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      },
+      {
+        "role": "Architect",
+        "name": "Teeple Architects Inc.",
+        "url": "http://www.teeplearch.com"
+      },
+      {
+        "role": "Architect",
+        "name": "David B. Dick",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1639"
+      },
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "Toronto Architecture: A City Guide, Third Edition",
+        "author": "Patricia McHugh and Alex Bozikovic",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/BFF1tJxN6x.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/BFF1tJxN6x.jpg",
+    "lat": 43.6490117,
+    "lng": -79.3702352,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3171"
+  },
+  {
+    "id": "8186",
+    "name": "145 Crescent Road",
+    "address": "145 Crescent Road",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1915,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "First Occupant: Fred L. Ratcliff",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/KR1F9xafX7.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/KR1F9xafX7.jpg",
+    "lat": 43.6779531,
+    "lng": -79.3799268,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=8186"
+  },
+  {
+    "id": "440",
+    "name": "Toronto Metropolitan University; Merchandise Building",
+    "address": "155 Dalhousie Street",
+    "city": "Toronto",
+    "neighbourhood": "Downtown Yonge East",
+    "year_built": 1910,
+    "alternate_name": "Robert Simpson Company Warehouse/ Ryerson University building",
+    "awards": "",
+    "notes": "A small part of this building, consisting of a five storey structure, was constructed in 1910. The building received a major addition in 1917 and another in 1930. It was formerly a warehouse for Simpsons Department Stores, and after that, Sears Department Stores. At one time, over 12,000 people worked here. In the late 1990's and early 2000's it was gradually converted into residential use.",
+    "construction_status": "Completed",
+    "building_type": "High-rise",
+    "current_use": "Residential",
+    "former_use": "Warehouse",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "Commercial style",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Frank S. Corley",
+        "url": "http://dictionaryofarchitectsincanada.org/node/967"
+      },
+      {
+        "role": "Architect",
+        "name": "Max Dunning",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Northgrave Architect Inc.",
+        "url": null
+      },
+      {
+        "role": "Construction company",
+        "name": "Toddglen Construction Ltd.",
+        "url": null
+      },
+      {
+        "role": "Developer",
+        "name": "Cresford Developments",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Building",
+        "author": "",
+        "url": ""
+      },
+      {
+        "title": "Daily Commercial News and Construction Record",
+        "author": "",
+        "url": ""
+      },
+      {
+        "title": "East/West: A Guide to Where People Live in Downtown Toronto",
+        "author": "Nancy Byrtus",
+        "url": ""
+      },
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/3YWvcUqcLu.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/MerchandiseBuilding2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/MerchandiseBuildingR.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/3YWvcUqcLu.jpg",
+    "lat": 43.657649,
+    "lng": -79.3767639,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=440"
+  },
+  {
+    "id": "7530",
+    "name": "169 Roxborough Drive",
+    "address": "169 Roxborough Drive",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1913,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "North Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto City Directory",
+        "author": "",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/9cTwFEoOkR.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/9cTwFEoOkR.jpg",
+    "lat": 43.6845224,
+    "lng": -79.3713487,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=7530"
+  },
+  {
+    "id": "10156",
+    "name": "R.S. McKinnon House",
+    "address": "19 South Drive",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1915,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "First Occupant: Mr. R. S. McKinnon Porch was added in 1915.",
+    "construction_status": "No heritage status",
+    "building_type": "Arena",
+    "current_use": "Abandoned",
+    "former_use": "",
+    "heritage_status": "",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [],
+    "images": [],
+    "thumbnail_url": null,
+    "lat": 43.6775059,
+    "lng": -79.3826907,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=10156"
+  },
+  {
+    "id": "4855",
+    "name": "University of Toronto St. George Campus; McCorkell House",
+    "address": "2 Elmsley Place",
+    "city": "Toronto",
+    "neighbourhood": "Bay-Cloverhill",
+    "year_built": 1892,
+    "alternate_name": "96 St. Joseph Street",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Semi-detached house",
+    "current_use": "Educational",
+    "former_use": "Residential",
+    "heritage_status": "Listed",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Marshall B. Aylesworth",
+        "url": "http://dictionaryofarchitectsincanada.org/node/71"
+      },
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/dgVWg7nIXH.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/2ElmsleyPl2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/dgVWg7nIXH.jpg",
+    "lat": 43.6654366,
+    "lng": -79.3897727,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4855"
+  },
+  {
+    "id": "2157",
+    "name": "Covenant House",
+    "address": "20 Gerrard Street East",
+    "city": "Toronto",
+    "neighbourhood": "Downtown Yonge East",
+    "year_built": 1912,
+    "alternate_name": "Willard Hall / Young Women's Christian Association",
+    "awards": "",
+    "notes": "This building received an addition in 1922.",
+    "construction_status": "Completed",
+    "building_type": "Mid-rise",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/WillardHall1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/WillardHall2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/WillardHall1.jpg",
+    "lat": 43.6594024,
+    "lng": -79.3814884,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2157"
+  },
+  {
+    "id": "3200",
+    "name": "Canadian Magazine Building",
+    "address": "200 Adelaide Street West",
+    "city": "Toronto",
+    "neighbourhood": "Wellington Place",
+    "year_built": 1913,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "The Canadian Magazine Company Building is architecturally significant as a well-designed example of the early tall commercial building type, typified by the Classical organization and detailing. Located on the north side of Adelaide Street West, west of Simcoe Street, the building contributes contextually to the character of the King-Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) faÃ§ade. Rising five stories, the structure is faced with red brick and trimmed with stone. The five-bay south faÃ§ade is organized horizontally by a Classical base, shaft and cornice, and vertically by brick piers and pilasters. The main entry, located in the left (west) bay at street level, has a round-headed door recessed in a compound-arched stone surround with a bracketed copper-clad hood. The fenestration in the lower floors and attic level consists of flat-headed window openings with stone lintels, brick aprons and stone band courses. The fourth storey introduces segmental-headed window openings with brick voussoirs and stone keystones. A modest cornice marks the flat roof. Abutting the adjacent buildings, the visible part of the east elevation displays segmental-headed openings, while the west wall is blank.",
+    "construction_status": "Completed",
+    "building_type": "Mid-rise",
+    "current_use": "Office",
+    "former_use": "",
+    "heritage_status": "Designated under Part V, Ontario Heritage Act",
+    "heritage_conservation_district": "King-Spadina Heritage Conservation District",
+    "main_style": "Edwardian Classical",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Dunlop-Farrow Architects Inc.",
+        "url": null
+      },
+      {
+        "role": "Mechanical engineer",
+        "name": "DFA Engineering Ltd.",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Canadian Architect",
+        "author": "",
+        "url": ""
+      },
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2432943&propertyRsn=210283"
+      },
+      {
+        "title": "King-Spadina Heritage Conservation District Study",
+        "author": "Taylor Hazell Architects Ltd.",
+        "url": "https://hcdtoronto.wordpress.com/category/king-spadina/page/2/"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/CdnMagazineBldg1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/CdnMagazineBldg2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/CdnMagazineBldg1.jpg",
+    "lat": 43.6487008,
+    "lng": -79.3871626,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3200"
+  },
+  {
+    "id": "2317",
+    "name": "Ryrie Building",
+    "address": "225-235 Yonge Street",
+    "city": "Toronto",
+    "neighbourhood": "Downtown Yonge East",
+    "year_built": 1891,
+    "alternate_name": "George Pears Stores",
+    "awards": "",
+    "notes": "This building received an addition in 1913-14, which essentially replaced the previous two buildings. The ground floor was further altered in 1934.",
+    "construction_status": "Completed",
+    "building_type": "Commercial block",
+    "current_use": "Commercial",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Norman A. Armstrong",
+        "url": "http://dictionaryofarchitectsincanada.org/node/58"
+      },
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Langley & Burke",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/RyrieBldg1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/RyrieBldg2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/RyrieBldg1.jpg",
+    "lat": 43.6540742,
+    "lng": -79.3799578,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2317"
+  },
+  {
+    "id": "2258",
+    "name": "University of Toronto St. George Campus; Student Commons",
+    "address": "230 College Street",
+    "city": "Toronto",
+    "neighbourhood": "University",
+    "year_built": 1908,
+    "alternate_name": "Faculty of Architecture, Landscape and Design",
+    "awards": "2003: Toronto Architecture and Urban Design Awards Buildings - Honorable Mention. For the Eric Arthur Gallery",
+    "notes": "The building was built in 1908-9 for the Royal College of Dental Surgeons. It was home to the Faculty of Architecture, Landscape and Design from 1961 to 2017. It was altered by Kohn and Schnier in the early 2000's. It is currently being renovated by Superkul for a new student centre. The Eric Arthur Gallery was created within this building, opening November 22, 2001. The gallery is dedicated to architecture and design. The Eric Arthur Gallery won an Honourable Mention in the Toronto Architecture and Urban Design Awards in 2003. A new proposal came forward in 2009 to dramatically increase the size of this building, which would see the entire structure sheathed inside another building, and expanded significantly upwards and to the rear.",
+    "construction_status": "Completed",
+    "building_type": "Mid-rise",
+    "current_use": "Educational",
+    "former_use": "",
+    "heritage_status": "No heritage status",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Kohn Shnier Architects",
+        "url": "http://kohnshnierarchitects.com/"
+      },
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Toronto Society of Architects Guide Map 1953-2003",
+        "author": "",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/xgJ1fpVAMa.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/FacultyArchitecture2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/xgJ1fpVAMa.jpg",
+    "lat": 43.6585682,
+    "lng": -79.3978995,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2258"
+  },
+  {
+    "id": "7503",
+    "name": "233 Douglas Drive",
+    "address": "233 Douglas Drive",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1916,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "North Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Contract Record, xxx",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "title": "Construction, xii",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "title": "Toronto City Directory",
+        "author": "",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/233DouglasDr.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/233DouglasDr.jpg",
+    "lat": 43.6855277,
+    "lng": -79.3716269,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=7503"
+  },
+  {
+    "id": "5414",
+    "name": "High Park Korean United Church",
+    "address": "260 High Park Avenue",
+    "city": "Toronto",
+    "neighbourhood": "Junction Area",
+    "year_built": 1908,
+    "alternate_name": "High Park Alhambra Church / High Park Avenue Methodist Church",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/X5tECLK6w9.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/X5tECLK6w9.jpg",
+    "lat": 43.6625007,
+    "lng": -79.4697324,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=5414"
+  },
+  {
+    "id": "2934",
+    "name": "ChumCity Building",
+    "address": "299 Queen Street West",
+    "city": "Toronto",
+    "neighbourhood": "Wellington Place",
+    "year_built": 1913,
+    "alternate_name": "City TV, MuchMusic, Wesley Building, Methodist Book and Publishing Company, Ryerson Press",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Mid-rise",
+    "current_use": "Cultural",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "Queen Street Heritage Conservation District",
+    "main_style": "Gothic Revival",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "eye magazine",
+        "author": "Rick McGinnis",
+        "url": ""
+      },
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "Toronto Star",
+        "author": "June 13, 2007",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/ChumCity1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/ChumCity2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/ChumCity3.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/ChumCity4.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/ChumCity5.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/ChumCity6.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/ChumCity7.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/ChumCity1.jpg",
+    "lat": 43.6494233,
+    "lng": -79.3904818,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2934"
+  },
+  {
+    "id": "3528",
+    "name": "Gage Building",
+    "address": "379 Adelaide Street West",
+    "city": "Toronto",
+    "neighbourhood": "Wellington Place",
+    "year_built": 1912,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "The Gage Building is architecturally significant as a well-designed example of the early tall commercial building type, typified by the Classical organization and detailing. Located on the south side of Adelaide Street West, directly west of Spadina Avenue, the building contributes contextually to the character of the King-Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (north) facade. The structure rises five stories above a basement. Although altered at street level, the original style is readily apparent on the six-bay north facade with slightly projecting corners. Red brick surfaces with terra cotta details wrap around the east and west corners of the building. The north wall is organized horizontally by a Classical base, shaft and cornice, and vertically by brick pilasters and piers. A pattern of flat-headed window openings and commercial windows with terra cotta lintels and sills is found in the upper levels, apart from the segmental-headed openings in the outer bays of the sixth storey. A terra cotta string course follows the heads of the latter windows and links the ornaments atop the pilasters. The flat roof is extended by a parapet with curved pediments at the corners and sculpted motifs in-between. The east and west elevations continue the cladding, fenestration and detailing found on the north facade.",
+    "construction_status": "Completed",
+    "building_type": "Mid-rise",
+    "current_use": "Office",
+    "former_use": "",
+    "heritage_status": "Designated under Part V, Ontario Heritage Act",
+    "heritage_conservation_district": "King-Spadina Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2432954&propertyRsn=209821"
+      },
+      {
+        "title": "King-Spadina Heritage Conservation District Study",
+        "author": "Taylor Hazell Architects Ltd.",
+        "url": "https://hcdtoronto.wordpress.com/category/king-spadina/page/2/"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/a5Qy4tvBNn.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/a5Qy4tvBNn.jpg",
+    "lat": 43.6463603,
+    "lng": -79.396254,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3528"
+  },
+  {
+    "id": "3427",
+    "name": "Trinity St. Pauls",
+    "address": "427 Bloor Street West",
+    "city": "Toronto",
+    "neighbourhood": "University",
+    "year_built": 1889,
+    "alternate_name": "",
+    "awards": "2015 - The National Trust for Canada - Ecclesiastical Insurance Cornerstone Awards for Building Heritage (Adaptive Reuse/Rehabilitation)",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Other",
+    "current_use": "",
+    "former_use": "",
+    "heritage_status": "",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Edmund Burke and Henry Langley",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Wickson & Gregg",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Benjamin Schwartz (1947 addition)",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Langley & Burke",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/W02PIZkIfj.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/W02PIZkIfj.jpg",
+    "lat": 43.6659727,
+    "lng": -79.4057664,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3427"
+  },
+  {
+    "id": "5953",
+    "name": "433 Eastern Avenue, West Building",
+    "address": "433 Eastern Avenue",
+    "city": "Toronto",
+    "neighbourhood": "South Riverdale",
+    "year_built": 1912,
+    "alternate_name": "Consumers' Gas Station",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Industrial",
+    "current_use": "Office",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/433EasternWest1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/433EasternWest2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/433EasternWest1.jpg",
+    "lat": 43.657182,
+    "lng": -79.3429317,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=5953"
+  },
+  {
+    "id": "5951",
+    "name": "447 Eastern Avenue, East Building",
+    "address": "433 Eastern Avenue",
+    "city": "Toronto",
+    "neighbourhood": "South Riverdale",
+    "year_built": 1912,
+    "alternate_name": "Consumers' Gas Station",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Industrial",
+    "current_use": "Office",
+    "former_use": "",
+    "heritage_status": "Listed",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/TtntCVJHYh.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/TtntCVJHYh.jpg",
+    "lat": 43.657182,
+    "lng": -79.3429317,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=5951"
+  },
+  {
+    "id": "2679",
+    "name": "Samuel and Benjamin Building",
+    "address": "468 King Street West",
+    "city": "Toronto",
+    "neighbourhood": "Wellington Place",
+    "year_built": 1913,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "The Samuel and Benjamin Building is architecturally significant as a good example of the early tall commercial building type identified by the Classical organization and application of Classical and Gothic-inspired detailing. Contextually, with its location on the north side of King Street, west of Spadina, the building contributes contextually to the character of the King- Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) faÃ§ade. The building rises six stories above a basement. Above a stone-clad base, the walls are faced with brown brick and trimmed with stone. The seven-bay south faÃ§ade is arranged with a Classical base, shaft and cornice, with slightly projecting corners. Centered in the first storey, the main entrance is recessed in a tall arched stone portal with an oversized transom. The right (east) bay is broken for a carriageway. The pattern of commercial windows introduced in the base is repeated in the top five floors where the openings are organized by piers. Geometrical inserts are placed beneath the upper-storey windows and on the cornice with its Gothic-inspired ornament. Stone battlements with cartouches mark the parapet along the south end of the roof. The pattern of the fenestration is continued along the east and west elevations. A tall brick chimney is located on the northwest corner of the building.",
+    "construction_status": "Completed",
+    "building_type": "Industrial",
+    "current_use": "Commercial",
+    "former_use": "",
+    "heritage_status": "Designated under Part V, Ontario Heritage Act",
+    "heritage_conservation_district": "King-Spadina Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2434706&propertyRsn=209827"
+      },
+      {
+        "title": "King-Spadina Heritage Conservation District Study",
+        "author": "Taylor Hazell Architects Ltd.",
+        "url": "https://hcdtoronto.wordpress.com/category/king-spadina/page/2/"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/468KingStW.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/468KingStW2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/468KingStW3.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/468KingStW.jpg",
+    "lat": 43.6456108,
+    "lng": -79.3958232,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2679"
+  },
+  {
+    "id": "7466",
+    "name": "5 Whitney Avenue",
+    "address": "5 Whitney Avenue",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1908,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "North Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Construction, ii",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "title": "Toronto City Directory",
+        "author": "",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/5WhitneyAve.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/5WhitneyAve.jpg",
+    "lat": 43.6832588,
+    "lng": -79.3722945,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=7466"
+  },
+  {
+    "id": "8117",
+    "name": "Marbrae",
+    "address": "6 Hawthorn Gardens",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1910,
+    "alternate_name": "Melville P. White House",
+    "awards": "",
+    "notes": "First Occupant: White, Melville P. First OccupantÂ´s Occupation: mgr. Canada Foundry Co",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "Tudor revival",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/9lOt1UoM3q.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/9lOt1UoM3q.jpg",
+    "lat": 43.6770684,
+    "lng": -79.3703206,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=8117"
+  },
+  {
+    "id": "5252",
+    "name": "H.H. Love House",
+    "address": "80 Wychwood Park",
+    "city": "Toronto",
+    "neighbourhood": "Wychwood",
+    "year_built": 1910,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "This is now a nursing home.",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "Wychwood Park Heritage Conservation District",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/80WychwoodPk.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/80WychwoodPk.jpg",
+    "lat": 43.6775012,
+    "lng": -79.4189042,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=5252"
+  },
+  {
+    "id": "3713",
+    "name": "West End YMCA",
+    "address": "931 College Street",
+    "city": "Toronto",
+    "neighbourhood": "Trinity-Bellwoods",
+    "year_built": 1911,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "Renovated in 1982.",
+    "construction_status": "Completed",
+    "building_type": "Low-rise",
+    "current_use": "Sports",
+    "former_use": "",
+    "heritage_status": "No heritage status",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Burke, Horwood & White Associates",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Burke, Horwood & White Associates",
+        "url": null
+      },
+      {
+        "role": "Architect",
+        "name": "Brook, Carruthers, Shaw",
+        "url": null
+      },
+      {
+        "role": "Structural engineer",
+        "name": "Halsall Engineers and Consultants",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Archindont (TPL Architectural Index)",
+        "author": "",
+        "url": ""
+      },
+      {
+        "title": "Canadian Architect",
+        "author": "",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/spVnszjmp6.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/spVnszjmp6.jpg",
+    "lat": 43.6534225,
+    "lng": -79.42593,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3713"
+  },
+  {
+    "id": "4576",
+    "name": "Branksome Hall",
+    "address": "10 Elm Avenue",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1880,
+    "alternate_name": "John Blaikie; Hugh Ryan House; Hollydene",
+    "awards": "",
+    "notes": "First Occupant: Blaikie, John Founded in 1903, Branksome Hall is an independent school for girls. Today, the school rests on a 13-acre campus in the Toronto neighbourhood of Rosedale and educates nearly 900 girls from Junior Kindergarten to Grade 12.",
+    "construction_status": "Completed",
+    "building_type": "School",
+    "current_use": "Educational",
+    "former_use": "",
+    "heritage_status": "Designated under Part V, Ontario Heritage Act",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Langley, Langley and Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "Branksome Hall Academy; Our History",
+        "author": "",
+        "url": "https://www.branksome.on.ca/about/our-history"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/qNWMUzv4rl.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/10ElmAve2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/874b62f2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/afc40648.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/ba5addef.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/7cc1fec9.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/23d9c884.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/d335e27b.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/34c6401f.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/qNWMUzv4rl.jpg",
+    "lat": 43.6751328,
+    "lng": -79.3800808,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4576"
+  },
+  {
+    "id": "2103",
+    "name": "The Cathedral Church of St. James",
+    "address": "106 King Street East",
+    "city": "Toronto",
+    "neighbourhood": "Downtown Yonge East",
+    "year_built": 1853,
+    "alternate_name": "St. James Cathedral",
+    "awards": "",
+    "notes": "The fourth church to stand in its location, St. James Cathedral sits on a site steeped in Toronto history. The city's first-ever Anglican service was held on the spot in 1793, shortly after the founding of the Town of York. The first church was built of wood in 1807 and dedicated to Saint James the Greater in 1828. The building was used as a military hospital during the War of 1812 when it was sacked by invading American soldiers. This wooden structure was replaced by a larger Neoclassical church of stone in 1832, which burned to the ground seven years later. The succeeding church was elevated to the status of cathedral in 1839 when Reverend John Strachan, a highly influential Upper Canadian political figure, was ordained as the first Anglican Bishop of Toronto. This newly christened cathedral also burned down in 1849. The current St. James Cathedral was built between 1850-1853 from designs by Frederic William Cumberland, who had won a church committee design competition conceived to supplement insufficient insurance funds. To save further costs, its finials, porches, tower, and now-iconic spire weren't added until 1873. The building is constructed of materials sourced from far and wide, including rubble stone from Georgetown, red granite columns from the Bay of Fundy, stone facings from Ohio, and intermittent freestone from Queenston. St. James Cathedral has historically been one of Toronto's most prominent places of worship and is a modern landmark of Old Toronto's St. Lawrence neighbourhood. It was an atrium of the city's 19th-century social world, a vitality marked by the many physical commemorations and legacies held within its walls. To name a few: a special canopied pew designed to host the governor general, a stained glass window crafted by Tiffany & Co. to honour Revolutionary War Loyalist William Jarvis, and a 5,001-pipe organ built in 1863. Many major Anglican figures have visited the cathedral during the contemporary era, including Queen Elizabeth II and Rowan Williams, the 104th Archbishop of Canterbury, as well as Princesses Margaret and Diana and Princes Charles, William, and Harry. (Research and text by Alessandro Tersigni.)",
+    "construction_status": "",
+    "building_type": "Religious",
+    "current_use": "Church , Religious",
+    "former_use": "",
+    "heritage_status": "Designated under Part IV Ontario Heritage Act",
+    "heritage_conservation_district": "",
+    "main_style": "Gothic Revival",
+    "firm": "Langley, Langley and Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      },
+      {
+        "role": "Architect",
+        "name": "Thomas Ridout",
+        "url": "http://dictionaryofarchitectsincanada.org/node/567"
+      },
+      {
+        "role": "Architect",
+        "name": "Frederic W. Cumberland",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1632"
+      },
+      {
+        "role": "Stained glass design",
+        "name": "Vitreous Glassworks",
+        "url": "http://www.vitreous.ca"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2433640&propertyRsn=212476"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "St. Lawrence Neighbourhood Heritage Conservation District Plan",
+        "author": "Fournier Gersovitz Moss Drolet and Associates Architects (FGMDA)",
+        "url": "http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=dd08727e05c79410VgnVCM10000071d60f89RCRD"
+      },
+      {
+        "title": "St James´ Anglican Cathedral",
+        "author": "James H. Marsh, The Canadian Encyclopedia",
+        "url": "https://www.thecanadianencyclopedia.ca/en/article/st-james-anglican-cathedral"
+      },
+      {
+        "title": "City in the Making: Progress, People and Perils in Victorian Toronto",
+        "author": "Frederick H. Armstrong",
+        "url": ""
+      },
+      {
+        "title": "The Cathedral of St. James Website: History",
+        "author": "",
+        "url": "https://stjamescathedral.ca/about/history/"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/noDI29s1S0.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/StJamesCathedral2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/StJamesCathedral3.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/StJamesCathedral4.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/StJamesCathedral5.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/StJamesCathedral6.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/NQAUjp7J4N.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/3108c97a.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/d5e0798f.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/e6f5c1bc.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/6353a62a.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/275c9bc9.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/fd698115.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/f5dfe97d.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/75e0717d.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/314b233c.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/be9ce01f.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/64a9bbd5.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/7c66347a.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/28427e69.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/e1aff5ca.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/35b3d771.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/5a5ec26e.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/a4a871d6.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/noDI29s1S0.jpg",
+    "lat": 43.6503286,
+    "lng": -79.3737598,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2103"
+  },
+  {
+    "id": "2859",
+    "name": "Little York Inn",
+    "address": "187 King Street East",
+    "city": "Toronto",
+    "neighbourhood": "Moss Park",
+    "year_built": 1880,
+    "alternate_name": "Little York Hotel",
+    "awards": "",
+    "notes": "This propertyâ€™s contribution lies in the structureâ€™s historic association with the Little York Hotel in the late 19th century, its historic association with Henry Langley and its location within the Original 10 Blocks of the Town of York. The structure also contributes to the character of the District through its materiality (red brickwork with stone detailing), its Second Empire architecture and its 4-storey height in proximity to similarly-massed buildings along the south side of King Street East.",
+    "construction_status": "Completed",
+    "building_type": "Commercial block",
+    "current_use": "Commercial",
+    "former_use": "Hotel",
+    "heritage_status": "Designated under Part IV and Part V, Ontario Heritage Act",
+    "heritage_conservation_district": "St. Lawrence Neighbourhood Heritage Conservation District",
+    "main_style": "Second Empire",
+    "firm": "Langley, Langley and Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2434451&propertyRsn=212308"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "St. Lawrence Neighbourhood Heritage Conservation District Plan",
+        "author": "Fournier Gersovitz Moss Drolet and Associates Architects (FGMDA)",
+        "url": "http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=dd08727e05c79410VgnVCM10000071d60f89RCRD"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/LittleYorkInn1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/LittleYorkInn2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/LittleYorkInn1.jpg",
+    "lat": 43.6506363,
+    "lng": -79.3704862,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2859"
+  },
+  {
+    "id": "3806",
+    "name": "Church of the Epiphany and St. Mark",
+    "address": "201 Cowan Avenue",
+    "city": "Toronto",
+    "neighbourhood": "South Parkdale",
+    "year_built": 1881,
+    "alternate_name": "St. Mark's Anglican Church",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Religious",
+    "current_use": "Religious",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "Gothic Revival",
+    "firm": "Langley, Langley and Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/ChurchoftheEpiphany.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/ChurchoftheEpiphany.jpg",
+    "lat": 43.6407515,
+    "lng": -79.4322801,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3806"
+  },
+  {
+    "id": "4413",
+    "name": "Lorne Hall",
+    "address": "3 Meredith Crescent",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1876,
+    "alternate_name": "William Davies House",
+    "awards": "",
+    "notes": "First Occupant: William Davies Later William Perkins Bull House",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "Second Empire",
+    "firm": "Langley, Langley and Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/o7BV9tetzl.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/o7BV9tetzl.jpg",
+    "lat": 43.6759709,
+    "lng": -79.3816523,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4413"
+  },
+  {
+    "id": "2002",
+    "name": "St. Luke's United Church",
+    "address": "353-355 Sherbourne Street",
+    "city": "Toronto",
+    "neighbourhood": "Moss Park",
+    "year_built": 1887,
+    "alternate_name": "157 Carlton Street; Sherbourne Street Methodist Church; Sherbourne United Church",
+    "awards": "",
+    "notes": "The current building replaced the smaller Carleton Street Wesleyan Methodist Church (built in 1871 and demolished in 1886). A Toronto Historical Board plaque erected in 1987 reads: This church was known as Sherbourne Street Methodist when it opened for worship 5 June 1887. Designed by architects Langley and Burke, it replaced a smaller house of worship built here in 1871. The handsome stonework and fine stained glass are of special note. Memorial windows bear the names of Sir Joseph Flavelle, Sir Albert Kemp, H.H. Fudger and Richard Brown, who along with many other prominent Toronto businessmen were active members of the congregation. Their philanthropy and participation in social programs began a community minded tradition that has continued through the years. In 1959, Sherbourne and Carlton United joined to form Saint Luke's United Church.",
+    "construction_status": "Completed",
+    "building_type": "Religious",
+    "current_use": "Religious , Church",
+    "former_use": "",
+    "heritage_status": "Designated under Part V, Ontario Heritage Act",
+    "heritage_conservation_district": "Cabbagetown Northwest Heritage Conservation District",
+    "main_style": "Richardsonian Romanesque",
+    "firm": "Langley, Langley and Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      },
+      {
+        "role": "Architect",
+        "name": "Parrott, Tambling & Witmer",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1717"
+      },
+      {
+        "role": "Architect",
+        "name": "Langley & Burke",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2431960&propertyRsn=235876"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "Biographical Dictionary of Architects in Canada 1800-1950",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1313"
+      },
+      {
+        "title": "Sherbourne Church. Toronto",
+        "author": "Toronto Public Library",
+        "url": "https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-PC264&R=DC-PC264"
+      },
+      {
+        "title": "Sherbourne Street Methodist Church & Carlton Street, Toronto, Canada",
+        "author": "Valentine & Sons' Publishing Co. Ltd; Toronto Public Library",
+        "url": "https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-PC265&R=DC-PC265"
+      },
+      {
+        "title": "Sherbourne St. Methodist (United) Church, Sherbourne St., s.e. cor. Carlton St.",
+        "author": "Joseph Adamson Blakey; Toronto Public Library",
+        "url": "https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-PICTURES-R-644&R=DC-PICTURES-R-644"
+      },
+      {
+        "title": "Sherbourne St. Methodist Church, Sherbourne St. s.e. cor. Carlton St.",
+        "author": "Toronto Public Library",
+        "url": "https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-PICTURES-R-656&R=DC-PICTURES-R-656"
+      },
+      {
+        "title": "Saint Luke's United Church Centennial 1887-1987",
+        "author": "Alan L. Brown, Toronto's Historical Plaques",
+        "url": "http://torontoplaques.com/Pages/Saint_Lukes_United_Church.html"
+      },
+      {
+        "title": "Fonds F2511 - St. Luke's United Church (Toronto, Ont.) fonds",
+        "author": "United Church of Canada Archives",
+        "url": "https://www.archeion.ca/st-lukes-united-church-toronto-ont-fonds"
+      },
+      {
+        "title": "Saint Luke's United Church (Originally - Sherbourne Street Methodist Church) .... Toronto, Ontario",
+        "author": "Greg's Southern Ontario; Flickr",
+        "url": "https://www.flickr.com/photos/57156785@N02/19029511622"
+      },
+      {
+        "title": "353 Sherbourne Street",
+        "author": "Cabbagetown Heritage Conservation District Committee",
+        "url": "http://cabbagetownhcd.ca/search-for-property-history-in-cabbagetown/353-sherbourne-street/"
+      },
+      {
+        "title": "St. Luke's United Church",
+        "author": "Ontario Heritage Trust",
+        "url": "https://www.heritagetrust.on.ca/en/places-of-worship/places-of-worship-database/search/powresults/details?id=565&backlinkslug=associated-records&"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/SherbourneStMethodist1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/SherbourneStMethodist2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/7e100560.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/2e29682a.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/b3ab783a.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/fa47610b.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/4bf917e1.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/SherbourneStMethodist1.jpg",
+    "lat": 43.6630362,
+    "lng": -79.3726293,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2002"
+  },
+  {
+    "id": "3362",
+    "name": "St. Andrew's Church",
+    "address": "383 Jarvis Street",
+    "city": "Toronto",
+    "neighbourhood": "Moss Park",
+    "year_built": 1878,
+    "alternate_name": "St. Andrew's Lutheran Church / St. Andrews Presbyterian Church / St. Andrew's United Church / Grace Toronto Church",
+    "awards": "",
+    "notes": "Designed by Langley, Langley & Burke , St. Andrew's Church was completed in 1878 in the Gothic Revival style. The Sunday School was added in 1882, designed by the same architects.",
+    "construction_status": "Completed",
+    "building_type": "Religious",
+    "current_use": "Religious , Church",
+    "former_use": "",
+    "heritage_status": "Listed",
+    "heritage_conservation_district": "",
+    "main_style": "Gothic Revival",
+    "firm": "Langley, Langley and Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "Biographical Dictionary of Architects in Canada 1800-1950",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      },
+      {
+        "title": "St. Andrew's Church",
+        "author": "Alan L. Brown, Toronto's Historical Plaques",
+        "url": "http://torontoplaques.com/Pages/St_Andrews_Church2.html"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/StAndrewsChurchJarvis1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/StAndrewsChurchJarvis2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/StAndrewsChurchJarvis1.jpg",
+    "lat": 43.6622624,
+    "lng": -79.3763676,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3362"
+  },
+  {
+    "id": "3104",
+    "name": "Little Trinity Church",
+    "address": "425 King Street East",
+    "city": "Toronto",
+    "neighbourhood": "Moss Park",
+    "year_built": 1843,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "Designed by Henry Bowyer Lane and completed in 1843, Little Trinity is the oldest church still standing in Toronto. There were two later additions in 1878 and 1887 by Langley, Langley and Burke and Darling & Curry respectively. A fire in 1961 gutted the church, promting restoration work by Francis Hilton Wilkes' firm Wilkes, Wasteneys & Wilkes . Further restoration work was completed in 1991 by ERA Architects .",
+    "construction_status": "Completed",
+    "building_type": "Religious",
+    "current_use": "Religious , Church",
+    "former_use": "",
+    "heritage_status": "Listed",
+    "heritage_conservation_district": "",
+    "main_style": "Gothic Revival",
+    "firm": "Langley, Langley and Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      },
+      {
+        "role": "Architect",
+        "name": "F. Hilton Wilkes",
+        "url": "http://dictionaryofarchitectsincanada.org/node/385"
+      },
+      {
+        "role": "Architect",
+        "name": "Darling & Curry",
+        "url": "https://www.dictionaryofarchitectsincanada.org/node/1638"
+      },
+      {
+        "role": "Architect",
+        "name": "ERA Architects Inc.",
+        "url": "http://www.eraarch.ca/"
+      },
+      {
+        "role": "Architect",
+        "name": "Henry Bowyer Lane",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1430"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "Biographical Dictionary of Architects in Canada 1800-1950",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/385"
+      },
+      {
+        "title": "Biographical Dictionary of Architects in Canada 1800-1950",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      },
+      {
+        "title": "Biographical Dictionary of Architects in Canada 1800-1950",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1430"
+      },
+      {
+        "title": "Little Trinity Church",
+        "author": "ERA Architects",
+        "url": "http://www.eraarch.ca/project/little-trinity-church/"
+      },
+      {
+        "title": "Little Trinity Church",
+        "author": "Alan L. Brown, Toronto's Historical Plaques",
+        "url": "http://torontoplaques.com/Pages/Little_Trinity_Church.html"
+      },
+      {
+        "title": "Rev. Harry Robinson, rector of Little Trinity Anglican Church, is shown in front of the 125-year-old King St. E. building gutted by fire in 1961. Interior has been redone at cost of $232,000. Exterior repairs are slated next.",
+        "author": "Bob Olsen, Toronto Star; Toronto Public Library",
+        "url": "https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0076843F&R=DC-TSPA_0076843F"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/LittleTrinity1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/LittleTrinity2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/LittleTrinity1.jpg",
+    "lat": 43.653118,
+    "lng": -79.3618031,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3104"
+  },
+  {
+    "id": "2032",
+    "name": "Samuel R. Briggs House",
+    "address": "467-469 Jarvis Street",
+    "city": "Toronto",
+    "neighbourhood": "Cabbagetown-South St.James Town",
+    "year_built": 1872,
+    "alternate_name": "Blake House",
+    "awards": "",
+    "notes": "Around the time of the construction of this house, Samuel R. Briggs was a lumber merchant and the President of the Canada Organ and Piano Company.",
+    "construction_status": "Completed",
+    "building_type": "Semi-detached house",
+    "current_use": "Commercial",
+    "former_use": "Residential",
+    "heritage_status": "Designated under Part IV Ontario Heritage Act",
+    "heritage_conservation_district": "",
+    "main_style": "Italianate",
+    "firm": "Langley, Langley and Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      },
+      {
+        "role": "Architect",
+        "name": "James Smith & William Gemmell",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1313"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2436162&propertyRsn=224701"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "Blake House",
+        "author": "Ontario Heritage Act Register",
+        "url": "https://www.heritagetrust.on.ca/en/oha/details?id=2467"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/t8cJtPLlKw.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/SRBriggsHouse2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/63ce100a.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/aed202b8.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/t8cJtPLlKw.jpg",
+    "lat": 43.6647058,
+    "lng": -79.3773271,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2032"
+  },
+  {
+    "id": "4643",
+    "name": "John Cox House",
+    "address": "469 Broadview Avenue",
+    "city": "Toronto",
+    "neighbourhood": "North Riverdale",
+    "year_built": 1807,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "This house was possibly constructed before 1807, and had addition in the mid and late 19th Century.",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Langley, Langley and Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/XhP5wjwyWT.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/XhP5wjwyWT.jpg",
+    "lat": 43.6686348,
+    "lng": -79.3527536,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4643"
+  },
+  {
+    "id": "2037",
+    "name": "Keg Mansion",
+    "address": "515 Jarvis Street",
+    "city": "Toronto",
+    "neighbourhood": "North St.James Town",
+    "year_built": 1868,
+    "alternate_name": "Arthur R. McMaster House; Euclid Hall; Hart Massey House; The Keg Steakhouse + Bar",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Commercial",
+    "former_use": "",
+    "heritage_status": "Designated under Part IV Ontario Heritage Act",
+    "heritage_conservation_district": "",
+    "main_style": "Gothic Revival",
+    "firm": "Gundry & Langley",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "George Martel Miller",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1484"
+      },
+      {
+        "role": "Architect",
+        "name": "Gundry & Langley",
+        "url": "http://dictionaryofarchitectsincanada.org/node/757"
+      },
+      {
+        "role": "Architect",
+        "name": "ERA Architects Inc.",
+        "url": "http://www.eraarch.ca/"
+      },
+      {
+        "role": "Architect",
+        "name": "Edward James Lennox",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1445"
+      },
+      {
+        "role": "Architect",
+        "name": "William Young",
+        "url": "http://dictionaryofarchitectsincanada.org/node/429"
+      },
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2436170&propertyRsn=652259"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "Biographical Dictionary of Architects in Canada 1800-1950",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/429"
+      },
+      {
+        "title": "Biographical Dictionary of Architects in Canada 1800-1950",
+        "author": "Robert G. Hill",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1484"
+      },
+      {
+        "title": "Hart Massey House (McMaster)",
+        "author": "Ontario Heritage Act Register",
+        "url": "https://www.heritagetrust.on.ca/en/oha/details?id=2694"
+      },
+      {
+        "title": "The Massey Houses",
+        "author": "ERA Architects Inc.",
+        "url": "http://www.eraarch.ca/project/the-massey-houses/"
+      },
+      {
+        "title": "Keg Mansion | House | Toronto",
+        "author": "Visit Haunted Places",
+        "url": "https://articles.ghostwalks.com/keg-mansion/"
+      },
+      {
+        "title": "Corner of Jarvis St. and Wellesley St., looking north-east",
+        "author": "Jean-FranÃ§ois DesprÃ©s; City of Toronto Archives",
+        "url": "https://gencat.eloquent-systems.com/city-of-toronto-archives-m-permalink.html?key=607716"
+      },
+      {
+        "title": "Women's College, Jarvis Street",
+        "author": "City of Toronto Archives",
+        "url": "https://gencat.eloquent-systems.com/city-of-toronto-archives-m-permalink.html?key=86883"
+      },
+      {
+        "title": "Massey Treble's house, Jarvis Street",
+        "author": "City of Toronto Archives",
+        "url": "https://gencat.eloquent-systems.com/city-of-toronto-archives-m-permalink.html?key=51559"
+      },
+      {
+        "title": "Paradoxes abound at Julie's Place under the amiable ownership of mod dresser Jules Fine. The legendary restarant and drinking establishment at 515 Jarvis St. serves up $165 bottles of champagne or 60-cent beers; $100 seven-course dinner for two or $1-a-p",
+        "author": "Jeff Goode, Toronto Star; Toronto Public Library",
+        "url": "https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-TSPA_0047043F&R=DC-TSPA_0047043F"
+      },
+      {
+        "title": "Heritage Easement Agreement - 515 Jarvis Street (Arthur McMaster House) (Downtown)",
+        "author": "Rita Davies, Managing Director Culture, City of Toronto",
+        "url": "https://www.toronto.ca/legdocs/2000/agendas/council/cc/cc000411/to5rpt/cl042.pdf"
+      },
+      {
+        "title": "Toronto the haunted: Ghosts have stories to tell too",
+        "author": "Patricia D'Cunha, CityNews Toronto",
+        "url": "https://toronto.citynews.ca/2015/10/30/toronto-the-haunted-ghosts-have-stories-to-tell-too/"
+      },
+      {
+        "title": "Haunted Toronto: A paranormal primer",
+        "author": "Dave McGinn, Globe & Mail",
+        "url": "https://www.theglobeandmail.com/news/toronto/haunted-toronto-a-paranormal-primer/article559802/"
+      },
+      {
+        "title": "Saving mansions, and Massey legacy",
+        "author": "Natalie Southworth, Globe & Mail",
+        "url": "https://www.theglobeandmail.com/news/national/saving-mansions-and-massey-legacy/article1035834/"
+      },
+      {
+        "title": "CITY OF TORONTO BY-LAW No. 932-2002 To amend former City of Toronto By-law No. 464-75 regarding the heritage designation of 515 Jarvis Street (Hart Massey House (McMaster)).",
+        "author": "Toronto City Council",
+        "url": "https://www.toronto.ca/legdocs/bylaws/2002/law0932.pdf"
+      },
+      {
+        "title": "This Toronto Restaurant Is Haunted By Active Ghosts And Customers Have Actually Encountered Them Before",
+        "author": "Alissa Heidman, Narcity",
+        "url": "https://www.narcity.com/life/this-toronto-restaurant-is-haunted-by-active-ghosts-and-customers-have-actually-encountered-them-before"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/SKkkt0HFSW.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/6b95bcb4.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/4d063e6f.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/SKkkt0HFSW.jpg",
+    "lat": 43.6668151,
+    "lng": -79.3779253,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2037"
+  },
+  {
+    "id": "2475",
+    "name": "William R. Johnston House",
+    "address": "571 Jarvis Street",
+    "city": "Toronto",
+    "neighbourhood": "North St.James Town",
+    "year_built": 1875,
+    "alternate_name": "Casey House",
+    "awards": "2020: National Urban Design Awards, Award of Excellence, Urban Architecture 2017: Award of Merit- Materials, Craftsmanship and Construction, Canadian Association of Heritage Professionals 2013: Hariri Pontarini Architects, Canadian Architect Award of Excellence",
+    "notes": "Completed in 1875, the house at 571 Jarvis Street was designed by William R. Johnston, co-owner of Livingston, Johnston and Company that specialized in the manufacturing of wholesale clothing. The residence was designed by the notable Toronto architectural firm of Langley, Langley and Burke. Both the exterior and equally detailed interior of the William R. Johnston House are important examples of late 19th century residential architecture. The property is particularly significant as a visual reminder of the affluence and grandeur of Jarvis Street during the late 19th and early 20th centuries. The William R. Johnston House is expressive of a mixture of architectural styles from the late 19th century. Italianate influences are particularly evident through the over-hanging eaves, round-headed windows and openings the picturesque features that are seen at 571 Jarvis Street. There are also Classical elements, like the boxy front elevation and prominent main entrance. Adaptive re-use of the Johnson House for Y.W.C.A. offices was completed by local architect Gordon Mossman West in 1941. By the 1980s, the red brick had been covered in grey paint and the building became affectionately known as \"The Grey Lady\" by locals. Casey House, a hospital dedicated to HIV/AIDS, originally located at 9 Huntley St., acquired the \"Grey Lady\" in 2000. In 2015, renovations and additions to the building began designed by Hariri Pontarini Architects, with ERA Architects as the heritage architects. The Coach House of the Johnston House at 119 Isabella St. was demolished to allow for the modern addition to the hospital.",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Office",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "Italianate",
+    "firm": "Langley, Langley and Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      },
+      {
+        "role": "Architect",
+        "name": "ERA Architects Inc.",
+        "url": "http://www.eraarch.ca/"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      },
+      {
+        "title": "By-law No. 621-2002",
+        "author": "City of Toronto",
+        "url": "https://www.heritagetrust.on.ca/en/oha/details/file?id=4868"
+      },
+      {
+        "title": "Casey House Awards",
+        "author": "",
+        "url": "http://www.caseyhouse.com/casey-house-and-hariri-pontarini-architects-win-prestigious-architectural-award/"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/UlxIpMxf4e.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/FcVyG0lJT8.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/WmRJohnstonHouse2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/0c5789e6.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/abb5e868.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/LiDx1hKPMMGFaw8.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/UlxIpMxf4e.jpg",
+    "lat": 43.6688124,
+    "lng": -79.3788711,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2475"
+  },
+  {
+    "id": "3490",
+    "name": "Stables for Little York Inn",
+    "address": "65 George Street",
+    "city": "Toronto",
+    "neighbourhood": "Moss Park",
+    "year_built": 1879,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "This propertyâ€™s contribution lies in its historic association with architect Henry Langley and its location within the Original 10 Blocks of the Town of York. The structure also contributes to the physical character of the District through its materiality (red brickwork with stone detailing) and its relation to the adjacent heritage building (187 King Street East).",
+    "construction_status": "Completed",
+    "building_type": "Low-rise",
+    "current_use": "Office",
+    "former_use": "Stables",
+    "heritage_status": "Designated under Part V, Ontario Heritage Act",
+    "heritage_conservation_district": "St. Lawrence Neighbourhood Heritage Conservation District",
+    "main_style": "",
+    "firm": "Langley, Langley and Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Langley, Langley and Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1433"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/details.do?folderRsn=2435781&propertyRsn=212307"
+      },
+      {
+        "title": "St. Lawrence Neighbourhood Heritage Conservation District Plan",
+        "author": "Fournier Gersovitz Moss Drolet and Associates Architects (FGMDA)",
+        "url": "http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=dd08727e05c79410VgnVCM10000071d60f89RCRD"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/lefHzTnBL1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/LittleYorkInnStables2.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/lefHzTnBL1.jpg",
+    "lat": 43.6504554,
+    "lng": -79.3702709,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3490"
+  },
+  {
+    "id": "3583",
+    "name": "Prince Edward Viaduct",
+    "address": "Bloor Street East",
+    "city": "Toronto",
+    "neighbourhood": "Rosedale-Moore Park",
+    "year_built": 1919,
+    "alternate_name": "Bloor Street Bridge",
+    "awards": "1999: Canadian Architect Award Award of Excellence. For Luminous Veil (suicide prevention barrier)",
+    "notes": "In 2003 the \"Luminous Veil\", a barricade designed to prevent suicides from this structure, was added to the bridge. The veil won a Canadian Architect Award of Excellence in 1999.",
+    "construction_status": "Completed",
+    "building_type": "Bridge",
+    "current_use": "Transportation",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "South Rosedale Heritage Conservation District",
+    "main_style": "",
+    "firm": "Edmund Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Edmund Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      },
+      {
+        "role": "Architect",
+        "name": "Dereck Revington Studio",
+        "url": null
+      },
+      {
+        "role": "Project design engineer",
+        "name": "Thomas Taylor",
+        "url": null
+      }
+    ],
+    "sources": [
+      {
+        "title": "Canadian Architect",
+        "author": "",
+        "url": ""
+      },
+      {
+        "title": "Discovering Heritage Bridges on Ontario's Roads",
+        "author": "David J. Cuming",
+        "url": ""
+      },
+      {
+        "title": "eye magazine",
+        "author": "Ann Ireland",
+        "url": ""
+      },
+      {
+        "title": "Historical Walking Tour of the Danforth",
+        "author": "Barbara Myrvold",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/PrinceEdwardViaduct1.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/PrinceEdwardViaduct2.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/PrinceEdwardViaduct3.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/PrinceEdwardViaduct4.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/PrinceEdwardViaduct5.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/PrinceEdwardViaduct6.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/PrinceEdwardViaduct7.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/PrinceEdwardViaduct1.jpg",
+    "lat": 43.675253,
+    "lng": -79.363674,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3583"
+  },
+  {
+    "id": "6846",
+    "name": "Dufferin Street Baptist Church",
+    "address": "1219 Dufferin Street",
+    "city": "Toronto",
+    "neighbourhood": "Dovercourt Village",
+    "year_built": 1918,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Religious",
+    "current_use": "Religious",
+    "former_use": "",
+    "heritage_status": "Listed",
+    "heritage_conservation_district": "",
+    "main_style": "Gothic Revival",
+    "firm": "Edmund Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Edmund Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/xMG7nJqZ4C.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/xMG7nJqZ4C.jpg",
+    "lat": 43.6660901,
+    "lng": -79.4376961,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=6846"
+  },
+  {
+    "id": "2158",
+    "name": "Anson Jones House",
+    "address": "603 Sherbourne Street",
+    "city": "Toronto",
+    "neighbourhood": "North St.James Town",
+    "year_built": 1894,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "603 Sherbourne Street (the Anson Jones House) was listed on the City of Toronto Heritage Register on 2 July 1974 and subsequently Designated under Part IV of the Ontario Heritage Act on 1 December 2011.",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Heritage property",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Edmund Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Edmund Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/yX5G93fgby.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/9ce71bd5.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/86168fc9.jpg",
+      "https://www.acotoronto.ca/images/buildings/Large/f062086d.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/yX5G93fgby.jpg",
+    "lat": 43.6713937,
+    "lng": -79.3761875,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2158"
+  },
+  {
+    "id": "7011",
+    "name": "C.J. Holman House",
+    "address": "75 Lowther Avenue",
+    "city": "Toronto",
+    "neighbourhood": "Annex",
+    "year_built": 1892,
+    "alternate_name": "",
+    "awards": "",
+    "notes": "",
+    "construction_status": "Completed",
+    "building_type": "Detached house",
+    "current_use": "Residential",
+    "former_use": "",
+    "heritage_status": "Listed",
+    "heritage_conservation_district": "",
+    "main_style": "",
+    "firm": "Edmund Burke",
+    "companies": [
+      {
+        "role": "Architect",
+        "name": "Edmund Burke",
+        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Inventory of Heritage Properties",
+        "author": "City of Toronto",
+        "url": "http://app.toronto.ca/HeritagePreservation/setup.do?action=init"
+      },
+      {
+        "title": "Toronto Architecture: A City Guide",
+        "author": "Patricia McHugh",
+        "url": ""
+      }
+    ],
+    "images": [
+      "https://www.acotoronto.ca/images/buildings/Large/d4c0606c.jpg"
+    ],
+    "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/d4c0606c.jpg",
+    "lat": 43.6697872,
+    "lng": -79.3993896,
+    "aco_source": "aco_toronto",
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=7011"
+  }
+]

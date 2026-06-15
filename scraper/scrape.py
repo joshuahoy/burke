@@ -39,6 +39,7 @@ DATA_DIR.mkdir(exist_ok=True)
 OUTPUT_PATH = DATA_DIR / "buildings.geojson"
 OUTPUT_JS_PATH = DATA_DIR / "buildings.js"   # loaded by index.html via <script>
 CACHE_PATH = Path(__file__).resolve().parent / ".geocode_cache.json"
+ACO_PATH = DATA_DIR / "aco_buildings.json"   # written by scraper/scrape_aco.py
 
 # ── ArcGIS REST API (City of Toronto Heritage Register) ──────────────────────
 ARCGIS_URL = (
@@ -59,78 +60,6 @@ ARCGIS_WHERE = "ARCHITECT_ LIKE '%BURKE%'"
 # ── Wikipedia / known-works seed data (Ontario scope only) ───────────────────
 # Coordinates: [longitude, latitude]  (GeoJSON order)
 SEED_BUILDINGS = [
-    {
-        "name": "St. Luke's United Church",
-        "address": "353 Sherbourne St, Toronto, Ontario",
-        "year_built": "1874",
-        "firm": "HENRY LANGLEY AND EDMUND BURKE",
-        "style": "Romanesque Revival",
-        "heritage_status": "Unknown",
-        "source": "wikipedia",
-        "city": "Toronto",
-        "coordinates": [-79.3738, 43.6617],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Luke%27s_United_Church,_Toronto",
-    },
-    {
-        "name": "St. Andrew's Evangelical Lutheran Church",
-        "address": "383 Jarvis St, Toronto, Ontario",
-        "year_built": "1878",
-        "firm": "HENRY LANGLEY AND EDMUND BURKE",
-        "style": "Gothic Revival",
-        "heritage_status": "Unknown",
-        "source": "wikipedia",
-        "city": "Toronto",
-        "coordinates": [-79.3753, 43.6620],
-        "wikipedia_url": "",
-    },
-    {
-        "name": "Jarvis Street Baptist Church",
-        "address": "130 Gerrard St E, Toronto, Ontario",
-        "year_built": "1878",
-        "firm": "HENRY LANGLEY AND EDMUND BURKE",
-        "style": "Gothic Revival",
-        "heritage_status": "Designated Part IV",
-        "source": "wikipedia",
-        "city": "Toronto",
-        "coordinates": [-79.3751, 43.6591],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Jarvis_Street_Baptist_Church",
-    },
-    {
-        "name": "McMaster Hall",
-        "address": "273 Bloor St W, Toronto, Ontario",
-        "year_built": "1881",
-        "firm": "HENRY LANGLEY AND EDMUND BURKE",
-        "style": "Romanesque Revival",
-        "heritage_status": "Unknown",
-        "source": "wikipedia",
-        "city": "Toronto",
-        "coordinates": [-79.3978, 43.6676],
-        "wikipedia_url": "",
-    },
-    {
-        "name": "Beverley Street Baptist Church",
-        "address": "72 Beverley St, Toronto, Ontario",
-        "year_built": "1886",
-        "firm": "HENRY LANGLEY AND EDMUND BURKE",
-        "style": "Gothic Revival",
-        "heritage_status": "Unknown",
-        "source": "wikipedia",
-        "city": "Toronto",
-        "coordinates": [-79.3952, 43.6534],
-        "wikipedia_url": "",
-    },
-    {
-        "name": "Trinity-St. Paul's United Church",
-        "address": "427 Bloor St W, Toronto, Ontario",
-        "year_built": "1887",
-        "firm": "HENRY LANGLEY AND EDMUND BURKE",
-        "style": "Gothic Revival",
-        "heritage_status": "Designated Part IV",
-        "source": "wikipedia",
-        "city": "Toronto",
-        "coordinates": [-79.4053, 43.6641],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Trinity-St._Paul%27s_United_Church",
-    },
     {
         "name": "Walmer Road Baptist Church",
         "address": "188 Lowther Ave, Toronto, Ontario",
@@ -343,34 +272,15 @@ def _normalise_arcgis(feature: dict) -> dict | None:
         "coordinates": coords,
     }
 
-# -- Geocoding ----------------------------------------------------------------
+def _addr_key(addr: str) -> str:
+    """Normalised address key: house number + first word of street name (uppercase).
 
-def load_geocode_cache() -> dict:
-    if CACHE_PATH.exists():
-        with open(CACHE_PATH, encoding="utf-8") as f:
-            return json.load(f)
-    return {}
-
-
-def save_geocode_cache(cache: dict) -> None:
-    with open(CACHE_PATH, "w", encoding="utf-8") as f:
-        json.dump(cache, f, indent=2)
-
-
-def geocode_address(address: str, geocoder, cache: dict) -> list | None:
-    """Return [longitude, latitude] for address using Nominatim. Caches results."""
-    if address in cache:
-        return cache[address]
-    try:
-        time.sleep(1.1)  # Nominatim rate-limit: max 1 req/s
-        loc = geocoder.geocode(address, timeout=15)
-        coords = [loc.longitude, loc.latitude] if loc else None
-    except (GeocoderTimedOut, GeocoderServiceError) as exc:
-        print(f"  Geocode error for '{address}': {exc}")
-        coords = None
-    cache[address] = coords
-    save_geocode_cache(cache)
-    return coords
+    Handles '176 YONGE ST' == '176 Yonge Street' == '176 Yonge'.
+    """
+    parts = re.sub(r"[^a-zA-Z0-9 ]", "", addr).upper().split()
+    if len(parts) >= 2:
+        return f"{parts[0]} {parts[1]}"
+    return addr.upper().strip()
 
 
 def merge_with_seeds(scraped: list[dict], seeds: list[dict]) -> list[dict]:
@@ -391,6 +301,77 @@ def merge_with_seeds(scraped: list[dict], seeds: list[dict]) -> list[dict]:
     return merged
 
 
+def load_aco_records() -> list[dict]:
+    """Load aco_buildings.json and normalise to the standard building dict.
+
+    Only records that have coordinates (lat + lng from Google Maps JS) are kept.
+    Returns [] if the file doesn't exist yet (run scrape_aco.py first).
+    """
+    if not ACO_PATH.exists():
+        print("  aco_buildings.json not found — skipping ACO data.")
+        print("  Run: python scraper/scrape_aco.py")
+        return []
+
+    with open(ACO_PATH, encoding="utf-8") as f:
+        raw = json.load(f)
+
+    records = []
+    for b in raw:
+        lat = b.get("lat")
+        lng = b.get("lng")
+        if lat is None or lng is None:
+            continue  # no coordinates — skip
+        records.append({
+            "name":             b.get("name") or b.get("address", ""),
+            "address":          b.get("address", ""),
+            "year_built":       str(b["year_built"]) if b.get("year_built") else "",
+            "firm":             b.get("firm", ""),
+            "style":            b.get("main_style", ""),
+            "heritage_status":  b.get("heritage_status", ""),
+            "source":           "aco_toronto",
+            "city":             b.get("city", "Toronto"),
+            "ward":             "",
+            "wikipedia_url":    "",
+            "detail_url":       b.get("detail_url", ""),
+            "coordinates":      [lng, lat],
+            # ACO-specific extras
+            "aco_id":           b.get("id", ""),
+            "alternate_name":   b.get("alternate_name", ""),
+            "neighbourhood":    b.get("neighbourhood", ""),
+            "building_type":    b.get("building_type", ""),
+            "current_use":      b.get("current_use", ""),
+            "former_use":       b.get("former_use", ""),
+            "heritage_district": b.get("heritage_conservation_district", ""),
+            "awards":           b.get("awards", ""),
+            "notes":            b.get("notes", ""),
+            "thumbnail_url":    b.get("thumbnail_url") or "",
+            "images":           b.get("images") or [],
+            "companies":        b.get("companies") or [],
+            "sources":          b.get("sources") or [],
+        })
+    return records
+
+
+def merge_with_aco(existing: list[dict], aco: list[dict]) -> list[dict]:
+    """Add ACO buildings not already present (by address key or name)."""
+    existing_addr_keys = {_addr_key(r.get("address", "")) for r in existing}
+    existing_names = {r.get("name", "").lower() for r in existing if r.get("name")}
+    merged = list(existing)
+    added = 0
+    for rec in aco:
+        ak = _addr_key(rec.get("address", ""))
+        if ak and ak in existing_addr_keys:
+            continue  # already have this building from Heritage Register
+        rn = rec.get("name", "").lower()
+        if rn and any(rn in n or n in rn for n in existing_names):
+            continue  # name match
+        merged.append(rec)
+        existing_addr_keys.add(ak)
+        added += 1
+    print(f"  Added {added} ACO buildings not in Heritage Register ({len(aco) - added} already covered)")
+    return merged
+
+
 # -- GeoJSON output -----------------------------------------------------------
 
 def to_geojson(records: list[dict]) -> dict:
@@ -399,21 +380,36 @@ def to_geojson(records: list[dict]) -> dict:
         coords = rec.get("coordinates")
         if not coords or len(coords) != 2:
             continue
+        # images: store first full-size URL (if any) as primary_image
+        imgs = rec.get("images") or []
         features.append({
             "type": "Feature",
             "geometry": {"type": "Point", "coordinates": coords},
             "properties": {
-                "name":            rec.get("name", ""),
-                "address":         rec.get("address", ""),
-                "year_built":      rec.get("year_built", ""),
-                "firm":            rec.get("firm", ""),
-                "style":           rec.get("style", ""),
-                "heritage_status": rec.get("heritage_status", ""),
-                "source":          rec.get("source", ""),
-                "city":            rec.get("city", ""),
-                "ward":            rec.get("ward", ""),
-                "wikipedia_url":   rec.get("wikipedia_url", ""),
-                "detail_url":      rec.get("detail_url", ""),
+                "name":             rec.get("name", ""),
+                "address":          rec.get("address", ""),
+                "year_built":       rec.get("year_built", ""),
+                "firm":             rec.get("firm", ""),
+                "style":            rec.get("style", ""),
+                "heritage_status":  rec.get("heritage_status", ""),
+                "source":           rec.get("source", ""),
+                "city":             rec.get("city", ""),
+                "ward":             rec.get("ward", ""),
+                "wikipedia_url":    rec.get("wikipedia_url", ""),
+                "detail_url":       rec.get("detail_url", ""),
+                # ACO-specific (empty string for Heritage Register records)
+                "aco_id":           str(rec.get("aco_id") or ""),
+                "alternate_name":   rec.get("alternate_name", ""),
+                "neighbourhood":    rec.get("neighbourhood", ""),
+                "building_type":    rec.get("building_type", ""),
+                "current_use":      rec.get("current_use", ""),
+                "former_use":       rec.get("former_use", ""),
+                "heritage_district": rec.get("heritage_district", ""),
+                "awards":           rec.get("awards", ""),
+                "notes":            rec.get("notes", ""),
+                "thumbnail_url":    rec.get("thumbnail_url", ""),
+                "primary_image":    imgs[0] if imgs else "",
+                "image_count":      len(imgs),
             },
         })
     return {"type": "FeatureCollection", "features": features}
@@ -432,7 +428,13 @@ def main() -> None:
     # 2. Merge with seed data (adds Orillia + notable missing buildings)
     all_records = merge_with_seeds(arcgis_records, SEED_BUILDINGS)
 
-    # 3. Geocode any records still missing coordinates (seed buildings)
+    # 3. Merge ACO Toronto data (deduplicated against Heritage Register)
+    print("\nLoading ACO Toronto data ...")
+    aco_records = load_aco_records()
+    if aco_records:
+        all_records = merge_with_aco(all_records, aco_records)
+
+    # 4. Geocode any records still missing coordinates (seed buildings)
     missing_coords = [r for r in all_records if not r.get("coordinates")]
     if missing_coords:
         print(f"\nGeocoding {len(missing_coords)} seed record(s) via Nominatim ...")
@@ -445,7 +447,7 @@ def main() -> None:
         else:
             print(f"  FAIL  {rec['address']} -- could not geocode (will be omitted)")
 
-    # 4. Sort by year, write GeoJSON + JS data file
+    # 5. Sort by year, write GeoJSON + JS data file
     all_records.sort(
         key=lambda r: int(re.split(r"\D", r.get("year_built", "9999"))[0] or 9999)
     )
