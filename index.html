@@ -652,11 +652,17 @@ async function init() {
     f => f.geometry && Array.isArray(f.geometry.coordinates) && f.geometry.coordinates.length === 2
   );
 
-  // Sort by year ascending
+  // Sort: named buildings first (alphabetical), then address-only buildings (alphabetical)
+  function isAddressOnly(name) {
+    return !name || /^\d/.test(name.trim());
+  }
   allFeatures.sort((a, b) => {
-    const ya = parseInt(a.properties.year_built) || 9999;
-    const yb = parseInt(b.properties.year_built) || 9999;
-    return ya - yb;
+    const na = a.properties.name || a.properties.address || '';
+    const nb = b.properties.name || b.properties.address || '';
+    const addrA = isAddressOnly(na) ? 1 : 0;
+    const addrB = isAddressOnly(nb) ? 1 : 0;
+    if (addrA !== addrB) return addrA - addrB;
+    return na.localeCompare(nb, undefined, { sensitivity: 'base' });
   });
 
   // Create markers
