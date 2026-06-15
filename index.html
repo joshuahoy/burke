@@ -195,8 +195,8 @@
     .popup-link  { font-size: .76rem; color: #1565C0; text-decoration: none; }
     .popup-link:hover { text-decoration: underline; }
 
-    .popup-thumb { width: 100%; max-height: 145px; object-fit: cover; border-radius: 4px; margin-bottom: 8px; display: block; }
-    .popup-notes { font-size: .75rem; color: var(--text-2); line-height: 1.55; margin-top: 6px; border-top: 1px solid #eee; padding-top: 5px; max-height: 80px; overflow-y: auto; }
+    .popup-thumb { width: 100%; height: 130px; object-fit: cover; border-radius: 4px; margin-bottom: 8px; display: block; flex-shrink: 0; }
+    .popup-notes { font-size: .75rem; color: var(--text-2); line-height: 1.55; margin-top: 6px; border-top: 1px solid #eee; padding-top: 5px; max-height: 130px; overflow-y: auto; }
     .type-dot    { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex: 0 0 10px; }
 
     /* ── About overlay ───────────────────────────────────────────────── */
@@ -689,7 +689,12 @@ async function init() {
       direction: 'top', offset: [0, -9],
     });
 
-    marker.bindPopup(buildPopup(p, cat), { maxWidth: 285, className: 'burke-popup' });
+    marker.bindPopup(buildPopup(p, cat), {
+      maxWidth: 285,
+      className: 'burke-popup',
+      autoPanPaddingTopLeft: L.point(0, document.getElementById('site-header').offsetHeight + 10),
+      autoPanPaddingBottomRight: L.point(10, 10),
+    });
 
     marker.on('click', () => {
       if (activeListItem) activeListItem.classList.remove('active');
