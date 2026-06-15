@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edmund Burke · Architect of Ontario</title>
+  <link rel="preconnect" href="https://unpkg.com" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --c-langley : #1565C0; /* deep blue   — Langley & Burke          */
+      --c-solo    : #E65100; /* deep orange — Edmund Burke solo         */
+      --c-horwood : #2E7D32; /* deep green  — Burke & Horwood           */
+      --c-white   : #6A1B9A; /* deep purple — Burke, Horwood & White    */
+      --c-other   : #546E7A; /* blue-grey   — other / unknown           */
+
+      --header-h  : 64px;
+      --sidebar-w : 320px;
+      --border    : #e0e0e0;
+      --text      : #212121;
+      --text-2    : #616161;
+      --bg-side   : #fafafa;
+    }
+
+    html, body { height: 100%; overflow: hidden; font-family: system-ui, -apple-system, sans-serif; color: var(--text); }
+
+    /* ── Header ──────────────────────────────────────────────────────── */
+    #site-header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      height: var(--header-h);
+      background: #1a237e;
+      color: #fff;
+      display: flex; align-items: center; gap: 14px; padding: 0 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.35);
+    }
+    #header-text { flex: 0 0 auto; }
+    #site-header h1  { font-size: 1.1rem; font-weight: 700; white-space: nowrap; line-height: 1.2; }
+    #site-header h1 span { font-weight: 300; font-size: .85rem; }
+    #site-header p   { font-size: .75rem; opacity: .75; white-space: nowrap; }
+
+    #header-stats {
+      flex: 1;
+      display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
+      font-size: .78rem;
+    }
+    #header-stats span {
+      background: rgba(255,255,255,.15); border-radius: 12px;
+      padding: 3px 10px; white-space: nowrap;
+    }
+
+    #about-btn {
+      flex: 0 0 auto;
+      background: rgba(255,255,255,.18); border: 1px solid rgba(255,255,255,.35);
+      color: #fff; padding: 6px 14px; border-radius: 6px; cursor: pointer;
+      font-size: .8rem; white-space: nowrap; transition: background .15s;
+    }
+    #about-btn:hover { background: rgba(255,255,255,.28); }
+
+    /* ── Layout ──────────────────────────────────────────────────────── */
+    #layout {
+      position: fixed;
+      top: var(--header-h); left: 0; right: 0; bottom: 0;
+      display: flex;
+    }
+
+    /* ── Sidebar ─────────────────────────────────────────────────────── */
+    #sidebar {
+      width: var(--sidebar-w); flex: 0 0 var(--sidebar-w);
+      background: var(--bg-side); border-right: 1px solid var(--border);
+      display: flex; flex-direction: column;
+      overflow: hidden;
+      transition: transform .28s ease;
+      z-index: 500;
+    }
+    #sidebar.collapsed { transform: translateX(calc(-1 * var(--sidebar-w))); }
+
+    #sidebar-inner {
+      flex: 1; overflow-y: auto; overflow-x: hidden;
+      padding: 12px 10px 20px;
+      display: flex; flex-direction: column; gap: 10px;
+    }
+
+    #search-input {
+      width: 100%; padding: 8px 10px; border: 1px solid var(--border);
+      border-radius: 6px; font-size: .84rem; background: #fff;
+      outline: none; transition: border-color .15s, box-shadow .15s;
+    }
+    #search-input:focus { border-color: #3949ab; box-shadow: 0 0 0 2px rgba(57,73,171,.18); }
+
+    .filter-group { display: flex; flex-direction: column; gap: 1px; }
+    .filter-heading {
+      font-size: .7rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .06em; color: var(--text-2); margin-bottom: 5px;
+    }
+    .filter-item {
+      display: flex; align-items: center; gap: 7px;
+      font-size: .81rem; cursor: pointer;
+      padding: 3px 5px; border-radius: 4px; user-select: none;
+    }
+    .filter-item:hover { background: #eef0ff; }
+    .filter-item input[type=checkbox] { width: 14px; height: 14px; cursor: pointer; accent-color: #1a237e; }
+
+    .era-dot {
+      width: 10px; height: 10px; border-radius: 50%;
+      display: inline-block; flex: 0 0 10px;
+    }
+    .langley-burke .era-dot { background: var(--c-langley); }
+    .burke-solo    .era-dot { background: var(--c-solo);    }
+    .burke-horwood .era-dot { background: var(--c-horwood); }
+    .horwood-white .era-dot { background: var(--c-white);   }
+    .other-firm    .era-dot { background: var(--c-other);   }
+
+    #results-count { font-size: .75rem; color: var(--text-2); padding: 0 4px; }
+
+    #building-list { list-style: none; display: flex; flex-direction: column; gap: 2px; }
+
+    .building-item {
+      display: flex; align-items: flex-start; gap: 8px;
+      padding: 7px 8px; border-radius: 6px; cursor: pointer;
+      border: 1px solid transparent; background: #fff;
+      transition: background .12s, border-color .12s;
+    }
+    .building-item:hover  { background: #eef0ff; border-color: #c5cae9; }
+    .building-item.active { background: #e8eaf6; border-color: #9fa8da; }
+
+    .item-dot {
+      width: 10px; height: 10px; border-radius: 50%;
+      margin-top: 4px; flex: 0 0 10px;
+    }
+    .item-text { flex: 1; min-width: 0; }
+    .item-name {
+      font-size: .83rem; font-weight: 600;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .item-meta { font-size: .73rem; color: var(--text-2); }
+
+    /* ── Map ─────────────────────────────────────────────────────────── */
+    #map-container { flex: 1; position: relative; }
+    #map { width: 100%; height: 100%; }
+
+    #sidebar-toggle {
+      position: absolute; top: 10px; left: 10px; z-index: 400;
+      background: #fff; border: 2px solid rgba(0,0,0,.22);
+      border-radius: 6px; padding: 5px 9px; cursor: pointer;
+      font-size: 1rem; line-height: 1;
+      box-shadow: 0 1px 5px rgba(0,0,0,.28);
+      transition: background .12s;
+    }
+    #sidebar-toggle:hover { background: #f4f4f4; }
+
+    /* ── Popups ──────────────────────────────────────────────────────── */
+    .popup-title { font-weight: 700; font-size: .93rem; margin-bottom: 5px; }
+
+    .popup-table { font-size: .78rem; width: 100%; border-collapse: collapse; }
+    .popup-table td { padding: 2px 4px; vertical-align: top; }
+    .popup-table td:first-child { color: var(--text-2); white-space: nowrap; padding-right: 8px; }
+
+    .popup-badge {
+      display: inline-block; font-size: .68rem; padding: 1px 6px;
+      border-radius: 3px; font-weight: 600; margin-top: 5px;
+    }
+    .badge-register { background: #e8f5e9; color: #1b5e20; }
+    .badge-wiki     { background: #fce4ec; color: #880e4f; }
+
+    .firm-tag {
+      display: inline-block; font-size: .7rem;
+      padding: 1px 6px; border-radius: 3px; font-weight: 600;
+    }
+    .tag-langley { background: #BBDEFB; color: #0D47A1; }
+    .tag-solo    { background: #FFE0B2; color: #BF360C; }
+    .tag-horwood { background: #C8E6C9; color: #1B5E20; }
+    .tag-white   { background: #E1BEE7; color: #4A148C; }
+    .tag-other   { background: #ECEFF1; color: #37474F; }
+
+    .popup-links { margin-top: 7px; display: flex; gap: 10px; flex-wrap: wrap; }
+    .popup-link  { font-size: .76rem; color: #1565C0; text-decoration: none; }
+    .popup-link:hover { text-decoration: underline; }
+
+    /* ── About overlay ───────────────────────────────────────────────── */
+    #about-overlay {
+      display: none; position: fixed; inset: 0; z-index: 2000;
+      background: rgba(0,0,0,.5);
+      align-items: center; justify-content: center;
+    }
+    #about-overlay.open { display: flex; }
+
+    #about-content {
+      background: #fff; border-radius: 10px; padding: 28px 28px 24px;
+      max-width: 520px; width: calc(100% - 32px); max-height: 82vh;
+      overflow-y: auto; position: relative;
+      box-shadow: 0 8px 32px rgba(0,0,0,.25);
+    }
+    #about-close {
+      position: absolute; top: 12px; right: 14px;
+      background: none; border: none; font-size: 1.5rem;
+      cursor: pointer; color: var(--text-2); line-height: 1;
+    }
+    #about-content h2 { font-size: 1.15rem; color: #1a237e; margin-bottom: 12px; }
+    #about-content p  { font-size: .86rem; line-height: 1.68; color: var(--text); margin-bottom: 10px; }
+    #about-content a  { color: #1565C0; }
+    #about-content hr { border: none; border-top: 1px solid var(--border); margin: 14px 0; }
+    #about-content .footnote { font-size: .76rem; color: var(--text-2); }
+
+    /* ── Legend ──────────────────────────────────────────────────────── */
+    #legend {
+      position: absolute; bottom: 28px; right: 10px; z-index: 400;
+      background: rgba(255,255,255,.95); border: 1px solid var(--border);
+      border-radius: 8px; padding: 10px 12px;
+      font-size: .76rem; box-shadow: 0 2px 8px rgba(0,0,0,.15);
+      min-width: 150px;
+    }
+    .legend-title { font-weight: 700; margin-bottom: 6px; color: var(--text-2); text-transform: uppercase; letter-spacing: .05em; font-size: .68rem; }
+    .legend-item { display: flex; align-items: center; gap: 7px; padding: 2px 0; }
+    .legend-dot  { width: 10px; height: 10px; border-radius: 50%; flex: 0 0 10px; }
+
+    /* ── Responsive ──────────────────────────────────────────────────── */
+    @media (max-width: 640px) {
+      :root { --header-h: 54px; --sidebar-w: 280px; }
+      #header-stats { display: none; }
+      #site-header h1 { font-size: 1rem; }
+      #sidebar {
+        position: absolute; top: 0; bottom: 0; left: 0;
+        box-shadow: 3px 0 16px rgba(0,0,0,.22);
+      }
+      #legend { bottom: 60px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Header ─────────────────────────────────────────────────────────── -->
+<header id="site-header">
+  <div id="header-text">
+    <h1>Edmund Burke <span>1851–1919</span></h1>
+    <p>Architect of Ontario · Heritage map</p>
+  </div>
+  <div id="header-stats">
+    <span id="stat-structures">Loading…</span>
+  </div>
+  <button id="about-btn">About</button>
+</header>
+
+<!-- ── Layout ────────────────────────────────────────────────────────── -->
+<div id="layout">
+
+  <!-- Sidebar -->
+  <aside id="sidebar">
+    <div id="sidebar-inner">
+
+      <input id="search-input" type="search" placeholder="Search buildings…" autocomplete="off" />
+
+      <!-- Era/firm filter -->
+      <div class="filter-group">
+        <div class="filter-heading">Partnership / Era</div>
+        <label class="filter-item langley-burke">
+          <input type="checkbox" data-group="era" data-val="langley" checked />
+          <span class="era-dot"></span> Langley &amp; Burke (1873–1892)
+        </label>
+        <label class="filter-item burke-solo">
+          <input type="checkbox" data-group="era" data-val="solo" checked />
+          <span class="era-dot"></span> Edmund Burke — solo
+        </label>
+        <label class="filter-item burke-horwood">
+          <input type="checkbox" data-group="era" data-val="horwood" checked />
+          <span class="era-dot"></span> Burke &amp; Horwood
+        </label>
+        <label class="filter-item horwood-white">
+          <input type="checkbox" data-group="era" data-val="white" checked />
+          <span class="era-dot"></span> Burke, Horwood &amp; White
+        </label>
+        <label class="filter-item other-firm">
+          <input type="checkbox" data-group="era" data-val="other" checked />
+          <span class="era-dot"></span> Other / Unknown
+        </label>
+      </div>
+
+      <!-- City filter (populated by JS) -->
+      <div class="filter-group" id="city-filter-group">
+        <div class="filter-heading">City</div>
+      </div>
+
+      <div id="results-count"></div>
+      <ul id="building-list" role="list"></ul>
+
+    </div>
+  </aside>
+
+  <!-- Map -->
+  <main id="map-container">
+    <div id="map"></div>
+    <button id="sidebar-toggle" title="Toggle building list">☰</button>
+
+    <!-- Legend -->
+    <div id="legend">
+      <div class="legend-title">Partnership</div>
+      <div class="legend-item"><span class="legend-dot" style="background:var(--c-langley)"></span> Langley &amp; Burke</div>
+      <div class="legend-item"><span class="legend-dot" style="background:var(--c-solo)"></span> Burke solo</div>
+      <div class="legend-item"><span class="legend-dot" style="background:var(--c-horwood)"></span> Burke &amp; Horwood</div>
+      <div class="legend-item"><span class="legend-dot" style="background:var(--c-white)"></span> Horwood &amp; White</div>
+      <div class="legend-item"><span class="legend-dot" style="background:var(--c-other)"></span> Other / Unknown</div>
+    </div>
+  </main>
+
+</div>
+
+<!-- ── About overlay ─────────────────────────────────────────────────── -->
+<div id="about-overlay" role="dialog" aria-modal="true" aria-labelledby="about-title">
+  <div id="about-content">
+    <button id="about-close" aria-label="Close">×</button>
+    <h2 id="about-title">Edmund Burke (1851–1919)</h2>
+    <p>
+      Edmund Burke was one of Toronto's most prolific architects, responsible for
+      dozens of landmark churches, commercial buildings, and civic structures across
+      Ontario. Born in Toronto on 31 October 1851, he apprenticed with his uncle
+      Henry Langley and formed the partnership <strong>Langley &amp; Burke</strong> in 1873.
+    </p>
+    <p>
+      Over a career spanning nearly five decades Burke worked under several firm names:
+      <strong>Langley &amp; Burke</strong> (1873–1892),
+      <strong>Burke &amp; Horwood</strong>, and
+      <strong>Burke, Horwood &amp; White</strong>.
+      He designed in the Gothic Revival, Romanesque Revival, and Chicago School styles,
+      and served as President of the Ontario Association of Architects.
+    </p>
+    <p>
+      His most celebrated works include the
+      <strong>Prince Edward (Bloor Street) Viaduct</strong> (1918),
+      the <strong>Robert Simpson Department Store</strong> (1896–1923),
+      and many of Toronto's surviving Victorian churches. He died on 2 January 1919.
+    </p>
+    <p>
+      <a href="https://en.wikipedia.org/wiki/Edmund_Burke_(architect)"
+         target="_blank" rel="noopener">Wikipedia: Edmund Burke (architect) ↗</a>
+    </p>
+    <hr />
+    <p class="footnote">
+      Data: City of Toronto Heritage Preservation Register ·
+      Wikipedia · OpenStreetMap<br />
+      Geocoding: <a href="https://nominatim.openstreetmap.org" target="_blank" rel="noopener">Nominatim</a> /
+      OpenStreetMap contributors<br />
+      Map tiles: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors<br />
+      Source code &amp; scraper:
+      <a href="https://github.com/joshuahoy/burke" target="_blank" rel="noopener">github.com/joshuahoy/burke ↗</a>
+    </p>
+  </div>
+</div>
+
+<!-- ── Scripts ────────────────────────────────────────────────────────── -->
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLs="
+  crossorigin=""
+></script>
+
+<script>
+'use strict';
+
+// ── Firm categorisation ──────────────────────────────────────────────────
+const FIRM_COLOUR = {
+  langley : '#1565C0',
+  solo    : '#E65100',
+  horwood : '#2E7D32',
+  white   : '#6A1B9A',
+  other   : '#546E7A',
+};
+
+const FIRM_LABEL = {
+  langley : 'Langley & Burke',
+  solo    : 'Edmund Burke',
+  horwood : 'Burke & Horwood',
+  white   : 'Burke, Horwood & White',
+  other   : 'Other / Unknown',
+};
+
+const FIRM_TAG = {
+  langley : 'tag-langley',
+  solo    : 'tag-solo',
+  horwood : 'tag-horwood',
+  white   : 'tag-white',
+  other   : 'tag-other',
+};
+
+function classifyFirm(firm) {
+  const f = (firm || '').toUpperCase();
+  if (f.includes('WHITE'))                     return 'white';
+  if (f.includes('HORWOOD'))                   return 'horwood';
+  if (f.includes('LANGLEY'))                   return 'langley';
+  if (f.includes('BURKE'))                     return 'solo';
+  return 'other';
+}
+
+// ── HTML escaping ────────────────────────────────────────────────────────
+function esc(s) {
+  return String(s ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+// ── Map initialisation ───────────────────────────────────────────────────
+const map = L.map('map', {
+  center: [43.66, -79.39],
+  zoom: 12,
+  zoomControl: true,
+});
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  maxZoom: 19,
+}).addTo(map);
+
+// ── State ────────────────────────────────────────────────────────────────
+let allFeatures = [];
+let markerObjects = [];   // parallel array to allFeatures
+let activeListItem = null;
+
+const eraFilters  = new Set(['langley', 'solo', 'horwood', 'white', 'other']);
+const cityFilters = new Set();
+
+// ── Popup content builder ────────────────────────────────────────────────
+function buildPopup(props, cat) {
+  const year   = props.year_built
+    ? 'c.\u202f' + props.year_built.replace(/\s*[-\u2013]\s*/g, '\u2013')
+    : '\u2014';
+  const label  = esc(FIRM_LABEL[cat] || props.firm || '\u2014');
+  const tagCls = FIRM_TAG[cat] || 'tag-other';
+
+  const badgeSrc = props.source === 'toronto_heritage_register'
+    ? '<span class="popup-badge badge-register">Heritage Register</span>'
+    : props.source === 'wikipedia'
+      ? '<span class="popup-badge badge-wiki">Wikipedia</span>'
+      : '';
+
+  const rows = [
+    ['Address',   esc(props.address || '\u2014')],
+    ['Built',     esc(year)],
+    ['Firm',      `<span class="firm-tag ${tagCls}">${label}</span>`],
+    props.style           ? ['Style',  esc(props.style)]           : null,
+    (props.heritage_status && props.heritage_status !== 'Unknown')
+                          ? ['Status', esc(props.heritage_status)] : null,
+    props.city            ? ['City',   esc(props.city)]            : null,
+    props.ward            ? ['Ward',   esc(props.ward)]            : null,
+  ]
+    .filter(Boolean)
+    .map(([k, v]) => `<tr><td>${k}</td><td>${v}</td></tr>`)
+    .join('');
+
+  const links = [
+    props.wikipedia_url
+      ? `<a href="${esc(props.wikipedia_url)}" target="_blank" rel="noopener" class="popup-link">Wikipedia ↗</a>`
+      : '',
+    props.detail_url
+      ? `<a href="${esc(props.detail_url)}" target="_blank" rel="noopener" class="popup-link">Heritage Register ↗</a>`
+      : '',
+  ].filter(Boolean).join('');
+
+  return `
+    <div class="popup-title">${esc(props.name || props.address)}</div>
+    ${badgeSrc}
+    <table class="popup-table">${rows}</table>
+    ${links ? `<div class="popup-links">${links}</div>` : ''}
+  `;
+}
+
+// ── Sidebar list item builder ────────────────────────────────────────────
+function buildListItem(feature, globalIdx) {
+  const p   = feature.properties;
+  const cat = classifyFirm(p.firm);
+  const col = FIRM_COLOUR[cat];
+  const yr  = p.year_built ? p.year_built.split(/[-\u2013]/)[0].trim() : '?';
+
+  const li = document.createElement('li');
+  li.className    = 'building-item';
+  li.dataset.gidx = globalIdx;
+  li.innerHTML = `
+    <span class="item-dot" style="background:${col}"></span>
+    <div class="item-text">
+      <div class="item-name" title="${esc(p.name || p.address)}">${esc(p.name || p.address)}</div>
+      <div class="item-meta">${esc(yr)}\u2002·\u2002${esc(p.city || 'Toronto')}</div>
+    </div>
+  `;
+  li.addEventListener('click', () => flyTo(feature, globalIdx));
+  return li;
+}
+
+// ── Fly-to ────────────────────────────────────────────────────────────────
+function flyTo(feature, globalIdx) {
+  const [lng, lat] = feature.geometry.coordinates;
+  map.flyTo([lat, lng], 16, { duration: 0.9 });
+  const m = markerObjects[globalIdx];
+  if (m) setTimeout(() => m.openPopup(), 600);
+
+  if (activeListItem) activeListItem.classList.remove('active');
+  const el = document.querySelector(`.building-item[data-gidx="${globalIdx}"]`);
+  if (el) {
+    el.classList.add('active');
+    el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    activeListItem = el;
+  }
+}
+
+// ── Filter logic ──────────────────────────────────────────────────────────
+function getVisible() {
+  const query = document.getElementById('search-input').value.toLowerCase().trim();
+  return allFeatures.filter(f => {
+    const p   = f.properties;
+    const cat = classifyFirm(p.firm);
+    const city = p.city || 'Toronto';
+
+    if (!eraFilters.has(cat))    return false;
+    if (cityFilters.size > 0 && !cityFilters.has(city)) return false;
+
+    if (query) {
+      const hay = [p.name, p.address, p.firm, p.style, p.city]
+        .filter(Boolean).join(' ').toLowerCase();
+      return hay.includes(query);
+    }
+    return true;
+  });
+}
+
+function applyFilters() {
+  const visible    = getVisible();
+  const visibleIdx = new Set(visible.map(f => allFeatures.indexOf(f)));
+
+  markerObjects.forEach((m, idx) => {
+    if (visibleIdx.has(idx)) {
+      if (!map.hasLayer(m)) map.addLayer(m);
+    } else {
+      if (map.hasLayer(m)) map.removeLayer(m);
+    }
+  });
+
+  const list = document.getElementById('building-list');
+  list.innerHTML = '';
+  visible.forEach(f => {
+    list.appendChild(buildListItem(f, allFeatures.indexOf(f)));
+  });
+
+  document.getElementById('results-count').textContent =
+    `Showing ${visible.length} of ${allFeatures.length} structures`;
+}
+
+// ── City filter setup ─────────────────────────────────────────────────────
+function setupCityFilters(features) {
+  const cities = [...new Set(features.map(f => f.properties.city || 'Toronto'))].sort();
+  cities.forEach(c => cityFilters.add(c));
+
+  const group = document.getElementById('city-filter-group');
+  cities.forEach(city => {
+    const lbl = document.createElement('label');
+    lbl.className = 'filter-item';
+    lbl.innerHTML = `
+      <input type="checkbox" data-group="city" data-val="${esc(city)}" checked />
+      ${esc(city)}
+    `;
+    lbl.querySelector('input').addEventListener('change', e => {
+      if (e.target.checked) cityFilters.add(city);
+      else cityFilters.delete(city);
+      applyFilters();
+    });
+    group.appendChild(lbl);
+  });
+}
+
+// ── Stats bar ─────────────────────────────────────────────────────────────
+function updateStats(features) {
+  const total      = features.length;
+  const designated = features.filter(
+    f => (f.properties.heritage_status || '').toLowerCase().includes('designated')
+  ).length;
+  const cities = new Set(features.map(f => f.properties.city || 'Toronto')).size;
+
+  const el = document.getElementById('stat-structures').parentElement;
+  el.innerHTML = `
+    <span>${total} structures documented</span>
+    <span>${designated} designated</span>
+    <span>${cities} ${cities === 1 ? 'city' : 'cities'}</span>
+  `;
+}
+
+// ── Data load & init ──────────────────────────────────────────────────────
+async function init() {
+  let geojson;
+  try {
+    const resp = await fetch('data/buildings.geojson');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    geojson = await resp.json();
+  } catch (err) {
+    document.getElementById('stat-structures').textContent = 'Data unavailable';
+    console.error('Could not load buildings.geojson:', err);
+    return;
+  }
+
+  allFeatures = (geojson.features || []).filter(
+    f => f.geometry && Array.isArray(f.geometry.coordinates) && f.geometry.coordinates.length === 2
+  );
+
+  // Sort by year ascending
+  allFeatures.sort((a, b) => {
+    const ya = parseInt(a.properties.year_built) || 9999;
+    const yb = parseInt(b.properties.year_built) || 9999;
+    return ya - yb;
+  });
+
+  // Create markers
+  allFeatures.forEach((feature, idx) => {
+    const [lng, lat] = feature.geometry.coordinates;
+    const p   = feature.properties;
+    const cat = classifyFirm(p.firm);
+    const col = FIRM_COLOUR[cat];
+
+    const marker = L.circleMarker([lat, lng], {
+      radius      : 8,
+      fillColor   : col,
+      color       : '#fff',
+      weight      : 1.5,
+      fillOpacity : 0.88,
+    });
+
+    marker.bindTooltip(esc(p.name || p.address), {
+      direction: 'top', offset: [0, -9],
+    });
+
+    marker.bindPopup(buildPopup(p, cat), { maxWidth: 285, className: 'burke-popup' });
+
+    marker.on('click', () => {
+      if (activeListItem) activeListItem.classList.remove('active');
+      const el = document.querySelector(`.building-item[data-gidx="${idx}"]`);
+      if (el) {
+        el.classList.add('active');
+        el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        activeListItem = el;
+      }
+    });
+
+    markerObjects.push(marker);
+    marker.addTo(map);
+  });
+
+  // Fit bounds to Toronto buildings
+  const torontoCoords = allFeatures
+    .filter(f => (f.properties.city || 'Toronto') === 'Toronto')
+    .map(f => [f.geometry.coordinates[1], f.geometry.coordinates[0]]);
+
+  if (torontoCoords.length > 0) {
+    map.fitBounds(L.latLngBounds(torontoCoords), { padding: [40, 40] });
+  }
+
+  setupCityFilters(allFeatures);
+  updateStats(allFeatures);
+  applyFilters();
+}
+
+// ── Event wiring ──────────────────────────────────────────────────────────
+document.querySelectorAll('[data-group="era"]').forEach(cb => {
+  cb.addEventListener('change', e => {
+    const val = e.target.dataset.val;
+    if (e.target.checked) eraFilters.add(val);
+    else eraFilters.delete(val);
+    applyFilters();
+  });
+});
+
+document.getElementById('search-input').addEventListener('input', applyFilters);
+
+document.getElementById('sidebar-toggle').addEventListener('click', () => {
+  document.getElementById('sidebar').classList.toggle('collapsed');
+});
+
+document.getElementById('about-btn').addEventListener('click', () => {
+  document.getElementById('about-overlay').classList.add('open');
+});
+
+document.getElementById('about-close').addEventListener('click', () => {
+  document.getElementById('about-overlay').classList.remove('open');
+});
+
+document.getElementById('about-overlay').addEventListener('click', e => {
+  if (e.target.id === 'about-overlay') {
+    document.getElementById('about-overlay').classList.remove('open');
+  }
+});
+
+// Keyboard: close modal on Escape
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    document.getElementById('about-overlay').classList.remove('open');
+  }
+});
+
+init();
+</script>
+</body>
+</html>
