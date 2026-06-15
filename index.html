@@ -531,7 +531,7 @@ function getVisible() {
     const p = f.properties;
 
     // Building-type filter (empty set = all pass)
-    if (typeFilters.size > 0 && !typeFilters.has(classifyType(p.building_type)))
+    if (typeFilters.has(classifyType(p.building_type)))
       return false;
 
     if (query) {
