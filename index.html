@@ -19,6 +19,15 @@
       --c-white   : #6A1B9A; /* deep purple — Burke, Horwood & White    */
       --c-other   : #546E7A; /* blue-grey   — other / unknown           */
 
+      /* Building-type icon colours */
+      --ct-residential  : #EF6C00;
+      --ct-commercial   : #00838F;
+      --ct-religious    : #7B1FA2;
+      --ct-institutional: #1565C0;
+      --ct-industrial   : #4E342E;
+      --ct-civic        : #2E7D32;
+      --ct-other        : #546E7A;
+
       --header-h  : 64px;
       --sidebar-w : 320px;
       --border    : #e0e0e0;
@@ -182,6 +191,10 @@
     .popup-link  { font-size: .76rem; color: #1565C0; text-decoration: none; }
     .popup-link:hover { text-decoration: underline; }
 
+    .popup-thumb { width: 100%; max-height: 145px; object-fit: cover; border-radius: 4px; margin-bottom: 8px; display: block; }
+    .popup-notes { font-size: .75rem; color: var(--text-2); line-height: 1.55; margin-top: 6px; border-top: 1px solid #eee; padding-top: 5px; max-height: 80px; overflow-y: auto; }
+    .type-dot    { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex: 0 0 10px; }
+
     /* ── About overlay ───────────────────────────────────────────────── */
     #about-overlay {
       display: none; position: fixed; inset: 0; z-index: 2000;
@@ -274,12 +287,14 @@
 
     <!-- Legend -->
     <div id="legend">
-      <div class="legend-title">Partnership</div>
-      <div class="legend-item"><span class="legend-dot" style="background:var(--c-langley)"></span> Langley &amp; Burke</div>
-      <div class="legend-item"><span class="legend-dot" style="background:var(--c-solo)"></span> Burke solo</div>
-      <div class="legend-item"><span class="legend-dot" style="background:var(--c-horwood)"></span> Burke &amp; Horwood</div>
-      <div class="legend-item"><span class="legend-dot" style="background:var(--c-white)"></span> Horwood &amp; White</div>
-      <div class="legend-item"><span class="legend-dot" style="background:var(--c-other)"></span> Other / Unknown</div>
+      <div class="legend-title">Building Type</div>
+      <div class="legend-item"><span class="legend-dot" style="background:var(--ct-residential)"></span> Residential</div>
+      <div class="legend-item"><span class="legend-dot" style="background:var(--ct-commercial)"></span> Commercial</div>
+      <div class="legend-item"><span class="legend-dot" style="background:var(--ct-religious)"></span> Religious</div>
+      <div class="legend-item"><span class="legend-dot" style="background:var(--ct-institutional)"></span> Institutional</div>
+      <div class="legend-item"><span class="legend-dot" style="background:var(--ct-industrial)"></span> Industrial</div>
+      <div class="legend-item"><span class="legend-dot" style="background:var(--ct-civic)"></span> Civic / Public</div>
+      <div class="legend-item"><span class="legend-dot" style="background:var(--ct-other)"></span> Other</div>
     </div>
   </main>
 
@@ -369,6 +384,17 @@ function classifyFirm(firm) {
   return 'other';
 }
 
+// ── Building-type colours ────────────────────────────────────────────────
+const TYPE_COLOUR = {
+  residential   : '#EF6C00',
+  commercial    : '#00838F',
+  religious     : '#7B1FA2',
+  institutional : '#1565C0',
+  industrial    : '#4E342E',
+  civic         : '#2E7D32',
+  other         : '#546E7A',
+};
+
 // ── HTML escaping ────────────────────────────────────────────────────────
 function esc(s) {
   return String(s ?? '')
@@ -411,10 +437,14 @@ function buildPopup(props, cat) {
       ? '<span class="popup-badge badge-wiki">Wikipedia</span>'
       : '';
 
+  const typeCat = classifyType(props.building_type);
+  const typeCol = TYPE_COLOUR[typeCat] || TYPE_COLOUR.other;
+
   const rows = [
     ['Address',   esc(props.address || '\u2014')],
     ['Built',     esc(year)],
     ['Firm',      `<span class="firm-tag ${tagCls}">${label}</span>`],
+    props.building_type   ? ['Type',   `<span style="color:${typeCol};font-weight:600">${esc(props.building_type)}</span>`] : null,
     props.style           ? ['Style',  esc(props.style)]           : null,
     (props.heritage_status && props.heritage_status !== 'Unknown')
                           ? ['Status', esc(props.heritage_status)] : null,
@@ -434,29 +464,37 @@ function buildPopup(props, cat) {
       : '',
   ].filter(Boolean).join('');
 
+  const thumb = props.primary_image || props.thumbnail_url;
+  const notesHtml = props.notes
+    ? `<div class="popup-notes">${esc(props.notes)}</div>`
+    : '';
+
   return `
+    ${thumb ? `<img class="popup-thumb" src="${esc(thumb)}" alt="${esc(props.name || '')}" loading="lazy">` : ''}
     <div class="popup-title">${esc(props.name || props.address)}</div>
     ${badgeSrc}
     <table class="popup-table">${rows}</table>
+    ${notesHtml}
     ${links ? `<div class="popup-links">${links}</div>` : ''}
   `;
 }
 
 // ── Sidebar list item builder ────────────────────────────────────────────
 function buildListItem(feature, globalIdx) {
-  const p   = feature.properties;
-  const cat = classifyFirm(p.firm);
-  const col = FIRM_COLOUR[cat];
-  const yr  = p.year_built ? p.year_built.split(/[-\u2013]/)[0].trim() : '?';
+  const p       = feature.properties;
+  const yr      = p.year_built ? p.year_built.split(/[-\u2013]/)[0].trim() : '?';
+  const typeCat = classifyType(p.building_type);
+  const typeCol = TYPE_COLOUR[typeCat] || TYPE_COLOUR.other;
+  const typeLbl = TYPE_CATEGORIES.find(c => c.key === typeCat)?.label || 'Other';
 
   const li = document.createElement('li');
   li.className    = 'building-item';
   li.dataset.gidx = globalIdx;
   li.innerHTML = `
-    <span class="item-dot" style="background:${col}"></span>
+    <span class="item-dot" style="background:${typeCol}"></span>
     <div class="item-text">
       <div class="item-name" title="${esc(p.name || p.address)}">${esc(p.name || p.address)}</div>
-      <div class="item-meta">${esc(yr)}\u2002·\u2002${esc(p.city || 'Toronto')}</div>
+      <div class="item-meta">${esc(yr)}\u2002·\u2002${esc(typeLbl)}</div>
     </div>
   `;
   li.addEventListener('click', () => flyTo(feature, globalIdx));
@@ -559,8 +597,10 @@ function setupTypeFilters(features) {
     const count = counts[key];
     const lbl = document.createElement('label');
     lbl.className = 'filter-item';
+    const dotCol = TYPE_COLOUR[key] || TYPE_COLOUR.other;
     lbl.innerHTML = `
       <input type="checkbox" data-group="type" data-val="${key}" checked />
+      <span class="type-dot" style="background:${dotCol}"></span>
       ${esc(label)} <span class="filter-count">(${count})</span>
     `;
     lbl.querySelector('input').addEventListener('change', e => {
@@ -621,12 +661,12 @@ async function init() {
   allFeatures.forEach((feature, idx) => {
     const [lng, lat] = feature.geometry.coordinates;
     const p   = feature.properties;
-    const cat = classifyFirm(p.firm);
-    const col = FIRM_COLOUR[cat];
+    const cat     = classifyFirm(p.firm);
+    const typeCol = TYPE_COLOUR[classifyType(p.building_type)] || TYPE_COLOUR.other;
 
     const marker = L.circleMarker([lat, lng], {
       radius      : 8,
-      fillColor   : col,
+      fillColor   : typeCol,
       color       : '#fff',
       weight      : 1.5,
       fillOpacity : 0.88,
