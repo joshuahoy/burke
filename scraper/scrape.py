@@ -37,6 +37,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 DATA_DIR.mkdir(exist_ok=True)
 OUTPUT_PATH = DATA_DIR / "buildings.geojson"
+OUTPUT_JS_PATH = DATA_DIR / "buildings.js"   # loaded by index.html via <script>
 CACHE_PATH = Path(__file__).resolve().parent / ".geocode_cache.json"
 
 # ── ArcGIS REST API (City of Toronto Heritage Register) ──────────────────────
@@ -444,18 +445,26 @@ def main() -> None:
         else:
             print(f"  FAIL  {rec['address']} -- could not geocode (will be omitted)")
 
-    # 4. Sort by year, write GeoJSON
+    # 4. Sort by year, write GeoJSON + JS data file
     all_records.sort(
         key=lambda r: int(re.split(r"\D", r.get("year_built", "9999"))[0] or 9999)
     )
 
     geojson = to_geojson(all_records)
+
+    # GeoJSON (for reference / download)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as fh:
         json.dump(geojson, fh, indent=2, ensure_ascii=False)
 
+    # JS data file — loaded synchronously by index.html via <script> tag,
+    # avoids any fetch() / CORS / path issues on GitHub Pages.
+    js_content = "window.BUILDINGS_DATA = " + json.dumps(geojson, ensure_ascii=False) + ";\n"
+    with open(OUTPUT_JS_PATH, "w", encoding="utf-8") as fh:
+        fh.write(js_content)
+
     located = len(geojson["features"])
     skipped = len(all_records) - located
-    print(f"\nWrote {located} features to {OUTPUT_PATH}")
+    print(f"\nWrote {located} features to {OUTPUT_PATH} and {OUTPUT_JS_PATH.name}")
     if skipped:
         print(f"   ({skipped} records skipped -- no coordinates)")
     print("Done.")
