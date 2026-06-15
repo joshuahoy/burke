@@ -516,14 +516,12 @@ function buildListItem(feature, globalIdx) {
 // ── Fly-to ────────────────────────────────────────────────────────────────
 function flyTo(feature, globalIdx) {
   const [lng, lat] = feature.geometry.coordinates;
-  // Pan with a paddingTopLeft offset so the popup clears the fixed header
-  const headerH = document.getElementById('site-header').offsetHeight;
-  map.flyTo([lat, lng], 16, {
-    duration: 0.9,
-    paddingTopLeft: [0, headerH + 20],
-  });
   const m = markerObjects[globalIdx];
-  if (m) setTimeout(() => m.openPopup(), 600);
+
+  // Open popup only after the fly animation fully ends so autoPan isn't
+  // overridden by the ongoing animation.
+  map.once('moveend', () => { if (m) m.openPopup(); });
+  map.flyTo([lat, lng], 16, { duration: 0.9 });
 
   if (activeListItem) activeListItem.classList.remove('active');
   const el = document.querySelector(`.building-item[data-gidx="${globalIdx}"]`);
