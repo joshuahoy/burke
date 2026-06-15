@@ -3220,41 +3220,6 @@ window.BUILDINGS_DATA = {
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/xMG7nJqZ4C.jpg",
         "image_count": 1
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.3857144,
-          43.6790722
-        ]
-      },
-      "properties": {
-        "name": "J.W. Mickleborough House",
-        "address": "Chestnut Park Rd",
-        "year_built": "",
-        "firm": "Burke & Horwood",
-        "style": "",
-        "heritage_status": "",
-        "source": "aco_toronto",
-        "city": "Toronto",
-        "ward": "",
-        "wikipedia_url": "",
-        "detail_url": "https://www.acotoronto.ca/building.php?ID=10154",
-        "aco_id": "10154",
-        "alternate_name": "",
-        "neighbourhood": "Rosedale-Moore Park",
-        "building_type": "Arena",
-        "current_use": "Abandoned",
-        "former_use": "",
-        "heritage_district": "",
-        "awards": "",
-        "notes": "First Occupant: J.W. Mickleborough",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
-      }
     }
   ]
 };

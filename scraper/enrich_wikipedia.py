@@ -69,6 +69,7 @@ NEVER_MATCH: frozenset[str] = frozenset([
     "7011",   # C.J. Holman House — no article
     "5226",   # Ukrainian Evangelical Baptist Church — no article
     "4643",   # John Cox House — wrong article, no correct one found
+    "10154",  # J.W. Mickleborough House — duplicate of 3453, ignored
 ])
 
 

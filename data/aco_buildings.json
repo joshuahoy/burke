@@ -1,39 +1,5 @@
 [
   {
-    "id": "10154",
-    "name": "J.W. Mickleborough House",
-    "address": "Chestnut Park Rd",
-    "city": "Toronto",
-    "neighbourhood": "Rosedale-Moore Park",
-    "year_built": null,
-    "alternate_name": "",
-    "awards": "",
-    "notes": "First Occupant: J.W. Mickleborough",
-    "construction_status": "No heritage status",
-    "building_type": "Arena",
-    "current_use": "Abandoned",
-    "former_use": "",
-    "heritage_status": "",
-    "heritage_conservation_district": "",
-    "main_style": "",
-    "firm": "Burke & Horwood",
-    "companies": [
-      {
-        "role": "Architect",
-        "name": "Burke & Horwood",
-        "url": "http://dictionaryofarchitectsincanada.org/node/1678"
-      }
-    ],
-    "sources": [],
-    "images": [],
-    "thumbnail_url": null,
-    "lat": 43.6790722,
-    "lng": -79.3857144,
-    "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=10154",
-    "wikipedia_url": ""
-  },
-  {
     "id": "4602",
     "name": "Harris Henry Fudger House",
     "address": "10 Maple Avenue",
