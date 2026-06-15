@@ -198,6 +198,11 @@
     .popup-thumb { width: 100%; height: 130px; object-fit: cover; border-radius: 4px; margin-bottom: 8px; display: block; flex-shrink: 0; }
     .popup-notes { font-size: .75rem; color: var(--text-2); line-height: 1.55; margin-top: 6px; border-top: 1px solid #eee; padding-top: 5px; max-height: 130px; overflow-y: auto; }
     .type-dot    { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex: 0 0 10px; }
+    /* Cap popup content so it never overflows the map area */
+    .burke-popup .leaflet-popup-content {
+      max-height: calc(100vh - var(--header-h) - 90px);
+      overflow-y: auto;
+    }
 
     /* ── About overlay ───────────────────────────────────────────────── */
     #about-overlay {
@@ -692,7 +697,7 @@ async function init() {
     marker.bindPopup(buildPopup(p, cat), {
       maxWidth: 285,
       className: 'burke-popup',
-      autoPanPaddingTopLeft: L.point(0, document.getElementById('site-header').offsetHeight + 10),
+      autoPanPaddingTopLeft: L.point(0, 12),
       autoPanPaddingBottomRight: L.point(10, 10),
     });
 
