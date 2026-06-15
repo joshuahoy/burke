@@ -104,6 +104,7 @@
     }
     .filter-item:hover { background: #eef0ff; }
     .filter-item input[type=checkbox] { width: 14px; height: 14px; cursor: pointer; accent-color: #1a237e; }
+    .filter-count { color: var(--text-2); font-size: .75rem; margin-left: auto; }
 
     .era-dot {
       width: 10px; height: 10px; border-radius: 50%;
@@ -254,34 +255,10 @@
 
       <input id="search-input" type="search" placeholder="Search buildings…" autocomplete="off" />
 
-      <!-- Era/firm filter -->
-      <div class="filter-group">
-        <div class="filter-heading">Partnership / Era</div>
-        <label class="filter-item langley-burke">
-          <input type="checkbox" data-group="era" data-val="langley" checked />
-          <span class="era-dot"></span> Langley &amp; Burke (1873–1892)
-        </label>
-        <label class="filter-item burke-solo">
-          <input type="checkbox" data-group="era" data-val="solo" checked />
-          <span class="era-dot"></span> Edmund Burke — solo
-        </label>
-        <label class="filter-item burke-horwood">
-          <input type="checkbox" data-group="era" data-val="horwood" checked />
-          <span class="era-dot"></span> Burke &amp; Horwood
-        </label>
-        <label class="filter-item horwood-white">
-          <input type="checkbox" data-group="era" data-val="white" checked />
-          <span class="era-dot"></span> Burke, Horwood &amp; White
-        </label>
-        <label class="filter-item other-firm">
-          <input type="checkbox" data-group="era" data-val="other" checked />
-          <span class="era-dot"></span> Other / Unknown
-        </label>
-      </div>
-
-      <!-- City filter (populated by JS) -->
-      <div class="filter-group" id="city-filter-group">
-        <div class="filter-heading">City</div>
+      <!-- Building type filter -->
+      <div class="filter-group" id="type-filter-group">
+        <div class="filter-heading">Building Type</div>
+        <!-- populated by JS from data -->
       </div>
 
       <div id="results-count"></div>
@@ -418,8 +395,7 @@ let allFeatures = [];
 let markerObjects = [];   // parallel array to allFeatures
 let activeListItem = null;
 
-const eraFilters  = new Set(['langley', 'solo', 'horwood', 'white', 'other']);
-const cityFilters = new Set();
+const typeFilters = new Set(); // building-type categories; empty = all visible
 
 // ── Popup content builder ────────────────────────────────────────────────
 function buildPopup(props, cat) {
@@ -507,15 +483,14 @@ function flyTo(feature, globalIdx) {
 function getVisible() {
   const query = document.getElementById('search-input').value.toLowerCase().trim();
   return allFeatures.filter(f => {
-    const p   = f.properties;
-    const cat = classifyFirm(p.firm);
-    const city = p.city || 'Toronto';
+    const p = f.properties;
 
-    if (!eraFilters.has(cat))    return false;
-    if (cityFilters.size > 0 && !cityFilters.has(city)) return false;
+    // Building-type filter (empty set = all pass)
+    if (typeFilters.size > 0 && !typeFilters.has(classifyType(p.building_type)))
+      return false;
 
     if (query) {
-      const hay = [p.name, p.address, p.firm, p.style, p.city]
+      const hay = [p.name, p.address, p.firm, p.style, p.city, p.building_type]
         .filter(Boolean).join(' ').toLowerCase();
       return hay.includes(query);
     }
@@ -545,22 +520,52 @@ function applyFilters() {
     `Showing ${visible.length} of ${allFeatures.length} structures`;
 }
 
-// ── City filter setup ─────────────────────────────────────────────────────
-function setupCityFilters(features) {
-  const cities = [...new Set(features.map(f => f.properties.city || 'Toronto'))].sort();
-  cities.forEach(c => cityFilters.add(c));
+// ── Building-type classification ──────────────────────────────────────────
+// Maps raw ACO/Heritage Register building_type strings to display categories.
+const TYPE_CATEGORIES = [
+  { key: 'residential',   label: 'Residential',   match: /detached house|semi.detached|residential|house|cottage|villa|dwelling/i },
+  { key: 'commercial',    label: 'Commercial',     match: /commercial|retail|store|shop|bank|office|warehouse|block/i },
+  { key: 'religious',     label: 'Religious',      match: /church|cathedral|chapel|synagogue|temple|religious|parish/i },
+  { key: 'institutional', label: 'Institutional',  match: /school|college|university|library|museum|hospital|government|court|ymca|arena|institutional/i },
+  { key: 'industrial',    label: 'Industrial',     match: /industrial|factory|brewery|mill|manufact/i },
+  { key: 'civic',         label: 'Civic / Public', match: /bridge|station|transport|civic|hall|theatre|theater|public|park/i },
+];
 
-  const group = document.getElementById('city-filter-group');
-  cities.forEach(city => {
+function classifyType(rawType) {
+  if (!rawType) return 'other';
+  const t = rawType.trim();
+  for (const cat of TYPE_CATEGORIES) {
+    if (cat.match.test(t)) return cat.key;
+  }
+  return 'other';
+}
+
+// ── Building-type filter setup ────────────────────────────────────────────
+function setupTypeFilters(features) {
+  // Count each category
+  const counts = {};
+  features.forEach(f => {
+    const k = classifyType(f.properties.building_type);
+    counts[k] = (counts[k] || 0) + 1;
+  });
+
+  // Build ordered list: defined categories first, then 'other'
+  const usedKeys = [...TYPE_CATEGORIES.map(c => c.key), 'other']
+    .filter(k => counts[k]);
+
+  const group = document.getElementById('type-filter-group');
+  usedKeys.forEach(key => {
+    const label = TYPE_CATEGORIES.find(c => c.key === key)?.label || 'Other';
+    const count = counts[key];
     const lbl = document.createElement('label');
     lbl.className = 'filter-item';
     lbl.innerHTML = `
-      <input type="checkbox" data-group="city" data-val="${esc(city)}" checked />
-      ${esc(city)}
+      <input type="checkbox" data-group="type" data-val="${key}" checked />
+      ${esc(label)} <span class="filter-count">(${count})</span>
     `;
     lbl.querySelector('input').addEventListener('change', e => {
-      if (e.target.checked) cityFilters.add(city);
-      else cityFilters.delete(city);
+      if (e.target.checked) typeFilters.delete(key);  // checked = include = not in exclusion set
+      else typeFilters.add(key);
       applyFilters();
     });
     group.appendChild(lbl);
@@ -656,21 +661,12 @@ async function init() {
     map.fitBounds(L.latLngBounds(torontoCoords), { padding: [40, 40] });
   }
 
-  setupCityFilters(allFeatures);
+  setupTypeFilters(allFeatures);
   updateStats(allFeatures);
   applyFilters();
 }
 
 // ── Event wiring ──────────────────────────────────────────────────────────
-document.querySelectorAll('[data-group="era"]').forEach(cb => {
-  cb.addEventListener('change', e => {
-    const val = e.target.dataset.val;
-    if (e.target.checked) eraFilters.add(val);
-    else eraFilters.delete(val);
-    applyFilters();
-  });
-});
-
 document.getElementById('search-input').addEventListener('input', applyFilters);
 
 document.getElementById('sidebar-toggle').addEventListener('click', () => {
