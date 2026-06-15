@@ -30,7 +30,8 @@
     "lat": 43.6790722,
     "lng": -79.3857144,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=10154"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=10154",
+    "wikipedia_url": ""
   },
   {
     "id": "4602",
@@ -41,7 +42,7 @@
     "year_built": 1888,
     "alternate_name": "",
     "awards": "",
-    "notes": "First Occupant: Hirschfelder, Jacob M 1889-189 First OccupantÂ´s Occupation: Professor U of T",
+    "notes": "First Occupant: Hirschfelder, Jacob M 1889-189 First OccupantÃ‚Â´s Occupation: Professor U of T",
     "construction_status": "Completed",
     "building_type": "Detached house",
     "current_use": "Residential",
@@ -81,7 +82,8 @@
     "lat": 43.6750345,
     "lng": -79.3762399,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=4602"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4602",
+    "wikipedia_url": ""
   },
   {
     "id": "7269",
@@ -128,7 +130,8 @@
     "lat": 43.667097,
     "lng": -79.3477438,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=7269"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=7269",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Metropolitan_Community_Church_of_Toronto"
   },
   {
     "id": "4836",
@@ -169,7 +172,8 @@
     "lat": 43.6776852,
     "lng": -79.3770675,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=4836"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4836",
+    "wikipedia_url": ""
   },
   {
     "id": "3945",
@@ -210,7 +214,8 @@
     "lat": 43.6668886,
     "lng": -79.3992635,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3945"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3945",
+    "wikipedia_url": ""
   },
   {
     "id": "4409",
@@ -251,7 +256,8 @@
     "lat": 43.6787649,
     "lng": -79.381841,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=4409"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4409",
+    "wikipedia_url": ""
   },
   {
     "id": "3220",
@@ -349,7 +355,8 @@
     "lat": 43.6520876,
     "lng": -79.3855254,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3220"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3220",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Osgoode_Hall"
   },
   {
     "id": "4411",
@@ -390,7 +397,8 @@
     "lat": 43.6788058,
     "lng": -79.3813851,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=4411"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4411",
+    "wikipedia_url": ""
   },
   {
     "id": "5226",
@@ -446,7 +454,8 @@
     "lat": 43.646069,
     "lng": -79.4066019,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=5226"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=5226",
+    "wikipedia_url": ""
   },
   {
     "id": "3329",
@@ -457,7 +466,7 @@
     "year_built": 1902,
     "alternate_name": "",
     "awards": "",
-    "notes": "First Occupant: Ellis, Mathew C First OccupantÂ´s Occupation: V.P. P. W. Ellis & Co",
+    "notes": "First Occupant: Ellis, Mathew C First OccupantÃ‚Â´s Occupation: V.P. P. W. Ellis & Co",
     "construction_status": "Completed",
     "building_type": "Detached house",
     "current_use": "Residential",
@@ -487,7 +496,8 @@
     "lat": 43.6745243,
     "lng": -79.3789617,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3329"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3329",
+    "wikipedia_url": ""
   },
   {
     "id": "10152",
@@ -520,7 +530,8 @@
     "lat": 43.6766525,
     "lng": -79.3820065,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=10152"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=10152",
+    "wikipedia_url": ""
   },
   {
     "id": "8529",
@@ -561,7 +572,8 @@
     "lat": 43.6778007,
     "lng": -79.3786952,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=8529"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=8529",
+    "wikipedia_url": ""
   },
   {
     "id": "4731",
@@ -608,7 +620,8 @@
     "lat": 43.6781982,
     "lng": -79.3791504,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=4731"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4731",
+    "wikipedia_url": ""
   },
   {
     "id": "2842",
@@ -685,7 +698,8 @@
     "lat": 43.6517906,
     "lng": -79.3801688,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2842"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2842",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Simpsons_%28department_store%29"
   },
   {
     "id": "7366",
@@ -731,7 +745,8 @@
     "lat": 43.6747162,
     "lng": -79.3783584,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=7366"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=7366",
+    "wikipedia_url": ""
   },
   {
     "id": "1986",
@@ -860,7 +875,8 @@
     "lat": 43.66813903792356,
     "lng": -79.39627467130276,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=1986"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=1986",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Royal_Conservatory_of_Music"
   },
   {
     "id": "3363",
@@ -906,7 +922,8 @@
     "lat": 43.6676498,
     "lng": -79.3986522,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3363"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3363",
+    "wikipedia_url": ""
   },
   {
     "id": "5301",
@@ -991,7 +1008,8 @@
     "lat": 43.668575,
     "lng": -79.4067421,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=5301"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=5301",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Walmer_Road_Baptist_Church"
   },
   {
     "id": "2369",
@@ -1002,7 +1020,7 @@
     "year_built": 1897,
     "alternate_name": "",
     "awards": "",
-    "notes": "First Occupant: Fudger, Harris Henry First OccupantÂ´s Occupation: Pres. Robt. Simpson Co. Ltd.",
+    "notes": "First Occupant: Fudger, Harris Henry First OccupantÃ‚Â´s Occupation: Pres. Robt. Simpson Co. Ltd.",
     "construction_status": "Completed",
     "building_type": "Detached house",
     "current_use": "Residential",
@@ -1039,7 +1057,8 @@
     "lat": 43.6755702,
     "lng": -79.3738185,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2369"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2369",
+    "wikipedia_url": ""
   },
   {
     "id": "2159",
@@ -1097,7 +1116,8 @@
     "lat": 43.664229,
     "lng": -79.3780133,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2159"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2159",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Betty_Oliphant"
   },
   {
     "id": "3365",
@@ -1143,7 +1163,8 @@
     "lat": 43.6452002,
     "lng": -79.3953703,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3365"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3365",
+    "wikipedia_url": ""
   },
   {
     "id": "3020",
@@ -1195,7 +1216,8 @@
     "lat": 43.6480451,
     "lng": -79.3771074,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3020"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3020",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bank_of_British_North_America"
   },
   {
     "id": "4399",
@@ -1236,7 +1258,8 @@
     "lat": 43.67995,
     "lng": -79.3854252,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=4399"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4399",
+    "wikipedia_url": ""
   },
   {
     "id": "3530",
@@ -1282,7 +1305,8 @@
     "lat": 43.6448257,
     "lng": -79.3993258,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3530"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3530",
+    "wikipedia_url": ""
   },
   {
     "id": "6858",
@@ -1351,7 +1375,7 @@
         "url": "https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMDC-E9-83&R=DC-E9-83"
       },
       {
-        "title": "703 Dovercourt Road (Centennial Japanese Church) â€“ Intention to Designate, Part IV, Ontario Heritage Act, Approval of Alterations to a Heritage Building, and Authority to Enter into a Heritage Easement Agreement.",
+        "title": "703 Dovercourt Road (Centennial Japanese Church) Ã¢â‚¬â€œ Intention to Designate, Part IV, Ontario Heritage Act, Approval of Alterations to a Heritage Building, and Authority to Enter into a Heritage Easement Agreement.",
         "author": "Ted Tyndorf, Chief Planner and Executive Director, City Planning, City of Toronto",
         "url": "https://www.toronto.ca/legdocs/mmis/2007/te/bgrd/backgroundfile-6414.pdf"
       },
@@ -1379,7 +1403,8 @@
     "lat": 43.6601393,
     "lng": -79.4286539,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=6858"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=6858",
+    "wikipedia_url": ""
   },
   {
     "id": "3497",
@@ -1425,7 +1450,8 @@
     "lat": 43.663583,
     "lng": -79.41084,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3497"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3497",
+    "wikipedia_url": ""
   },
   {
     "id": "3453",
@@ -1436,7 +1462,7 @@
     "year_built": 1904,
     "alternate_name": "",
     "awards": "",
-    "notes": "First Occupant: Mickleborough James W. First OccupantÂ´s Occupation: (Mickleborough, Muldrew & Co)",
+    "notes": "First Occupant: Mickleborough James W. First OccupantÃ‚Â´s Occupation: (Mickleborough, Muldrew & Co)",
     "construction_status": "Completed",
     "building_type": "Detached house",
     "current_use": "Residential",
@@ -1472,7 +1498,8 @@
     "lat": 43.679864,
     "lng": -79.3830243,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3453"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3453",
+    "wikipedia_url": ""
   },
   {
     "id": "4385",
@@ -1518,7 +1545,8 @@
     "lat": 43.6782265,
     "lng": -79.3887958,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=4385"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4385",
+    "wikipedia_url": ""
   },
   {
     "id": "2841",
@@ -1529,7 +1557,7 @@
     "year_built": 1886,
     "alternate_name": "102 Yonge",
     "awards": "",
-    "notes": "This building was altered in 1910 for Dunfield and Company. N 1985-86 the façade of the building was incorporated into the larger Scotia Plaza complex.",
+    "notes": "This building was altered in 1910 for Dunfield and Company. N 1985-86 the faÃ§ade of the building was incorporated into the larger Scotia Plaza complex.",
     "construction_status": "Completed",
     "building_type": "Mid-rise",
     "current_use": "Commercial",
@@ -1569,7 +1597,8 @@
     "lat": 43.650019,
     "lng": -79.378472,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2841"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2841",
+    "wikipedia_url": ""
   },
   {
     "id": "3171",
@@ -1635,7 +1664,8 @@
     "lat": 43.6490117,
     "lng": -79.3702352,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3171"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3171",
+    "wikipedia_url": ""
   },
   {
     "id": "8186",
@@ -1676,7 +1706,8 @@
     "lat": 43.6779531,
     "lng": -79.3799268,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=8186"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=8186",
+    "wikipedia_url": ""
   },
   {
     "id": "440",
@@ -1764,7 +1795,8 @@
     "lat": 43.657649,
     "lng": -79.3767639,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=440"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=440",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Toronto_Metropolitan_University"
   },
   {
     "id": "7530",
@@ -1810,7 +1842,8 @@
     "lat": 43.6845224,
     "lng": -79.3713487,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=7530"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=7530",
+    "wikipedia_url": ""
   },
   {
     "id": "10156",
@@ -1843,7 +1876,8 @@
     "lat": 43.6775059,
     "lng": -79.3826907,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=10156"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=10156",
+    "wikipedia_url": ""
   },
   {
     "id": "4855",
@@ -1895,7 +1929,8 @@
     "lat": 43.6654366,
     "lng": -79.3897727,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=4855"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4855",
+    "wikipedia_url": ""
   },
   {
     "id": "2157",
@@ -1937,7 +1972,8 @@
     "lat": 43.6594024,
     "lng": -79.3814884,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2157"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2157",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Covenant_House"
   },
   {
     "id": "3200",
@@ -1948,7 +1984,7 @@
     "year_built": 1913,
     "alternate_name": "",
     "awards": "",
-    "notes": "The Canadian Magazine Company Building is architecturally significant as a well-designed example of the early tall commercial building type, typified by the Classical organization and detailing. Located on the north side of Adelaide Street West, west of Simcoe Street, the building contributes contextually to the character of the King-Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) faÃ§ade. Rising five stories, the structure is faced with red brick and trimmed with stone. The five-bay south faÃ§ade is organized horizontally by a Classical base, shaft and cornice, and vertically by brick piers and pilasters. The main entry, located in the left (west) bay at street level, has a round-headed door recessed in a compound-arched stone surround with a bracketed copper-clad hood. The fenestration in the lower floors and attic level consists of flat-headed window openings with stone lintels, brick aprons and stone band courses. The fourth storey introduces segmental-headed window openings with brick voussoirs and stone keystones. A modest cornice marks the flat roof. Abutting the adjacent buildings, the visible part of the east elevation displays segmental-headed openings, while the west wall is blank.",
+    "notes": "The Canadian Magazine Company Building is architecturally significant as a well-designed example of the early tall commercial building type, typified by the Classical organization and detailing. Located on the north side of Adelaide Street West, west of Simcoe Street, the building contributes contextually to the character of the King-Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) faÃƒÂ§ade. Rising five stories, the structure is faced with red brick and trimmed with stone. The five-bay south faÃƒÂ§ade is organized horizontally by a Classical base, shaft and cornice, and vertically by brick piers and pilasters. The main entry, located in the left (west) bay at street level, has a round-headed door recessed in a compound-arched stone surround with a bracketed copper-clad hood. The fenestration in the lower floors and attic level consists of flat-headed window openings with stone lintels, brick aprons and stone band courses. The fourth storey introduces segmental-headed window openings with brick voussoirs and stone keystones. A modest cornice marks the flat roof. Abutting the adjacent buildings, the visible part of the east elevation displays segmental-headed openings, while the west wall is blank.",
     "construction_status": "Completed",
     "building_type": "Mid-rise",
     "current_use": "Office",
@@ -1999,7 +2035,8 @@
     "lat": 43.6487008,
     "lng": -79.3871626,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3200"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3200",
+    "wikipedia_url": ""
   },
   {
     "id": "2317",
@@ -2056,7 +2093,8 @@
     "lat": 43.6540742,
     "lng": -79.3799578,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2317"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2317",
+    "wikipedia_url": ""
   },
   {
     "id": "2258",
@@ -2103,7 +2141,8 @@
     "lat": 43.6585682,
     "lng": -79.3978995,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2258"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2258",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_H._Daniels_Faculty_of_Architecture%2C_Landscape%2C_and_Design"
   },
   {
     "id": "7503",
@@ -2159,7 +2198,8 @@
     "lat": 43.6855277,
     "lng": -79.3716269,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=7503"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=7503",
+    "wikipedia_url": ""
   },
   {
     "id": "5414",
@@ -2200,7 +2240,8 @@
     "lat": 43.6625007,
     "lng": -79.4697324,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=5414"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=5414",
+    "wikipedia_url": ""
   },
   {
     "id": "2934",
@@ -2262,7 +2303,8 @@
     "lat": 43.6494233,
     "lng": -79.3904818,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2934"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2934",
+    "wikipedia_url": ""
   },
   {
     "id": "3528",
@@ -2308,7 +2350,8 @@
     "lat": 43.6463603,
     "lng": -79.396254,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3528"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3528",
+    "wikipedia_url": ""
   },
   {
     "id": "3427",
@@ -2374,7 +2417,8 @@
     "lat": 43.6659727,
     "lng": -79.4057664,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3427"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3427",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Trinity-St._Paul%27s_United_Church"
   },
   {
     "id": "5953",
@@ -2416,7 +2460,8 @@
     "lat": 43.657182,
     "lng": -79.3429317,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=5953"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=5953",
+    "wikipedia_url": ""
   },
   {
     "id": "5951",
@@ -2457,7 +2502,8 @@
     "lat": 43.657182,
     "lng": -79.3429317,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=5951"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=5951",
+    "wikipedia_url": ""
   },
   {
     "id": "2679",
@@ -2468,7 +2514,7 @@
     "year_built": 1913,
     "alternate_name": "",
     "awards": "",
-    "notes": "The Samuel and Benjamin Building is architecturally significant as a good example of the early tall commercial building type identified by the Classical organization and application of Classical and Gothic-inspired detailing. Contextually, with its location on the north side of King Street, west of Spadina, the building contributes contextually to the character of the King- Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) faÃ§ade. The building rises six stories above a basement. Above a stone-clad base, the walls are faced with brown brick and trimmed with stone. The seven-bay south faÃ§ade is arranged with a Classical base, shaft and cornice, with slightly projecting corners. Centered in the first storey, the main entrance is recessed in a tall arched stone portal with an oversized transom. The right (east) bay is broken for a carriageway. The pattern of commercial windows introduced in the base is repeated in the top five floors where the openings are organized by piers. Geometrical inserts are placed beneath the upper-storey windows and on the cornice with its Gothic-inspired ornament. Stone battlements with cartouches mark the parapet along the south end of the roof. The pattern of the fenestration is continued along the east and west elevations. A tall brick chimney is located on the northwest corner of the building.",
+    "notes": "The Samuel and Benjamin Building is architecturally significant as a good example of the early tall commercial building type identified by the Classical organization and application of Classical and Gothic-inspired detailing. Contextually, with its location on the north side of King Street, west of Spadina, the building contributes contextually to the character of the King- Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) faÃƒÂ§ade. The building rises six stories above a basement. Above a stone-clad base, the walls are faced with brown brick and trimmed with stone. The seven-bay south faÃƒÂ§ade is arranged with a Classical base, shaft and cornice, with slightly projecting corners. Centered in the first storey, the main entrance is recessed in a tall arched stone portal with an oversized transom. The right (east) bay is broken for a carriageway. The pattern of commercial windows introduced in the base is repeated in the top five floors where the openings are organized by piers. Geometrical inserts are placed beneath the upper-storey windows and on the cornice with its Gothic-inspired ornament. Stone battlements with cartouches mark the parapet along the south end of the roof. The pattern of the fenestration is continued along the east and west elevations. A tall brick chimney is located on the northwest corner of the building.",
     "construction_status": "Completed",
     "building_type": "Industrial",
     "current_use": "Commercial",
@@ -2505,7 +2551,8 @@
     "lat": 43.6456108,
     "lng": -79.3958232,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2679"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2679",
+    "wikipedia_url": ""
   },
   {
     "id": "7466",
@@ -2556,7 +2603,8 @@
     "lat": 43.6832588,
     "lng": -79.3722945,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=7466"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=7466",
+    "wikipedia_url": ""
   },
   {
     "id": "8117",
@@ -2567,7 +2615,7 @@
     "year_built": 1910,
     "alternate_name": "Melville P. White House",
     "awards": "",
-    "notes": "First Occupant: White, Melville P. First OccupantÂ´s Occupation: mgr. Canada Foundry Co",
+    "notes": "First Occupant: White, Melville P. First OccupantÃ‚Â´s Occupation: mgr. Canada Foundry Co",
     "construction_status": "Completed",
     "building_type": "Detached house",
     "current_use": "Residential",
@@ -2602,7 +2650,8 @@
     "lat": 43.6770684,
     "lng": -79.3703206,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=8117"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=8117",
+    "wikipedia_url": ""
   },
   {
     "id": "5252",
@@ -2643,7 +2692,8 @@
     "lat": 43.6775012,
     "lng": -79.4189042,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=5252"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=5252",
+    "wikipedia_url": ""
   },
   {
     "id": "3713",
@@ -2699,7 +2749,8 @@
     "lat": 43.6534225,
     "lng": -79.42593,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3713"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3713",
+    "wikipedia_url": ""
   },
   {
     "id": "4576",
@@ -2758,7 +2809,8 @@
     "lat": 43.6751328,
     "lng": -79.3800808,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=4576"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4576",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Branksome_Hall"
   },
   {
     "id": "2103",
@@ -2817,7 +2869,7 @@
         "url": "http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=dd08727e05c79410VgnVCM10000071d60f89RCRD"
       },
       {
-        "title": "St James´ Anglican Cathedral",
+        "title": "St JamesÂ´ Anglican Cathedral",
         "author": "James H. Marsh, The Canadian Encyclopedia",
         "url": "https://www.thecanadianencyclopedia.ca/en/article/st-james-anglican-cathedral"
       },
@@ -2862,7 +2914,8 @@
     "lat": 43.6503286,
     "lng": -79.3737598,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2103"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2103",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/St._James_Cathedral,_Toronto"
   },
   {
     "id": "2859",
@@ -2873,7 +2926,7 @@
     "year_built": 1880,
     "alternate_name": "Little York Hotel",
     "awards": "",
-    "notes": "This propertyâ€™s contribution lies in the structureâ€™s historic association with the Little York Hotel in the late 19th century, its historic association with Henry Langley and its location within the Original 10 Blocks of the Town of York. The structure also contributes to the character of the District through its materiality (red brickwork with stone detailing), its Second Empire architecture and its 4-storey height in proximity to similarly-massed buildings along the south side of King Street East.",
+    "notes": "This propertyÃ¢â‚¬â„¢s contribution lies in the structureÃ¢â‚¬â„¢s historic association with the Little York Hotel in the late 19th century, its historic association with Henry Langley and its location within the Original 10 Blocks of the Town of York. The structure also contributes to the character of the District through its materiality (red brickwork with stone detailing), its Second Empire architecture and its 4-storey height in proximity to similarly-massed buildings along the south side of King Street East.",
     "construction_status": "Completed",
     "building_type": "Commercial block",
     "current_use": "Commercial",
@@ -2914,7 +2967,8 @@
     "lat": 43.6506363,
     "lng": -79.3704862,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2859"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2859",
+    "wikipedia_url": ""
   },
   {
     "id": "3806",
@@ -2955,7 +3009,8 @@
     "lat": 43.6407515,
     "lng": -79.4322801,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3806"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3806",
+    "wikipedia_url": ""
   },
   {
     "id": "4413",
@@ -3001,7 +3056,8 @@
     "lat": 43.6759709,
     "lng": -79.3816523,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=4413"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4413",
+    "wikipedia_url": ""
   },
   {
     "id": "2002",
@@ -3113,7 +3169,8 @@
     "lat": 43.6630362,
     "lng": -79.3726293,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2002"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2002",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/St._Luke%27s_United_Church"
   },
   {
     "id": "3362",
@@ -3170,7 +3227,8 @@
     "lat": 43.6622624,
     "lng": -79.3763676,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3362"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3362",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/St._Andrew%27s_Presbyterian_Church,_Toronto"
   },
   {
     "id": "3104",
@@ -3267,7 +3325,8 @@
     "lat": 43.653118,
     "lng": -79.3618031,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3104"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3104",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Little_Trinity_Anglican_Church"
   },
   {
     "id": "2032",
@@ -3326,7 +3385,8 @@
     "lat": 43.6647058,
     "lng": -79.3773271,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2032"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2032",
+    "wikipedia_url": ""
   },
   {
     "id": "4643",
@@ -3367,7 +3427,8 @@
     "lat": 43.6686348,
     "lng": -79.3527536,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=4643"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=4643",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Cox_House"
   },
   {
     "id": "2037",
@@ -3457,7 +3518,7 @@
       },
       {
         "title": "Corner of Jarvis St. and Wellesley St., looking north-east",
-        "author": "Jean-FranÃ§ois DesprÃ©s; City of Toronto Archives",
+        "author": "Jean-FranÃƒÂ§ois DesprÃƒÂ©s; City of Toronto Archives",
         "url": "https://gencat.eloquent-systems.com/city-of-toronto-archives-m-permalink.html?key=607716"
       },
       {
@@ -3515,7 +3576,8 @@
     "lat": 43.6668151,
     "lng": -79.3779253,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2037"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2037",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Keg_Mansion"
   },
   {
     "id": "2475",
@@ -3581,7 +3643,8 @@
     "lat": 43.6688124,
     "lng": -79.3788711,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2475"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2475",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Casey_House"
   },
   {
     "id": "3490",
@@ -3592,7 +3655,7 @@
     "year_built": 1879,
     "alternate_name": "",
     "awards": "",
-    "notes": "This propertyâ€™s contribution lies in its historic association with architect Henry Langley and its location within the Original 10 Blocks of the Town of York. The structure also contributes to the physical character of the District through its materiality (red brickwork with stone detailing) and its relation to the adjacent heritage building (187 King Street East).",
+    "notes": "This propertyÃ¢â‚¬â„¢s contribution lies in its historic association with architect Henry Langley and its location within the Original 10 Blocks of the Town of York. The structure also contributes to the physical character of the District through its materiality (red brickwork with stone detailing) and its relation to the adjacent heritage building (187 King Street East).",
     "construction_status": "Completed",
     "building_type": "Low-rise",
     "current_use": "Office",
@@ -3628,7 +3691,8 @@
     "lat": 43.6504554,
     "lng": -79.3702709,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3490"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3490",
+    "wikipedia_url": ""
   },
   {
     "id": "3583",
@@ -3700,7 +3764,8 @@
     "lat": 43.675253,
     "lng": -79.363674,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=3583"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=3583",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Prince_Edward_Viaduct"
   },
   {
     "id": "6846",
@@ -3741,7 +3806,8 @@
     "lat": 43.6660901,
     "lng": -79.4376961,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=6846"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=6846",
+    "wikipedia_url": ""
   },
   {
     "id": "2158",
@@ -3785,7 +3851,8 @@
     "lat": 43.6713937,
     "lng": -79.3761875,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=2158"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=2158",
+    "wikipedia_url": ""
   },
   {
     "id": "7011",
@@ -3831,6 +3898,7 @@
     "lat": 43.6697872,
     "lng": -79.3993896,
     "aco_source": "aco_toronto",
-    "detail_url": "https://www.acotoronto.ca/building.php?ID=7011"
+    "detail_url": "https://www.acotoronto.ca/building.php?ID=7011",
+    "wikipedia_url": ""
   }
 ]

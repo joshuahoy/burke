@@ -20,7 +20,7 @@
         "source": "aco_toronto",
         "city": "Toronto",
         "ward": "",
-        "wikipedia_url": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/John_Cox_House",
         "detail_url": "https://www.acotoronto.ca/building.php?ID=4643",
         "aco_id": "4643",
         "alternate_name": "",
@@ -55,7 +55,7 @@
         "source": "aco_toronto",
         "city": "Toronto",
         "ward": "",
-        "wikipedia_url": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Osgoode_Hall",
         "detail_url": "https://www.acotoronto.ca/building.php?ID=3220",
         "aco_id": "3220",
         "alternate_name": "",
@@ -90,7 +90,7 @@
         "source": "aco_toronto",
         "city": "Toronto",
         "ward": "",
-        "wikipedia_url": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Little_Trinity_Anglican_Church",
         "detail_url": "https://www.acotoronto.ca/building.php?ID=3104",
         "aco_id": "3104",
         "alternate_name": "",
@@ -125,7 +125,7 @@
         "source": "aco_toronto",
         "city": "Toronto",
         "ward": "",
-        "wikipedia_url": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._James_Cathedral,_Toronto",
         "detail_url": "https://www.acotoronto.ca/building.php?ID=2103",
         "aco_id": "2103",
         "alternate_name": "St. James Cathedral",
@@ -160,7 +160,7 @@
         "source": "aco_toronto",
         "city": "Toronto",
         "ward": "",
-        "wikipedia_url": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Betty_Oliphant",
         "detail_url": "https://www.acotoronto.ca/building.php?ID=2159",
         "aco_id": "2159",
         "alternate_name": "Blaikie/Alexander House",
@@ -195,7 +195,7 @@
         "source": "aco_toronto",
         "city": "Toronto",
         "ward": "",
-        "wikipedia_url": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Keg_Mansion",
         "detail_url": "https://www.acotoronto.ca/building.php?ID=2037",
         "aco_id": "2037",
         "alternate_name": "Arthur R. McMaster House; Euclid Hall; Hart Massey House; The Keg Steakhouse + Bar",
@@ -221,7 +221,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "469  JARVIS ST",
         "address": "469  JARVIS ST",
         "year_built": "1872",
         "firm": "LANGLEY, LANGLEY, AND BURKE",
@@ -235,7 +235,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Residential",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -256,7 +256,7 @@
         ]
       },
       "properties": {
-        "name": "Financial",
+        "name": "Bank of British North America",
         "address": "49  YONGE ST",
         "year_built": "1872-1873",
         "firm": "BURKE AND HORWOOD",
@@ -265,20 +265,20 @@
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
-        "former_use": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Bank_of_British_North_America",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3020",
+        "aco_id": "3020",
+        "alternate_name": "Canadian Imperial Bank of Commerce, Irish Embassy Pub",
+        "neighbourhood": "Downtown Yonge East",
+        "building_type": "Financial",
+        "current_use": "Commercial",
+        "former_use": "Bank",
         "heritage_district": "",
         "awards": "",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/XDk4tSFwlI.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/XDk4tSFwlI.jpg",
+        "image_count": 2
       }
     },
     {
@@ -326,7 +326,7 @@
         ]
       },
       "properties": {
-        "name": "Religious",
+        "name": "130  GERRARD ST E",
         "address": "130  GERRARD ST E",
         "year_built": "1875",
         "firm": "LANGLEY AND BURKE",
@@ -340,7 +340,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Religious",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -361,7 +361,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "William R. Johnston House",
         "address": "571  JARVIS ST",
         "year_built": "1875",
         "firm": "LANGLEY, LANGLEY, AND BURKE",
@@ -370,20 +370,20 @@
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Casey_House",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=2475",
+        "aco_id": "2475",
+        "alternate_name": "Casey House",
+        "neighbourhood": "North St.James Town",
+        "building_type": "Residential",
+        "current_use": "Office",
         "former_use": "",
         "heritage_district": "",
-        "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "awards": "2020: National Urban Design Awards, Award of Excellence, Urban Architecture 2017: Award of Merit- Materials, Craftsmanship and Construction, Canadian Association of Heritage Professionals 2013: Hariri Pontarini Architects, Canadian Architect Award of Excellence",
+        "notes": "Completed in 1875, the house at 571 Jarvis Street was designed by William R. Johnston, co-owner of Livingston, Johnston and Company that specialized in the manufacturing of wholesale clothing. The residence was designed by the notable Toronto architectural firm of Langley, Langley and Burke. Both the exterior and equally detailed interior of the William R. Johnston House are important examples of late 19th century residential architecture. The property is particularly significant as a visual reminder of the affluence and grandeur of Jarvis Street during the late 19th and early 20th centuries. The William R. Johnston House is expressive of a mixture of architectural styles from the late 19th century. Italianate influences are particularly evident through the over-hanging eaves, round-headed windows and openings the picturesque features that are seen at 571 Jarvis Street. There are also Classical elements, like the boxy front elevation and prominent main entrance. Adaptive re-use of the Johnson House for Y.W.C.A. offices was completed by local architect Gordon Mossman West in 1941. By the 1980s, the red brick had been covered in grey paint and the building became affectionately known as \"The Grey Lady\" by locals. Casey House, a hospital dedicated to HIV/AIDS, originally located at 9 Huntley St., acquired the \"Grey Lady\" in 2000. In 2015, renovations and additions to the building began designed by Hariri Pontarini Architects, with ERA Architects as the heritage architects. The Coach House of the Johnston House at 119 Isabella St. was demolished to allow for the modern addition to the hospital.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/UlxIpMxf4e.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/UlxIpMxf4e.jpg",
+        "image_count": 6
       }
     },
     {
@@ -396,7 +396,7 @@
         ]
       },
       "properties": {
-        "name": "Religious",
+        "name": "355  SHERBOURNE ST",
         "address": "355  SHERBOURNE ST",
         "year_built": "1876",
         "firm": "LANGLEY AND BURKE",
@@ -410,7 +410,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Religious",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -431,7 +431,7 @@
         ]
       },
       "properties": {
-        "name": "Religious",
+        "name": "353  SHERBOURNE ST",
         "address": "353  SHERBOURNE ST",
         "year_built": "1876",
         "firm": "LANGLEY AND BURKE",
@@ -445,7 +445,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Religious",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -466,7 +466,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "Lorne Hall",
         "address": "3  MEREDITH CRES",
         "year_built": "1876",
         "firm": "LANGLEY, LANGLEY, AND BURKE",
@@ -476,19 +476,19 @@
         "city": "Toronto",
         "ward": "11",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=4413",
+        "aco_id": "4413",
+        "alternate_name": "William Davies House",
+        "neighbourhood": "Rosedale-Moore Park",
+        "building_type": "Residential",
+        "current_use": "Residential",
         "former_use": "",
-        "heritage_district": "",
+        "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "First Occupant: William Davies Later William Perkins Bull House",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/o7BV9tetzl.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/o7BV9tetzl.jpg",
+        "image_count": 1
       }
     },
     {
@@ -501,7 +501,7 @@
         ]
       },
       "properties": {
-        "name": "Religious",
+        "name": "St. Andrew's Church",
         "address": "383  JARVIS ST",
         "year_built": "1878",
         "firm": "LANGLEY, LANGLEY, AND BURKE",
@@ -510,20 +510,20 @@
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Andrew%27s_Presbyterian_Church,_Toronto",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3362",
+        "aco_id": "3362",
+        "alternate_name": "St. Andrew's Lutheran Church / St. Andrews Presbyterian Church / St. Andrew's United Church / Grace Toronto Church",
+        "neighbourhood": "Moss Park",
+        "building_type": "Religious",
+        "current_use": "Religious , Church",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "Designed by Langley, Langley & Burke , St. Andrew's Church was completed in 1878 in the Gothic Revival style. The Sunday School was added in 1882, designed by the same architects.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/StAndrewsChurchJarvis1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/StAndrewsChurchJarvis1.jpg",
+        "image_count": 2
       }
     },
     {
@@ -571,7 +571,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "Little York Inn",
         "address": "187  KING ST E",
         "year_built": "1879",
         "firm": "LANGLEY, LANGLEY, AND BURKE",
@@ -581,19 +581,19 @@
         "city": "Toronto",
         "ward": "13",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
-        "former_use": "",
-        "heritage_district": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=2859",
+        "aco_id": "2859",
+        "alternate_name": "Little York Hotel",
+        "neighbourhood": "Moss Park",
+        "building_type": "Commercial",
+        "current_use": "Commercial",
+        "former_use": "Hotel",
+        "heritage_district": "St. Lawrence Neighbourhood Heritage Conservation District",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "This propertyÃ¢â‚¬â„¢s contribution lies in the structureÃ¢â‚¬â„¢s historic association with the Little York Hotel in the late 19th century, its historic association with Henry Langley and its location within the Original 10 Blocks of the Town of York. The structure also contributes to the character of the District through its materiality (red brickwork with stone detailing), its Second Empire architecture and its 4-storey height in proximity to similarly-massed buildings along the south side of King Street East.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/LittleYorkInn1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/LittleYorkInn1.jpg",
+        "image_count": 2
       }
     },
     {
@@ -606,7 +606,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "Stables for Little York Inn",
         "address": "65  GEORGE ST",
         "year_built": "1879",
         "firm": "LANGLEY, LANGLEY, AND BURKE",
@@ -616,19 +616,19 @@
         "city": "Toronto",
         "ward": "13",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3490",
+        "aco_id": "3490",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
-        "former_use": "",
-        "heritage_district": "",
+        "neighbourhood": "Moss Park",
+        "building_type": "Commercial",
+        "current_use": "Office",
+        "former_use": "Stables",
+        "heritage_district": "St. Lawrence Neighbourhood Heritage Conservation District",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "This propertyÃ¢â‚¬â„¢s contribution lies in its historic association with architect Henry Langley and its location within the Original 10 Blocks of the Town of York. The structure also contributes to the physical character of the District through its materiality (red brickwork with stone detailing) and its relation to the adjacent heritage building (187 King Street East).",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/lefHzTnBL1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/lefHzTnBL1.jpg",
+        "image_count": 2
       }
     },
     {
@@ -641,7 +641,7 @@
         ]
       },
       "properties": {
-        "name": "Educational",
+        "name": "Royal Conservatory of Music",
         "address": "273  BLOOR ST W",
         "year_built": "1880-1881",
         "firm": "LANGLEY, LANGLEY, AND BURKE",
@@ -650,20 +650,20 @@
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "11",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/The_Royal_Conservatory_of_Music",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=1986",
+        "aco_id": "1986",
+        "alternate_name": "Toronto Baptist College / McMaster Hall / TELUS Centre for Performance and Learning / Ihnatowycz Hall",
+        "neighbourhood": "University",
+        "building_type": "Educational",
+        "current_use": "Educational , Cultural",
         "former_use": "",
         "heritage_district": "",
-        "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "awards": "2005: Canadian Architect Award Award of Excellence. For additions to the building underway in 2005-06",
+        "notes": "Formerly McMaster Hall as part of the Toronto Baptist College (what would later become McMaster University), the building was completed in 1881. The Royal Conservatory of Music moved into the building in 1962. The building was designated under Part IV of the Ontario Heritage Act in 1976, and was formally recognized as a National Historic Site of Canada in 1995 A proposal for a Master Plan for this building won a Canadian Architect Award in 1991, which was eventually adapted in the addition of the TELUS Centre for Performance and Learning. The addition won a Canadian Architect Award of Excellence in 2005, and was completed in 2009. The main portion of the building facing Bloor Street West was renamed Ihnatowycz Hall in 2005, following a donation made by Mr. Ian Ihnatowycz and Dr. Marta Witer to support the revitalization of the historic building. From Canada's Historic Places: The Royal Conservatory of Music National Historic Site of Canada faces a busy street in downtown Toronto. Since 1963, this influential and distinguished school of music has resided in a large, richly ornamented four-storey building of eclectic late-Victorian design. This older building forms the central element amongst a cluster of later, large additions that now form a small complex. Its symmetrically disposed fa&ccedil;ade features boldly handled detailing including rock-faced masonry, decorative brickwork, projecting bays, stringcourses and a lively, complex roofline that contrasts with the materials and treatment. Official recognition refers to the building on its footprint at the time of designation (1995). The Royal Conservatory of Music was designated a national historic site of Canada in 1995 because of: - its influence on the musical life of Canada over the last century; - its graduates included some of the most prominent musicians and music teachers in Canada; - it has a far-reaching influence on music education in Canada because of its system of graded examinations which are taken by music teachers across the country; - the systems of music education, which it pioneered in Canada. Founded in 1886, the Royal Conservatory of Music is a rare survivor of the many conservatories founded in Canada in the 19th century. Its longevity may be partly ascribed to the excellence of its instruction, the caliber of its graduates, its adherence to high standards and its sound administration. From its inception it was a large-scale enterprise, with a large number of students and substantial funding. Remarkable growth in the early years resulted in a purpose-built structure with the later addition of further facilities and the opening of branches in residential areas. The current building, McMaster Hall, formerly the Toronto Baptist College, was purchased by the University of Toronto from the government in 1936, and has served as the main teaching and rehearsal facility for the Royal Conservatory of Music since 1963. Affiliated with the University of Toronto until 1991, the Royal Conservatory of Music is now an independent institution. Source: Historic Sites and Monuments Board of Canada, Minutes, November 1974. The key elements that contribute to the heritage character of this site include: - its prominent location in Toronto; - its design, purpose-built as an educational establishment, also, the essential elements of the exterior and interior plans, and the various adaptations and extensions, constructed in stages, which continue to facilitate and enhance the Conservatory&rsquo;s operational requirements regarding performance, rehearsal and administrative needs and which speak to the Conservatory&rsquo;s important ongoing role in the development of a system music education in Canada. (info provided by Sarah Campbell)",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/BiLD3veShd.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/BiLD3veShd.jpg",
+        "image_count": 4
       }
     },
     {
@@ -685,7 +685,7 @@
         "source": "aco_toronto",
         "city": "Toronto",
         "ward": "",
-        "wikipedia_url": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Branksome_Hall",
         "detail_url": "https://www.acotoronto.ca/building.php?ID=4576",
         "aco_id": "4576",
         "alternate_name": "John Blaikie; Hugh Ryan House; Hollydene",
@@ -711,7 +711,7 @@
         ]
       },
       "properties": {
-        "name": "Religious",
+        "name": "Church of the Epiphany and St. Mark",
         "address": "201  COWAN AVE",
         "year_built": "1881",
         "firm": "LANGLEY, LANGLEY, AND BURKE",
@@ -721,19 +721,19 @@
         "city": "Toronto",
         "ward": "4",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3806",
+        "aco_id": "3806",
+        "alternate_name": "St. Mark's Anglican Church",
+        "neighbourhood": "South Parkdale",
+        "building_type": "Religious",
+        "current_use": "Religious",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/ChurchoftheEpiphany.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/ChurchoftheEpiphany.jpg",
+        "image_count": 1
       }
     },
     {
@@ -746,7 +746,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "94  ISABELLA ST",
         "address": "94  ISABELLA ST",
         "year_built": "1885",
         "firm": "LANGLEY AND BURKE",
@@ -760,7 +760,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Residential",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -781,7 +781,7 @@
         ]
       },
       "properties": {
-        "name": "Religious",
+        "name": "72  BEVERLEY ST",
         "address": "72  BEVERLEY ST",
         "year_built": "1886",
         "firm": "LANGLEY AND BURKE",
@@ -795,7 +795,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Religious",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -816,7 +816,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "441  QUEEN ST W",
         "address": "441  QUEEN ST W",
         "year_built": "1886",
         "firm": "LANGLEY AND BURKE",
@@ -830,7 +830,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Commercial",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -870,7 +870,7 @@
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "This building was altered in 1910 for Dunfield and Company. N 1985-86 the façade of the building was incorporated into the larger Scotia Plaza complex.",
+        "notes": "This building was altered in 1910 for Dunfield and Company. N 1985-86 the faÃ§ade of the building was incorporated into the larger Scotia Plaza complex.",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/UpperCanadaBibleTract.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/UpperCanadaBibleTract.jpg",
         "image_count": 1
@@ -886,7 +886,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "121  ST GEORGE ST",
         "address": "121  ST GEORGE ST",
         "year_built": "1887-1888",
         "firm": "LANGLEY AND BURKE",
@@ -900,7 +900,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Residential",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -930,7 +930,7 @@
         "source": "aco_toronto",
         "city": "Toronto",
         "ward": "",
-        "wikipedia_url": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/St._Luke%27s_United_Church",
         "detail_url": "https://www.acotoronto.ca/building.php?ID=2002",
         "aco_id": "2002",
         "alternate_name": "157 Carlton Street; Sherbourne Street Methodist Church; Sherbourne United Church",
@@ -956,7 +956,7 @@
         ]
       },
       "properties": {
-        "name": "Religious",
+        "name": "506  COLLEGE ST",
         "address": "506  COLLEGE ST",
         "year_built": "1888",
         "firm": "LANGLEY AND BURKE",
@@ -970,7 +970,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Religious",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -991,7 +991,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "90 A  ISABELLA ST",
         "address": "90 A  ISABELLA ST",
         "year_built": "1888",
         "firm": "LANGLEY AND BURKE",
@@ -1005,7 +1005,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Residential",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -1026,7 +1026,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "92  ISABELLA ST",
         "address": "92  ISABELLA ST",
         "year_built": "1888",
         "firm": "LANGLEY AND BURKE",
@@ -1040,7 +1040,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Residential",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -1061,7 +1061,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "506  JARVIS ST",
         "address": "506  JARVIS ST",
         "year_built": "1888",
         "firm": "LANGLEY AND BURKE",
@@ -1075,7 +1075,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Residential",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -1096,7 +1096,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "90  ISABELLA ST",
         "address": "90  ISABELLA ST",
         "year_built": "1888",
         "firm": "LANGLEY AND BURKE",
@@ -1110,7 +1110,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Residential",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -1150,7 +1150,7 @@
         "former_use": "",
         "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
-        "notes": "First Occupant: Hirschfelder, Jacob M 1889-189 First OccupantÂ´s Occupation: Professor U of T",
+        "notes": "First Occupant: Hirschfelder, Jacob M 1889-189 First OccupantÃ‚Â´s Occupation: Professor U of T",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/nnodBMDZB6.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/nnodBMDZB6.jpg",
         "image_count": 1
@@ -1201,7 +1201,7 @@
         ]
       },
       "properties": {
-        "name": "Religious",
+        "name": "Trinity St. Pauls",
         "address": "427  BLOOR ST W",
         "year_built": "1889",
         "firm": "LANGLEY AND BURKE",
@@ -1210,20 +1210,20 @@
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "11",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Trinity-St._Paul%27s_United_Church",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3427",
+        "aco_id": "3427",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
+        "neighbourhood": "University",
+        "building_type": "Religious",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
-        "awards": "",
+        "awards": "2015 - The National Trust for Canada - Ecclesiastical Insurance Cornerstone Awards for Building Heritage (Adaptive Reuse/Rehabilitation)",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/W02PIZkIfj.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/W02PIZkIfj.jpg",
+        "image_count": 1
       }
     },
     {
@@ -1236,7 +1236,7 @@
         ]
       },
       "properties": {
-        "name": "Religious",
+        "name": "Walmer Road Baptist Church",
         "address": "38  WALMER RD",
         "year_built": "1889-1892",
         "firm": "LANGLEY AND BURKE",
@@ -1245,20 +1245,20 @@
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "11",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Walmer_Road_Baptist_Church",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=5301",
+        "aco_id": "5301",
+        "alternate_name": "Walmer Centre Theatre",
         "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "building_type": "Religious",
+        "current_use": "Religious , Church",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "1892: Church completed, designed by Langley & Burke. 1901: Addition by Burke & Horwood. 1906: Addition by Burke & Horwood. 1913: Sunday school addition by Burke, Horwood & White.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/WalmerRdBaptistChurch1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/WalmerRdBaptistChurch1.jpg",
+        "image_count": 5
       }
     },
     {
@@ -1271,7 +1271,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "70  WALMER RD",
         "address": "70  WALMER RD",
         "year_built": "1891",
         "firm": "LANGLEY AND BURKE",
@@ -1285,7 +1285,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Residential",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -1306,7 +1306,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "229  YONGE ST",
         "address": "229  YONGE ST",
         "year_built": "1891",
         "firm": "LANGLEY AND BURKE",
@@ -1320,7 +1320,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Commercial",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -1516,7 +1516,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "Anson Jones House",
         "address": "603  SHERBOURNE ST",
         "year_built": "1894",
         "firm": "BURKE, EDMUND",
@@ -1526,19 +1526,19 @@
         "city": "Toronto",
         "ward": "13",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=2158",
+        "aco_id": "2158",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "neighbourhood": "North St.James Town",
+        "building_type": "Residential",
+        "current_use": "Residential",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "603 Sherbourne Street (the Anson Jones House) was listed on the City of Toronto Heritage Register on 2 July 1974 and subsequently Designated under Part IV of the Ontario Heritage Act on 1 December 2011.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/yX5G93fgby.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/yX5G93fgby.jpg",
+        "image_count": 4
       }
     },
     {
@@ -1551,7 +1551,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "The Bay Queen Street",
         "address": "176  YONGE ST",
         "year_built": "1894",
         "firm": "BURKE AND HORWOOD",
@@ -1560,20 +1560,20 @@
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Simpsons_%28department_store%29",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=2842",
+        "aco_id": "2842",
+        "alternate_name": "Simpson Department Store",
+        "neighbourhood": "Yonge-Bay Corridor",
+        "building_type": "Commercial",
+        "current_use": "Commercial",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "This building burnt in 1894 and was rebuilt in 1895. It received many additions and alterations over the years.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/TheBayQueen1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/TheBayQueen1.jpg",
+        "image_count": 7
       }
     },
     {
@@ -1586,7 +1586,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "36  MAPLE AVE",
         "address": "36  MAPLE AVE",
         "year_built": "1895-1896",
         "firm": "LANGLEY AND BURKE",
@@ -1600,7 +1600,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Residential",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -1656,7 +1656,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "H.H. Fudger House",
         "address": "40  MAPLE AVE",
         "year_built": "1897",
         "firm": "BURKE, EDMUND",
@@ -1666,19 +1666,19 @@
         "city": "Toronto",
         "ward": "11",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=2369",
+        "aco_id": "2369",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "neighbourhood": "Rosedale-Moore Park",
+        "building_type": "Residential",
+        "current_use": "Residential",
         "former_use": "",
-        "heritage_district": "",
+        "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "First Occupant: Fudger, Harris Henry First OccupantÃ‚Â´s Occupation: Pres. Robt. Simpson Co. Ltd.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/HdG8Eusdcj.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/HdG8Eusdcj.jpg",
+        "image_count": 3
       }
     },
     {
@@ -1726,7 +1726,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "University of Toronto St. George Campus; St. George Street- 123",
         "address": "123  ST GEORGE ST",
         "year_built": "1899",
         "firm": "LANGLEY AND BURKE",
@@ -1736,19 +1736,19 @@
         "city": "Toronto",
         "ward": "11",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
-        "former_use": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3945",
+        "aco_id": "3945",
+        "alternate_name": "T.M. Harris House",
+        "neighbourhood": "University",
+        "building_type": "Residential",
+        "current_use": "Educational",
+        "former_use": "Residential",
         "heritage_district": "",
         "awards": "",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/TMHarrisHouse.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/TMHarrisHouse.jpg",
+        "image_count": 1
       }
     },
     {
@@ -1796,7 +1796,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "Edward Fisher House",
         "address": "166  CRESCENT RD",
         "year_built": "1900",
         "firm": "BURKE AND HORWOOD",
@@ -1806,19 +1806,19 @@
         "city": "Toronto",
         "ward": "11",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=4731",
+        "aco_id": "4731",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "neighbourhood": "Rosedale-Moore Park",
+        "building_type": "Residential",
+        "current_use": "Residential",
         "former_use": "",
-        "heritage_district": "",
+        "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "First Occupant: Fisher, Edward",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/Jk6ulgsJm0.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/Jk6ulgsJm0.jpg",
+        "image_count": 2
       }
     },
     {
@@ -1885,7 +1885,7 @@
         "former_use": "",
         "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
-        "notes": "First Occupant: Ellis, Mathew C First OccupantÂ´s Occupation: V.P. P. W. Ellis & Co",
+        "notes": "First Occupant: Ellis, Mathew C First OccupantÃ‚Â´s Occupation: V.P. P. W. Ellis & Co",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/cETH9JpDso.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/cETH9JpDso.jpg",
         "image_count": 1
@@ -1936,7 +1936,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "Davis and Henderson Building",
         "address": "578  KING ST W",
         "year_built": "1904",
         "firm": "BURKE AND HORWOOD",
@@ -1946,19 +1946,19 @@
         "city": "Toronto",
         "ward": "10",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3530",
+        "aco_id": "3530",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "neighbourhood": "Wellington Place",
+        "building_type": "Commercial",
+        "current_use": "Office",
         "former_use": "",
-        "heritage_district": "",
+        "heritage_district": "King-Spadina Heritage Conservation District",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "In the Inventory of Heritage Properties as 578 King Street West. The Davis and Henderson Building is architecturally significant as a good example of an early 20th century commercial warehouse with detailing from Classical and Gothic decorative elements. Located on the north side of King Street West near Portland Street, the building contributes contextually to the character of the King-Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) facade. The structure, clad with red brick and trimmed with stone, rises two stories above a basement. A series of gables marks the flat roof. The south facade is organized into five bays by a mix of brick piers and pilasters with scrolled stone coping. The main entrance, found at street level in the right (east) bay, has a wood entablature with dentils that is supported by stone brackets. Flat-headed window openings with stone lintels light the basement. The segmental-arched window openings in the first floor and the semielliptical openings in the second storey are decorated with brick voussoirs. The east and west elevations abut the neighbouring structures.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/DavisandHendersonBldg.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/DavisandHendersonBldg.jpg",
+        "image_count": 1
       }
     },
     {
@@ -2060,7 +2060,7 @@
         "former_use": "",
         "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
-        "notes": "First Occupant: Mickleborough James W. First OccupantÂ´s Occupation: (Mickleborough, Muldrew & Co)",
+        "notes": "First Occupant: Mickleborough James W. First OccupantÃ‚Â´s Occupation: (Mickleborough, Muldrew & Co)",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/86ChestnutPark1.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/86ChestnutPark1.jpg",
         "image_count": 2
@@ -2076,7 +2076,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "James Ryrie House",
         "address": "116  SOUTH DR",
         "year_built": "1905-1906",
         "firm": "BURKE AND HORWOOD",
@@ -2086,19 +2086,19 @@
         "city": "Toronto",
         "ward": "11",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=4836",
+        "aco_id": "4836",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "neighbourhood": "Rosedale-Moore Park",
+        "building_type": "Residential",
+        "current_use": "Residential",
         "former_use": "",
-        "heritage_district": "",
+        "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "First Occupant: James Ryrie The house was later occupied by John E. Stone",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/R80rlIa6q2.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/R80rlIa6q2.jpg",
+        "image_count": 1
       }
     },
     {
@@ -2146,7 +2146,7 @@
         ]
       },
       "properties": {
-        "name": "Religious",
+        "name": "Metropolitan Community Church",
         "address": "115  SIMPSON AVE",
         "year_built": "1907",
         "firm": "BURKE AND HORWOOD",
@@ -2155,20 +2155,20 @@
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "14",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Metropolitan_Community_Church_of_Toronto",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=7269",
+        "aco_id": "7269",
+        "alternate_name": "Simpson Avenue United Church",
+        "neighbourhood": "North Riverdale",
+        "building_type": "Religious",
+        "current_use": "Religious",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/l4O9SSGgFk.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/l4O9SSGgFk.jpg",
+        "image_count": 2
       }
     },
     {
@@ -2181,7 +2181,7 @@
         ]
       },
       "properties": {
-        "name": "Educational",
+        "name": "University of Toronto St. George Campus; Munk School of Global Affairs at the Observatory",
         "address": "315  BLOOR ST W",
         "year_built": "1907-1908",
         "firm": "BURKE AND HORWOOD",
@@ -2191,19 +2191,19 @@
         "city": "Toronto",
         "ward": "11",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3363",
+        "aco_id": "3363",
+        "alternate_name": "Dominion Meteorological Building/Admissions Office",
+        "neighbourhood": "University",
+        "building_type": "Educational",
+        "current_use": "Educational",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/CwE4OjVgKe.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/CwE4OjVgKe.jpg",
+        "image_count": 1
       }
     },
     {
@@ -2251,7 +2251,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "Samuel Building",
         "address": "431  KING ST W",
         "year_built": "1908",
         "firm": "BURKE AND HORWOOD",
@@ -2261,19 +2261,19 @@
         "city": "Toronto",
         "ward": "10",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3365",
+        "aco_id": "3365",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "neighbourhood": "Wellington Place",
+        "building_type": "Commercial",
+        "current_use": "Office",
         "former_use": "",
-        "heritage_district": "",
+        "heritage_district": "King-Spadina Heritage Conservation District",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "The sixth floor of this building was added in 1913. The Samuel Building is architecturally significant as a good example of the early tall commercial building type, identified by the Classical organization and the application of Classical and Gothic-inspired detailing. With its size and visible location on the southwest corner of King Street West and Spadina Avenue, the building contributes contextually to the character of the King-Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the north and east facades. Rising six stories above a basement, the structure extends ten bays along both King Street West and Spadina Avenue. The north and east elevations are faced with red brick and trimmed with brick and stone. The base of the building, which incorporates the basement and first floor, is filled with banded brickwork and stone trim (some of the window openings on the north elevation have been altered). The entrances on both walls are set in round-arched banded surrounds between segmental-headed window openings with stone keystones. Above a cornice, rows of flat-headed window openings are recessed between brick piers that terminate in banded tops with Gothic ornament at the fifth floor. The corners of the east wall and one bay on the north elevation project slightly and contain a mix of segmental- and flat-headed openings. At the sixth storey, a band course follows the pattern of the window heads beneath the flat roof. The west wall is blank above the neighbouring structure that abuts it.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/SamuelBldg.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/SamuelBldg.jpg",
+        "image_count": 1
       }
     },
     {
@@ -2295,7 +2295,7 @@
         "source": "aco_toronto",
         "city": "Toronto",
         "ward": "",
-        "wikipedia_url": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/John_H._Daniels_Faculty_of_Architecture%2C_Landscape%2C_and_Design",
         "detail_url": "https://www.acotoronto.ca/building.php?ID=2258",
         "aco_id": "2258",
         "alternate_name": "Faculty of Architecture, Landscape and Design",
@@ -2391,7 +2391,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "135  DALHOUSIE ST",
         "address": "135  DALHOUSIE ST",
         "year_built": "1910",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -2405,7 +2405,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Commercial",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -2426,7 +2426,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "89  GOULD ST",
         "address": "89  GOULD ST",
         "year_built": "1910",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -2440,7 +2440,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Commercial",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -2461,7 +2461,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "H.H. Love House",
         "address": "80  WYCHWOOD PK",
         "year_built": "1910",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -2471,19 +2471,19 @@
         "city": "Toronto",
         "ward": "12",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=5252",
+        "aco_id": "5252",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "neighbourhood": "Wychwood",
+        "building_type": "Residential",
+        "current_use": "Residential",
         "former_use": "",
-        "heritage_district": "",
+        "heritage_district": "Wychwood Park Heritage Conservation District",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "This is now a nursing home.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/80WychwoodPk.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/80WychwoodPk.jpg",
+        "image_count": 1
       }
     },
     {
@@ -2496,7 +2496,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "108  MUTUAL ST",
         "address": "108  MUTUAL ST",
         "year_built": "1910",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -2510,7 +2510,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Commercial",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -2531,7 +2531,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "Toronto Metropolitan University; Merchandise Building",
         "address": "155  DALHOUSIE ST",
         "year_built": "1910",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -2540,20 +2540,20 @@
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
-        "former_use": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Toronto_Metropolitan_University",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=440",
+        "aco_id": "440",
+        "alternate_name": "Robert Simpson Company Warehouse/ Ryerson University building",
+        "neighbourhood": "Downtown Yonge East",
+        "building_type": "Commercial",
+        "current_use": "Residential",
+        "former_use": "Warehouse",
         "heritage_district": "",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "A small part of this building, consisting of a five storey structure, was constructed in 1910. The building received a major addition in 1917 and another in 1930. It was formerly a warehouse for Simpsons Department Stores, and after that, Sears Department Stores. At one time, over 12,000 people worked here. In the late 1990's and early 2000's it was gradually converted into residential use.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/3YWvcUqcLu.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/3YWvcUqcLu.jpg",
+        "image_count": 3
       }
     },
     {
@@ -2585,7 +2585,7 @@
         "former_use": "",
         "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
-        "notes": "First Occupant: White, Melville P. First OccupantÂ´s Occupation: mgr. Canada Foundry Co",
+        "notes": "First Occupant: White, Melville P. First OccupantÃ‚Â´s Occupation: mgr. Canada Foundry Co",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/9lOt1UoM3q.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/9lOt1UoM3q.jpg",
         "image_count": 1
@@ -2601,7 +2601,7 @@
         ]
       },
       "properties": {
-        "name": "Miscellaneous",
+        "name": "Covenant House",
         "address": "20  GERRARD ST E",
         "year_built": "1911-1912",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -2610,20 +2610,20 @@
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Covenant_House",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=2157",
+        "aco_id": "2157",
+        "alternate_name": "Willard Hall / Young Women's Christian Association",
+        "neighbourhood": "Downtown Yonge East",
+        "building_type": "Miscellaneous",
+        "current_use": "Residential",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "This building received an addition in 1922.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/WillardHall1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/WillardHall1.jpg",
+        "image_count": 2
       }
     },
     {
@@ -2671,7 +2671,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "Gage Building",
         "address": "379  ADELAIDE ST W",
         "year_built": "1912",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -2681,19 +2681,19 @@
         "city": "Toronto",
         "ward": "10",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3528",
+        "aco_id": "3528",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "neighbourhood": "Wellington Place",
+        "building_type": "Commercial",
+        "current_use": "Office",
         "former_use": "",
-        "heritage_district": "",
+        "heritage_district": "King-Spadina Heritage Conservation District",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "The Gage Building is architecturally significant as a well-designed example of the early tall commercial building type, typified by the Classical organization and detailing. Located on the south side of Adelaide Street West, directly west of Spadina Avenue, the building contributes contextually to the character of the King-Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (north) facade. The structure rises five stories above a basement. Although altered at street level, the original style is readily apparent on the six-bay north facade with slightly projecting corners. Red brick surfaces with terra cotta details wrap around the east and west corners of the building. The north wall is organized horizontally by a Classical base, shaft and cornice, and vertically by brick pilasters and piers. A pattern of flat-headed window openings and commercial windows with terra cotta lintels and sills is found in the upper levels, apart from the segmental-headed openings in the outer bays of the sixth storey. A terra cotta string course follows the heads of the latter windows and links the ornaments atop the pilasters. The flat roof is extended by a parapet with curved pediments at the corners and sculpted motifs in-between. The east and west elevations continue the cladding, fenestration and detailing found on the north facade.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/a5Qy4tvBNn.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/a5Qy4tvBNn.jpg",
+        "image_count": 1
       }
     },
     {
@@ -2706,7 +2706,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "433 Eastern Avenue, West Building",
         "address": "433  EASTERN AVE",
         "year_built": "1912",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -2716,19 +2716,19 @@
         "city": "Toronto",
         "ward": "14",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=5953",
+        "aco_id": "5953",
+        "alternate_name": "Consumers' Gas Station",
+        "neighbourhood": "South Riverdale",
+        "building_type": "Commercial",
+        "current_use": "Office",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/433EasternWest1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/433EasternWest1.jpg",
+        "image_count": 2
       }
     },
     {
@@ -2741,7 +2741,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "447  EASTERN AVE",
         "address": "447  EASTERN AVE",
         "year_built": "1912",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -2755,7 +2755,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Commercial",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -2776,7 +2776,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "Canadian Magazine Building",
         "address": "200  ADELAIDE ST W",
         "year_built": "1913",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -2786,19 +2786,19 @@
         "city": "Toronto",
         "ward": "10",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3200",
+        "aco_id": "3200",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "neighbourhood": "Wellington Place",
+        "building_type": "Commercial",
+        "current_use": "Office",
         "former_use": "",
-        "heritage_district": "",
+        "heritage_district": "King-Spadina Heritage Conservation District",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "The Canadian Magazine Company Building is architecturally significant as a well-designed example of the early tall commercial building type, typified by the Classical organization and detailing. Located on the north side of Adelaide Street West, west of Simcoe Street, the building contributes contextually to the character of the King-Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) faÃƒÂ§ade. Rising five stories, the structure is faced with red brick and trimmed with stone. The five-bay south faÃƒÂ§ade is organized horizontally by a Classical base, shaft and cornice, and vertically by brick piers and pilasters. The main entry, located in the left (west) bay at street level, has a round-headed door recessed in a compound-arched stone surround with a bracketed copper-clad hood. The fenestration in the lower floors and attic level consists of flat-headed window openings with stone lintels, brick aprons and stone band courses. The fourth storey introduces segmental-headed window openings with brick voussoirs and stone keystones. A modest cornice marks the flat roof. Abutting the adjacent buildings, the visible part of the east elevation displays segmental-headed openings, while the west wall is blank.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/CdnMagazineBldg1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/CdnMagazineBldg1.jpg",
+        "image_count": 2
       }
     },
     {
@@ -2811,7 +2811,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "ChumCity Building",
         "address": "299  QUEEN ST W",
         "year_built": "1913",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -2821,19 +2821,19 @@
         "city": "Toronto",
         "ward": "10",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=2934",
+        "aco_id": "2934",
+        "alternate_name": "City TV, MuchMusic, Wesley Building, Methodist Book and Publishing Company, Ryerson Press",
+        "neighbourhood": "Wellington Place",
+        "building_type": "Commercial",
+        "current_use": "Cultural",
         "former_use": "",
-        "heritage_district": "",
+        "heritage_district": "Queen Street Heritage Conservation District",
         "awards": "",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/ChumCity1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/ChumCity1.jpg",
+        "image_count": 7
       }
     },
     {
@@ -2846,7 +2846,7 @@
         ]
       },
       "properties": {
-        "name": "Miscellaneous",
+        "name": "14  DEWHURST BLVD",
         "address": "14  DEWHURST BLVD",
         "year_built": "1913",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -2860,7 +2860,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Miscellaneous",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -2935,7 +2935,7 @@
         "former_use": "",
         "heritage_district": "King-Spadina Heritage Conservation District",
         "awards": "",
-        "notes": "The Samuel and Benjamin Building is architecturally significant as a good example of the early tall commercial building type identified by the Classical organization and application of Classical and Gothic-inspired detailing. Contextually, with its location on the north side of King Street, west of Spadina, the building contributes contextually to the character of the King- Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) faÃ§ade. The building rises six stories above a basement. Above a stone-clad base, the walls are faced with brown brick and trimmed with stone. The seven-bay south faÃ§ade is arranged with a Classical base, shaft and cornice, with slightly projecting corners. Centered in the first storey, the main entrance is recessed in a tall arched stone portal with an oversized transom. The right (east) bay is broken for a carriageway. The pattern of commercial windows introduced in the base is repeated in the top five floors where the openings are organized by piers. Geometrical inserts are placed beneath the upper-storey windows and on the cornice with its Gothic-inspired ornament. Stone battlements with cartouches mark the parapet along the south end of the roof. The pattern of the fenestration is continued along the east and west elevations. A tall brick chimney is located on the northwest corner of the building.",
+        "notes": "The Samuel and Benjamin Building is architecturally significant as a good example of the early tall commercial building type identified by the Classical organization and application of Classical and Gothic-inspired detailing. Contextually, with its location on the north side of King Street, west of Spadina, the building contributes contextually to the character of the King- Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) faÃƒÂ§ade. The building rises six stories above a basement. Above a stone-clad base, the walls are faced with brown brick and trimmed with stone. The seven-bay south faÃƒÂ§ade is arranged with a Classical base, shaft and cornice, with slightly projecting corners. Centered in the first storey, the main entrance is recessed in a tall arched stone portal with an oversized transom. The right (east) bay is broken for a carriageway. The pattern of commercial windows introduced in the base is repeated in the top five floors where the openings are organized by piers. Geometrical inserts are placed beneath the upper-storey windows and on the cornice with its Gothic-inspired ornament. Stone battlements with cartouches mark the parapet along the south end of the roof. The pattern of the fenestration is continued along the east and west elevations. A tall brick chimney is located on the northwest corner of the building.",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/468KingStW.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/468KingStW.jpg",
         "image_count": 3
@@ -2951,7 +2951,7 @@
         ]
       },
       "properties": {
-        "name": "Residential",
+        "name": "James Ryrie House",
         "address": "1  CHESTNUT PK",
         "year_built": "1915",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -2961,19 +2961,19 @@
         "city": "Toronto",
         "ward": "11",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=4385",
+        "aco_id": "4385",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "neighbourhood": "Rosedale-Moore Park",
+        "building_type": "Residential",
+        "current_use": "Residential",
         "former_use": "",
-        "heritage_district": "",
+        "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/nyTPg4R5Ag.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/nyTPg4R5Ag.jpg",
+        "image_count": 1
       }
     },
     {
@@ -3126,7 +3126,7 @@
         ]
       },
       "properties": {
-        "name": "Commercial",
+        "name": "214  KING ST W",
         "address": "214  KING ST W",
         "year_built": "1917",
         "firm": "BURKE, HORWOOD, AND WHITE",
@@ -3140,7 +3140,7 @@
         "aco_id": "",
         "alternate_name": "",
         "neighbourhood": "",
-        "building_type": "",
+        "building_type": "Commercial",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
@@ -3171,19 +3171,19 @@
         "city": "Toronto",
         "ward": "",
         "wikipedia_url": "https://en.wikipedia.org/wiki/Prince_Edward_Viaduct",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "",
-        "current_use": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3583",
+        "aco_id": "3583",
+        "alternate_name": "Bloor Street Bridge",
+        "neighbourhood": "Rosedale-Moore Park",
+        "building_type": "Bridge",
+        "current_use": "Transportation",
         "former_use": "",
-        "heritage_district": "",
-        "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "heritage_district": "South Rosedale Heritage Conservation District",
+        "awards": "1999: Canadian Architect Award Award of Excellence. For Luminous Veil (suicide prevention barrier)",
+        "notes": "In 2003 the \"Luminous Veil\", a barricade designed to prevent suicides from this structure, was added to the bridge. The veil won a Canadian Architect Award of Excellence in 1999.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/PrinceEdwardViaduct1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/PrinceEdwardViaduct1.jpg",
+        "image_count": 7
       }
     },
     {

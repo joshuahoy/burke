@@ -257,7 +257,11 @@ def _normalise_arcgis(feature: dict) -> dict | None:
     geocode_addr = f"{address}, Toronto, Ontario, Canada"
 
     return {
-        "name": btype or address,
+        # Use address as placeholder name; merge_with_aco will overwrite
+        # with the proper building name from ACO when available.
+        # Generic BUILDING_T values like "Residential" / "Religious" are
+        # stored in building_type but never used as the primary name.
+        "name": address,
         "address": address,
         "_geocode_addr": geocode_addr,
         "year_built": year,
@@ -270,6 +274,18 @@ def _normalise_arcgis(feature: dict) -> dict | None:
         "detail_url": "",
         "wikipedia_url": "",
         "coordinates": coords,
+        # ACO-enrichment slots (populated by merge_with_aco)
+        "building_type":    btype,
+        "alternate_name":   "",
+        "neighbourhood":    "",
+        "current_use":      "",
+        "former_use":       "",
+        "heritage_district": "",
+        "awards":           "",
+        "notes":            "",
+        "thumbnail_url":    "",
+        "images":           [],
+        "aco_id":           "",
     }
 
 def _addr_key(addr: str) -> str:
@@ -331,7 +347,7 @@ def load_aco_records() -> list[dict]:
             "source":           "aco_toronto",
             "city":             b.get("city", "Toronto"),
             "ward":             "",
-            "wikipedia_url":    "",
+            "wikipedia_url":    b.get("wikipedia_url") or "",
             "detail_url":       b.get("detail_url", ""),
             "coordinates":      [lng, lat],
             # ACO-specific extras
@@ -352,23 +368,82 @@ def load_aco_records() -> list[dict]:
     return records
 
 
+# Building-type words that should never be used as a primary display name.
+_GENERIC_NAMES = frozenset([
+    "residential", "religious", "commercial", "industrial", "institutional",
+    "educational", "government", "transportation", "mixed use", "other",
+    "unknown", "office", "retail", "warehouse", "recreational",
+])
+
+
+def _is_generic_name(name: str, address: str) -> bool:
+    """True if name is a generic building-type word or just an address."""
+    n = name.strip().lower()
+    if not n:
+        return True
+    if n == address.strip().lower():
+        return True
+    # Normalise: remove numbers and punctuation, check word set
+    words = frozenset(re.sub(r"[^a-z ]", " ", n).split())
+    return bool(words & _GENERIC_NAMES)
+
+
 def merge_with_aco(existing: list[dict], aco: list[dict]) -> list[dict]:
-    """Add ACO buildings not already present (by address key or name)."""
-    existing_addr_keys = {_addr_key(r.get("address", "")) for r in existing}
-    existing_names = {r.get("name", "").lower() for r in existing if r.get("name")}
+    """Merge ACO records into existing list.
+
+    For each ACO record:
+    - If an existing record matches by address key, *enrich* it: overwrite the
+      name if the existing name is generic (building-type word or bare address),
+      and fill in any empty ACO-specific fields.
+    - Otherwise append as a new record.
+    """
+    # Build index: addr_key → position in merged list
     merged = list(existing)
-    added = 0
+    addr_to_idx: dict[str, int] = {}
+    for i, r in enumerate(merged):
+        ak = _addr_key(r.get("address", ""))
+        if ak:
+            addr_to_idx[ak] = i
+
+    existing_names = {r.get("name", "").lower() for r in merged if r.get("name")}
+    added = enriched = 0
+
     for rec in aco:
         ak = _addr_key(rec.get("address", ""))
-        if ak and ak in existing_addr_keys:
-            continue  # already have this building from Heritage Register
-        rn = rec.get("name", "").lower()
-        if rn and any(rn in n or n in rn for n in existing_names):
-            continue  # name match
-        merged.append(rec)
-        existing_addr_keys.add(ak)
-        added += 1
-    print(f"  Added {added} ACO buildings not in Heritage Register ({len(aco) - added} already covered)")
+        matched_idx = addr_to_idx.get(ak) if ak else None
+
+        # Fallback: name-based match
+        if matched_idx is None:
+            rn = rec.get("name", "").lower()
+            if rn:
+                for i, r in enumerate(merged):
+                    en = r.get("name", "").lower()
+                    if rn and en and (rn in en or en in rn):
+                        matched_idx = i
+                        break
+
+        if matched_idx is not None:
+            # Enrich the existing record with ACO data
+            tgt = merged[matched_idx]
+            aco_name = rec.get("name", "").strip()
+            if aco_name and _is_generic_name(tgt.get("name", ""), tgt.get("address", "")):
+                tgt["name"] = aco_name
+            # Fill empty enrichment fields from ACO
+            for field in ("alternate_name", "neighbourhood", "building_type",
+                          "current_use", "former_use", "heritage_district",
+                          "awards", "notes", "thumbnail_url", "images",
+                          "aco_id", "wikipedia_url", "detail_url"):
+                if not tgt.get(field):
+                    tgt[field] = rec.get(field, "" if field != "images" else [])
+            enriched += 1
+        else:
+            merged.append(rec)
+            if ak:
+                addr_to_idx[ak] = len(merged) - 1
+            existing_names.add(rec.get("name", "").lower())
+            added += 1
+
+    print(f"  Added {added} new ACO buildings, enriched {enriched} Heritage Register records")
     return merged
 
 
