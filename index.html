@@ -511,7 +511,12 @@ function buildListItem(feature, globalIdx) {
 // ── Fly-to ────────────────────────────────────────────────────────────────
 function flyTo(feature, globalIdx) {
   const [lng, lat] = feature.geometry.coordinates;
-  map.flyTo([lat, lng], 16, { duration: 0.9 });
+  // Pan with a paddingTopLeft offset so the popup clears the fixed header
+  const headerH = document.getElementById('site-header').offsetHeight;
+  map.flyTo([lat, lng], 16, {
+    duration: 0.9,
+    paddingTopLeft: [0, headerH + 20],
+  });
   const m = markerObjects[globalIdx];
   if (m) setTimeout(() => m.openPopup(), 600);
 
