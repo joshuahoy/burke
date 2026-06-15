@@ -216,41 +216,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.37725699904053,
-          43.66476026333814
-        ]
-      },
-      "properties": {
-        "name": "469  JARVIS ST",
-        "address": "469  JARVIS ST",
-        "year_built": "1872",
-        "firm": "LANGLEY, LANGLEY, AND BURKE",
-        "style": "",
-        "heritage_status": "Part IV",
-        "source": "toronto_heritage_register",
-        "city": "Toronto",
-        "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Residential",
-        "current_use": "",
-        "former_use": "",
-        "heritage_district": "",
-        "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -79.37715882036646,
           43.64807083772586
         ]
@@ -299,7 +264,7 @@
         "heritage_status": "Designated under Part IV Ontario Heritage Act",
         "source": "aco_toronto",
         "city": "Toronto",
-        "ward": "",
+        "ward": "13",
         "wikipedia_url": "",
         "detail_url": "https://www.acotoronto.ca/building.php?ID=2032",
         "aco_id": "2032",
@@ -326,29 +291,29 @@
         ]
       },
       "properties": {
-        "name": "130  GERRARD ST E",
-        "address": "130  GERRARD ST E",
+        "name": "Jarvis Street Baptist Church",
+        "address": "130 Gerrard Street East",
         "year_built": "1875",
-        "firm": "LANGLEY AND BURKE",
-        "style": "",
-        "heritage_status": "Part IV",
+        "firm": "Langley & Burke",
+        "style": "Gothic Revival",
+        "heritage_status": "Heritage property",
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Jarvis_Street_Baptist_Church",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=2731",
+        "aco_id": "2731",
         "alternate_name": "",
-        "neighbourhood": "",
+        "neighbourhood": "Moss Park",
         "building_type": "Religious",
-        "current_use": "",
+        "current_use": "Religious",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Large/JarvisStreetBaptistChurch.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/JarvisStreetBaptistChurch.jpg",
+        "image_count": 1
       }
     },
     {
@@ -2386,76 +2351,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.37662956623875,
-          43.657192261748406
-        ]
-      },
-      "properties": {
-        "name": "135  DALHOUSIE ST",
-        "address": "135  DALHOUSIE ST",
-        "year_built": "1910",
-        "firm": "BURKE, HORWOOD, AND WHITE",
-        "style": "",
-        "heritage_status": "Part IV",
-        "source": "toronto_heritage_register",
-        "city": "Toronto",
-        "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Commercial",
-        "current_use": "",
-        "former_use": "",
-        "heritage_district": "",
-        "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.37643859249417,
-          43.658371955496825
-        ]
-      },
-      "properties": {
-        "name": "89  GOULD ST",
-        "address": "89  GOULD ST",
-        "year_built": "1910",
-        "firm": "BURKE, HORWOOD, AND WHITE",
-        "style": "",
-        "heritage_status": "Part IV",
-        "source": "toronto_heritage_register",
-        "city": "Toronto",
-        "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Commercial",
-        "current_use": "",
-        "former_use": "",
-        "heritage_district": "",
-        "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -79.41883628194071,
           43.677238749278935
         ]
@@ -2491,48 +2386,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.37649149338294,
-          43.65772055205409
-        ]
-      },
-      "properties": {
-        "name": "108  MUTUAL ST",
-        "address": "108  MUTUAL ST",
-        "year_built": "1910",
-        "firm": "BURKE, HORWOOD, AND WHITE",
-        "style": "",
-        "heritage_status": "Part IV",
-        "source": "toronto_heritage_register",
-        "city": "Toronto",
-        "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Commercial",
-        "current_use": "",
-        "former_use": "",
-        "heritage_district": "",
-        "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -79.37676765795916,
           43.657507595590396
         ]
       },
       "properties": {
         "name": "Toronto Metropolitan University; Merchandise Building",
-        "address": "155  DALHOUSIE ST",
+        "address": "155 Dalhousie St (also 135 Dalhousie St, 108 Mutual St, 89 Gould St)",
         "year_built": "1910",
         "firm": "BURKE, HORWOOD, AND WHITE",
         "style": "",

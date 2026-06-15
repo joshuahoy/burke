@@ -49,6 +49,7 @@ CURATED: dict[str, str] = {
     "3362": "https://en.wikipedia.org/wiki/St._Andrew%27s_Presbyterian_Church,_Toronto",
     "2159": "https://en.wikipedia.org/wiki/Betty_Oliphant_Theatre",
     "2934": "https://en.wikipedia.org/wiki/299_Queen_Street_West",
+    "2731": "https://en.wikipedia.org/wiki/Jarvis_Street_Baptist_Church",
 }
 
 # IDs that should never receive an auto-matched URL (too ambiguous or
