@@ -46,9 +46,9 @@ CURATED: dict[str, str] = {
     "7269": "https://en.wikipedia.org/wiki/Metropolitan_Community_Church_of_Toronto",
     "2842": "https://en.wikipedia.org/wiki/Simpsons_%28department_store%29",
     "2157": "https://en.wikipedia.org/wiki/Covenant_House",
-    "4643": "https://en.wikipedia.org/wiki/John_Cox_House_(Toronto)",
     "3362": "https://en.wikipedia.org/wiki/St._Andrew%27s_Presbyterian_Church,_Toronto",
     "2159": "https://en.wikipedia.org/wiki/Betty_Oliphant_Theatre",
+    "2934": "https://en.wikipedia.org/wiki/299_Queen_Street_West",
 }
 
 # IDs that should never receive an auto-matched URL (too ambiguous or
@@ -68,6 +68,7 @@ NEVER_MATCH: frozenset[str] = frozenset([
     "2158",   # Anson Jones House — no article
     "7011",   # C.J. Holman House — no article
     "5226",   # Ukrainian Evangelical Baptist Church — no article
+    "4643",   # John Cox House — wrong article, no correct one found
 ])
 
 
