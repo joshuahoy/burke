@@ -881,13 +881,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.38096273643708,
-          43.6687940057035
+          -79.38093,
+          43.6689
         ]
       },
       "properties": {
         "name": "Foy/Smith House",
-        "address": "90A Isabella Street",
+        "address": "90-92 Isabella Street",
         "year_built": "1888",
         "firm": "LANGLEY AND BURKE",
         "style": "",
@@ -905,42 +905,7 @@
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "Currently divided into three residences (90, 90A, 92 Isabella).",
-        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/90-92Isabella1.jpg",
-        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/90-92Isabella1.jpg",
-        "image_count": 2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.38082875720403,
-          43.66882330279454
-        ]
-      },
-      "properties": {
-        "name": "Foy/Smith House",
-        "address": "92 Isabella Street",
-        "year_built": "1888",
-        "firm": "LANGLEY AND BURKE",
-        "style": "",
-        "heritage_status": "Part IV",
-        "source": "toronto_heritage_register",
-        "city": "Toronto",
-        "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "https://www.acotoronto.ca/building.php?ID=2139",
-        "aco_id": "2139",
-        "alternate_name": "",
-        "neighbourhood": "Church-Wellesley",
-        "building_type": "Semi-detached house",
-        "current_use": "Residential",
-        "former_use": "",
-        "heritage_district": "",
-        "awards": "",
-        "notes": "Currently divided into three residences (90, 90A, 92 Isabella).",
+        "notes": "Originally three separate residences at 90, 90A, and 92 Isabella Street.",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/90-92Isabella1.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/90-92Isabella1.jpg",
         "image_count": 2
@@ -979,41 +944,6 @@
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/JHMcKinnonHouse.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/JHMcKinnonHouse.jpg",
         "image_count": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.38101437249793,
-          43.66908345477359
-        ]
-      },
-      "properties": {
-        "name": "Foy/Smith House",
-        "address": "90 Isabella Street",
-        "year_built": "1888",
-        "firm": "LANGLEY AND BURKE",
-        "style": "",
-        "heritage_status": "Part IV",
-        "source": "toronto_heritage_register",
-        "city": "Toronto",
-        "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "https://www.acotoronto.ca/building.php?ID=2139",
-        "aco_id": "2139",
-        "alternate_name": "",
-        "neighbourhood": "Church-Wellesley",
-        "building_type": "Semi-detached house",
-        "current_use": "Residential",
-        "former_use": "",
-        "heritage_district": "",
-        "awards": "",
-        "notes": "Currently divided into three residences (90, 90A, 92 Isabella).",
-        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/90-92Isabella1.jpg",
-        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/90-92Isabella1.jpg",
-        "image_count": 2
       }
     },
     {
@@ -2541,19 +2471,19 @@
         "city": "Toronto",
         "ward": "14",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Commercial",
-        "current_use": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=5951",
+        "aco_id": "5951",
+        "alternate_name": "Consumers' Gas Station",
+        "neighbourhood": "South Riverdale",
+        "building_type": "Industrial",
+        "current_use": "Office",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/TtntCVJHYh.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/TtntCVJHYh.jpg",
+        "image_count": 1
       }
     },
     {
@@ -2916,8 +2846,8 @@
         ]
       },
       "properties": {
-        "name": "214  KING ST W",
-        "address": "214  KING ST W",
+        "name": "Canadian General Electric Building",
+        "address": "214 King Street West",
         "year_built": "1917",
         "firm": "BURKE, HORWOOD, AND WHITE",
         "style": "",
@@ -2926,19 +2856,19 @@
         "city": "Toronto",
         "ward": "10",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3097",
+        "aco_id": "3097",
         "alternate_name": "",
-        "neighbourhood": "",
+        "neighbourhood": "Wellington Place",
         "building_type": "Commercial",
         "current_use": "",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "West additions completed in 1919.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/CdnGeneralElectric1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/CdnGeneralElectric1.jpg",
+        "image_count": 1
       }
     },
     {
