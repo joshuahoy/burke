@@ -485,7 +485,7 @@ window.BUILDINGS_DATA = {
         "former_use": "Hotel",
         "heritage_district": "St. Lawrence Neighbourhood Heritage Conservation District",
         "awards": "",
-        "notes": "This propertyÃ¢â‚¬â„¢s contribution lies in the structureÃ¢â‚¬â„¢s historic association with the Little York Hotel in the late 19th century, its historic association with Henry Langley and its location within the Original 10 Blocks of the Town of York. The structure also contributes to the character of the District through its materiality (red brickwork with stone detailing), its Second Empire architecture and its 4-storey height in proximity to similarly-massed buildings along the south side of King Street East.",
+        "notes": "This property’s contribution lies in the structure’s historic association with the Little York Hotel in the late 19th century, its historic association with Henry Langley and its location within the Original 10 Blocks of the Town of York. The structure also contributes to the character of the District through its materiality (red brickwork with stone detailing), its Second Empire architecture and its 4-storey height in proximity to similarly-massed buildings along the south side of King Street East.",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/LittleYorkInn1.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/LittleYorkInn1.jpg",
         "image_count": 2
@@ -520,7 +520,7 @@ window.BUILDINGS_DATA = {
         "former_use": "Stables",
         "heritage_district": "St. Lawrence Neighbourhood Heritage Conservation District",
         "awards": "",
-        "notes": "This propertyÃ¢â‚¬â„¢s contribution lies in its historic association with architect Henry Langley and its location within the Original 10 Blocks of the Town of York. The structure also contributes to the physical character of the District through its materiality (red brickwork with stone detailing) and its relation to the adjacent heritage building (187 King Street East).",
+        "notes": "This property’s contribution lies in its historic association with architect Henry Langley and its location within the Original 10 Blocks of the Town of York. The structure also contributes to the physical character of the District through its materiality (red brickwork with stone detailing) and its relation to the adjacent heritage building (187 King Street East).",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/lefHzTnBL1.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/lefHzTnBL1.jpg",
         "image_count": 2
@@ -555,7 +555,7 @@ window.BUILDINGS_DATA = {
         "former_use": "",
         "heritage_district": "",
         "awards": "2005: Canadian Architect Award Award of Excellence. For additions to the building underway in 2005-06",
-        "notes": "Formerly McMaster Hall as part of the Toronto Baptist College (what would later become McMaster University), the building was completed in 1881. The Royal Conservatory of Music moved into the building in 1962. The building was designated under Part IV of the Ontario Heritage Act in 1976, and was formally recognized as a National Historic Site of Canada in 1995 A proposal for a Master Plan for this building won a Canadian Architect Award in 1991, which was eventually adapted in the addition of the TELUS Centre for Performance and Learning. The addition won a Canadian Architect Award of Excellence in 2005, and was completed in 2009. The main portion of the building facing Bloor Street West was renamed Ihnatowycz Hall in 2005, following a donation made by Mr. Ian Ihnatowycz and Dr. Marta Witer to support the revitalization of the historic building. From Canada's Historic Places: The Royal Conservatory of Music National Historic Site of Canada faces a busy street in downtown Toronto. Since 1963, this influential and distinguished school of music has resided in a large, richly ornamented four-storey building of eclectic late-Victorian design. This older building forms the central element amongst a cluster of later, large additions that now form a small complex. Its symmetrically disposed fa&ccedil;ade features boldly handled detailing including rock-faced masonry, decorative brickwork, projecting bays, stringcourses and a lively, complex roofline that contrasts with the materials and treatment. Official recognition refers to the building on its footprint at the time of designation (1995). The Royal Conservatory of Music was designated a national historic site of Canada in 1995 because of: - its influence on the musical life of Canada over the last century; - its graduates included some of the most prominent musicians and music teachers in Canada; - it has a far-reaching influence on music education in Canada because of its system of graded examinations which are taken by music teachers across the country; - the systems of music education, which it pioneered in Canada. Founded in 1886, the Royal Conservatory of Music is a rare survivor of the many conservatories founded in Canada in the 19th century. Its longevity may be partly ascribed to the excellence of its instruction, the caliber of its graduates, its adherence to high standards and its sound administration. From its inception it was a large-scale enterprise, with a large number of students and substantial funding. Remarkable growth in the early years resulted in a purpose-built structure with the later addition of further facilities and the opening of branches in residential areas. The current building, McMaster Hall, formerly the Toronto Baptist College, was purchased by the University of Toronto from the government in 1936, and has served as the main teaching and rehearsal facility for the Royal Conservatory of Music since 1963. Affiliated with the University of Toronto until 1991, the Royal Conservatory of Music is now an independent institution. Source: Historic Sites and Monuments Board of Canada, Minutes, November 1974. The key elements that contribute to the heritage character of this site include: - its prominent location in Toronto; - its design, purpose-built as an educational establishment, also, the essential elements of the exterior and interior plans, and the various adaptations and extensions, constructed in stages, which continue to facilitate and enhance the Conservatory&rsquo;s operational requirements regarding performance, rehearsal and administrative needs and which speak to the Conservatory&rsquo;s important ongoing role in the development of a system music education in Canada. (info provided by Sarah Campbell)",
+        "notes": "Formerly McMaster Hall as part of the Toronto Baptist College (what would later become McMaster University), the building was completed in 1881. The Royal Conservatory of Music moved into the building in 1962. The building was designated under Part IV of the Ontario Heritage Act in 1976, and was formally recognized as a National Historic Site of Canada in 1995 A proposal for a Master Plan for this building won a Canadian Architect Award in 1991, which was eventually adapted in the addition of the TELUS Centre for Performance and Learning. The addition won a Canadian Architect Award of Excellence in 2005, and was completed in 2009. The main portion of the building facing Bloor Street West was renamed Ihnatowycz Hall in 2005, following a donation made by Mr. Ian Ihnatowycz and Dr. Marta Witer to support the revitalization of the historic building. From Canada's Historic Places: The Royal Conservatory of Music National Historic Site of Canada faces a busy street in downtown Toronto. Since 1963, this influential and distinguished school of music has resided in a large, richly ornamented four-storey building of eclectic late-Victorian design. This older building forms the central element amongst a cluster of later, large additions that now form a small complex. Its symmetrically disposed façade features boldly handled detailing including rock-faced masonry, decorative brickwork, projecting bays, stringcourses and a lively, complex roofline that contrasts with the materials and treatment. Official recognition refers to the building on its footprint at the time of designation (1995). The Royal Conservatory of Music was designated a national historic site of Canada in 1995 because of: - its influence on the musical life of Canada over the last century; - its graduates included some of the most prominent musicians and music teachers in Canada; - it has a far-reaching influence on music education in Canada because of its system of graded examinations which are taken by music teachers across the country; - the systems of music education, which it pioneered in Canada. Founded in 1886, the Royal Conservatory of Music is a rare survivor of the many conservatories founded in Canada in the 19th century. Its longevity may be partly ascribed to the excellence of its instruction, the caliber of its graduates, its adherence to high standards and its sound administration. From its inception it was a large-scale enterprise, with a large number of students and substantial funding. Remarkable growth in the early years resulted in a purpose-built structure with the later addition of further facilities and the opening of branches in residential areas. The current building, McMaster Hall, formerly the Toronto Baptist College, was purchased by the University of Toronto from the government in 1936, and has served as the main teaching and rehearsal facility for the Royal Conservatory of Music since 1963. Affiliated with the University of Toronto until 1991, the Royal Conservatory of Music is now an independent institution. Source: Historic Sites and Monuments Board of Canada, Minutes, November 1974. The key elements that contribute to the heritage character of this site include: - its prominent location in Toronto; - its design, purpose-built as an educational establishment, also, the essential elements of the exterior and interior plans, and the various adaptations and extensions, constructed in stages, which continue to facilitate and enhance the Conservatory’s operational requirements regarding performance, rehearsal and administrative needs and which speak to the Conservatory’s important ongoing role in the development of a system music education in Canada. (info provided by Sarah Campbell)",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/BiLD3veShd.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/BiLD3veShd.jpg",
         "image_count": 4
@@ -765,7 +765,7 @@ window.BUILDINGS_DATA = {
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "This building was altered in 1910 for Dunfield and Company. N 1985-86 the faÃ§ade of the building was incorporated into the larger Scotia Plaza complex.",
+        "notes": "This building was altered in 1910 for Dunfield and Company. N 1985-86 the façade of the building was incorporated into the larger Scotia Plaza complex.",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/UpperCanadaBibleTract.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/UpperCanadaBibleTract.jpg",
         "image_count": 1
@@ -975,7 +975,7 @@ window.BUILDINGS_DATA = {
         "former_use": "",
         "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
-        "notes": "First Occupant: Hirschfelder, Jacob M 1889-189 First OccupantÃ‚Â´s Occupation: Professor U of T",
+        "notes": "First Occupant: Hirschfelder, Jacob M 1889-189 First Occupant´s Occupation: Professor U of T",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/nnodBMDZB6.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/nnodBMDZB6.jpg",
         "image_count": 1
@@ -1500,7 +1500,7 @@ window.BUILDINGS_DATA = {
         "former_use": "",
         "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
-        "notes": "First Occupant: Fudger, Harris Henry First OccupantÃ‚Â´s Occupation: Pres. Robt. Simpson Co. Ltd.",
+        "notes": "First Occupant: Fudger, Harris Henry First Occupant´s Occupation: Pres. Robt. Simpson Co. Ltd.",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/HdG8Eusdcj.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/HdG8Eusdcj.jpg",
         "image_count": 3
@@ -1710,7 +1710,7 @@ window.BUILDINGS_DATA = {
         "former_use": "",
         "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
-        "notes": "First Occupant: Ellis, Mathew C First OccupantÃ‚Â´s Occupation: V.P. P. W. Ellis & Co",
+        "notes": "First Occupant: Ellis, Mathew C First Occupant´s Occupation: V.P. P. W. Ellis & Co",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/cETH9JpDso.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/cETH9JpDso.jpg",
         "image_count": 1
@@ -1885,7 +1885,7 @@ window.BUILDINGS_DATA = {
         "former_use": "",
         "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
-        "notes": "First Occupant: Mickleborough James W. First OccupantÃ‚Â´s Occupation: (Mickleborough, Muldrew & Co)",
+        "notes": "First Occupant: Mickleborough James W. First Occupant´s Occupation: (Mickleborough, Muldrew & Co)",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/86ChestnutPark1.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/86ChestnutPark1.jpg",
         "image_count": 2
@@ -2305,7 +2305,7 @@ window.BUILDINGS_DATA = {
         "former_use": "",
         "heritage_district": "South Rosedale Heritage Conservation District",
         "awards": "",
-        "notes": "First Occupant: White, Melville P. First OccupantÃ‚Â´s Occupation: mgr. Canada Foundry Co",
+        "notes": "First Occupant: White, Melville P. First Occupant´s Occupation: mgr. Canada Foundry Co",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/9lOt1UoM3q.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/9lOt1UoM3q.jpg",
         "image_count": 1
@@ -2515,7 +2515,7 @@ window.BUILDINGS_DATA = {
         "former_use": "",
         "heritage_district": "King-Spadina Heritage Conservation District",
         "awards": "",
-        "notes": "The Canadian Magazine Company Building is architecturally significant as a well-designed example of the early tall commercial building type, typified by the Classical organization and detailing. Located on the north side of Adelaide Street West, west of Simcoe Street, the building contributes contextually to the character of the King-Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) faÃƒÂ§ade. Rising five stories, the structure is faced with red brick and trimmed with stone. The five-bay south faÃƒÂ§ade is organized horizontally by a Classical base, shaft and cornice, and vertically by brick piers and pilasters. The main entry, located in the left (west) bay at street level, has a round-headed door recessed in a compound-arched stone surround with a bracketed copper-clad hood. The fenestration in the lower floors and attic level consists of flat-headed window openings with stone lintels, brick aprons and stone band courses. The fourth storey introduces segmental-headed window openings with brick voussoirs and stone keystones. A modest cornice marks the flat roof. Abutting the adjacent buildings, the visible part of the east elevation displays segmental-headed openings, while the west wall is blank.",
+        "notes": "The Canadian Magazine Company Building is architecturally significant as a well-designed example of the early tall commercial building type, typified by the Classical organization and detailing. Located on the north side of Adelaide Street West, west of Simcoe Street, the building contributes contextually to the character of the King-Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) façade. Rising five stories, the structure is faced with red brick and trimmed with stone. The five-bay south façade is organized horizontally by a Classical base, shaft and cornice, and vertically by brick piers and pilasters. The main entry, located in the left (west) bay at street level, has a round-headed door recessed in a compound-arched stone surround with a bracketed copper-clad hood. The fenestration in the lower floors and attic level consists of flat-headed window openings with stone lintels, brick aprons and stone band courses. The fourth storey introduces segmental-headed window openings with brick voussoirs and stone keystones. A modest cornice marks the flat roof. Abutting the adjacent buildings, the visible part of the east elevation displays segmental-headed openings, while the west wall is blank.",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/CdnMagazineBldg1.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/CdnMagazineBldg1.jpg",
         "image_count": 2
@@ -2655,7 +2655,7 @@ window.BUILDINGS_DATA = {
         "former_use": "",
         "heritage_district": "King-Spadina Heritage Conservation District",
         "awards": "",
-        "notes": "The Samuel and Benjamin Building is architecturally significant as a good example of the early tall commercial building type identified by the Classical organization and application of Classical and Gothic-inspired detailing. Contextually, with its location on the north side of King Street, west of Spadina, the building contributes contextually to the character of the King- Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) faÃƒÂ§ade. The building rises six stories above a basement. Above a stone-clad base, the walls are faced with brown brick and trimmed with stone. The seven-bay south faÃƒÂ§ade is arranged with a Classical base, shaft and cornice, with slightly projecting corners. Centered in the first storey, the main entrance is recessed in a tall arched stone portal with an oversized transom. The right (east) bay is broken for a carriageway. The pattern of commercial windows introduced in the base is repeated in the top five floors where the openings are organized by piers. Geometrical inserts are placed beneath the upper-storey windows and on the cornice with its Gothic-inspired ornament. Stone battlements with cartouches mark the parapet along the south end of the roof. The pattern of the fenestration is continued along the east and west elevations. A tall brick chimney is located on the northwest corner of the building.",
+        "notes": "The Samuel and Benjamin Building is architecturally significant as a good example of the early tall commercial building type identified by the Classical organization and application of Classical and Gothic-inspired detailing. Contextually, with its location on the north side of King Street, west of Spadina, the building contributes contextually to the character of the King- Spadina neighbourhood as it developed as an industrial area in the early 20th century. The heritage attributes of the building are found on the exterior walls and roof with attention focused on the principal (south) façade. The building rises six stories above a basement. Above a stone-clad base, the walls are faced with brown brick and trimmed with stone. The seven-bay south façade is arranged with a Classical base, shaft and cornice, with slightly projecting corners. Centered in the first storey, the main entrance is recessed in a tall arched stone portal with an oversized transom. The right (east) bay is broken for a carriageway. The pattern of commercial windows introduced in the base is repeated in the top five floors where the openings are organized by piers. Geometrical inserts are placed beneath the upper-storey windows and on the cornice with its Gothic-inspired ornament. Stone battlements with cartouches mark the parapet along the south end of the roof. The pattern of the fenestration is continued along the east and west elevations. A tall brick chimney is located on the northwest corner of the building.",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/468KingStW.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/468KingStW.jpg",
         "image_count": 3
@@ -2977,5 +2977,4 @@ window.BUILDINGS_DATA = {
       }
     }
   ]
-}
-;
+};
