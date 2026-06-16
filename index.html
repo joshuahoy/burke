@@ -606,8 +606,8 @@ function flyTo(feature, globalIdx) {
     });
   };
 
-  if (mobile && typeof closeSheet === 'function') {
-    closeSheet();
+  if (mobile && typeof window.closeSheet === 'function') {
+    window.closeSheet();
     setTimeout(fly, 360);
   } else {
     fly();
