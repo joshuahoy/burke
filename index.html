@@ -316,7 +316,8 @@
         opacity: 0; pointer-events: none;
         transition: opacity .28s;
       }
-      #sheet-backdrop.visible { opacity: 1; pointer-events: auto; }
+      /* when open, backdrop only covers map area above the sheet */
+      #sheet-backdrop.visible { opacity: 1; pointer-events: auto; bottom: 72vh; }
     }
 
     /* hide handle and backdrop on desktop */
