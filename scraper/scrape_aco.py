@@ -35,6 +35,7 @@ BURKE_ARCHITECTS = [
     "Burke & Horwood",
     "Burke, Horwood & White Associates",
     "Langley and Burke",
+    "Langley & Burke",
     "Edmund Burke",
 ]
 

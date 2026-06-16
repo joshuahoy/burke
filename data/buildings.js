@@ -356,76 +356,6 @@ window.BUILDINGS_DATA = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.37262608942777,
-          43.663027632642056
-        ]
-      },
-      "properties": {
-        "name": "355  SHERBOURNE ST",
-        "address": "355  SHERBOURNE ST",
-        "year_built": "1876",
-        "firm": "LANGLEY AND BURKE",
-        "style": "",
-        "heritage_status": "Part V",
-        "source": "toronto_heritage_register",
-        "city": "Toronto",
-        "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Religious",
-        "current_use": "",
-        "former_use": "",
-        "heritage_district": "",
-        "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.37256663263406,
-          43.66288273674061
-        ]
-      },
-      "properties": {
-        "name": "353  SHERBOURNE ST",
-        "address": "353  SHERBOURNE ST",
-        "year_built": "1876",
-        "firm": "LANGLEY AND BURKE",
-        "style": "",
-        "heritage_status": "Part V",
-        "source": "toronto_heritage_register",
-        "city": "Toronto",
-        "ward": "13",
-        "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Religious",
-        "current_use": "",
-        "former_use": "",
-        "heritage_district": "",
-        "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -79.38164906099226,
           43.67596232547756
         ]
@@ -711,29 +641,29 @@ window.BUILDINGS_DATA = {
         ]
       },
       "properties": {
-        "name": "94  ISABELLA ST",
-        "address": "94  ISABELLA ST",
+        "name": "Mrs. Helen E. McMaster House",
+        "address": "94 Isabella Street",
         "year_built": "1885",
         "firm": "LANGLEY AND BURKE",
-        "style": "",
+        "style": "Queen Anne Revival",
         "heritage_status": "Part IV",
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "13",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Residential",
-        "current_use": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3177",
+        "aco_id": "3177",
+        "alternate_name": "Jesuit Fathers Residence",
+        "neighbourhood": "Church-Wellesley",
+        "building_type": "Detached house",
+        "current_use": "Residential",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/cTXqXd0tsT.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/cTXqXd0tsT.jpg",
+        "image_count": 1
       }
     },
     {
@@ -746,29 +676,29 @@ window.BUILDINGS_DATA = {
         ]
       },
       "properties": {
-        "name": "72  BEVERLEY ST",
-        "address": "72  BEVERLEY ST",
+        "name": "Toronto Chinese Baptist Church",
+        "address": "72 Beverley Street",
         "year_built": "1886",
         "firm": "LANGLEY AND BURKE",
-        "style": "",
+        "style": "Romanesque Revival",
         "heritage_status": "Listed",
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "10",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3107",
+        "aco_id": "3107",
+        "alternate_name": "Beverley Street Baptist Church",
+        "neighbourhood": "Kensington-Chinatown",
         "building_type": "Religious",
-        "current_use": "",
+        "current_use": "Religious",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "Completed in 1886, designed by Langley & Burke.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/ymE39VeknW.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/ymE39VeknW.jpg",
+        "image_count": 4
       }
     },
     {
@@ -781,29 +711,29 @@ window.BUILDINGS_DATA = {
         ]
       },
       "properties": {
-        "name": "441  QUEEN ST W",
-        "address": "441  QUEEN ST W",
+        "name": "Oddfellows' Hall",
+        "address": "441 Queen Street West",
         "year_built": "1886",
         "firm": "LANGLEY AND BURKE",
-        "style": "",
+        "style": "Queen Anne Revival",
         "heritage_status": "Part IV",
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "10",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Commercial",
-        "current_use": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=2928",
+        "aco_id": "2928",
+        "alternate_name": "Devaney Bros. Dry Goods",
+        "neighbourhood": "Wellington Place",
+        "building_type": "Low-rise",
+        "current_use": "Commercial",
         "former_use": "",
-        "heritage_district": "",
+        "heritage_district": "Queen Street Heritage Conservation District",
         "awards": "",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/P4azoFYB3a.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/P4azoFYB3a.jpg",
+        "image_count": 3
       }
     },
     {
@@ -851,8 +781,8 @@ window.BUILDINGS_DATA = {
         ]
       },
       "properties": {
-        "name": "121  ST GEORGE ST",
-        "address": "121  ST GEORGE ST",
+        "name": "University of Toronto St. George Campus; St. George Street-121",
+        "address": "121 St. George Street",
         "year_built": "1887-1888",
         "firm": "LANGLEY AND BURKE",
         "style": "",
@@ -861,19 +791,19 @@ window.BUILDINGS_DATA = {
         "city": "Toronto",
         "ward": "11",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Residential",
-        "current_use": "",
-        "former_use": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3944",
+        "aco_id": "3944",
+        "alternate_name": "John R. Bailey House",
+        "neighbourhood": "University",
+        "building_type": "Detached house",
+        "current_use": "Educational",
+        "former_use": "Residential",
         "heritage_district": "",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "This building had an addition in 1911.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/8a9gRK5ttj.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/8a9gRK5ttj.jpg",
+        "image_count": 1
       }
     },
     {
@@ -921,29 +851,29 @@ window.BUILDINGS_DATA = {
         ]
       },
       "properties": {
-        "name": "506  COLLEGE ST",
-        "address": "506  COLLEGE ST",
+        "name": "Portuguese Seventh Day Adventist Church",
+        "address": "506 College Street",
         "year_built": "1888",
         "firm": "LANGLEY AND BURKE",
-        "style": "",
+        "style": "Romanesque Revival",
         "heritage_status": "Part IV",
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "11",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
-        "alternate_name": "",
-        "neighbourhood": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=3500",
+        "aco_id": "3500",
+        "alternate_name": "College St. Baptist Church / Igreja Adventista Do Setimo Dia",
+        "neighbourhood": "Palmerston-Little Italy",
         "building_type": "Religious",
-        "current_use": "",
+        "current_use": "Religious",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
+        "notes": "A proposal was being developed as of 2009 to convert this building to residential purposes.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Large/Portuguese7thDay.jpg",
         "primary_image": "",
-        "image_count": 0
+        "image_count": 1
       }
     },
     {
@@ -956,8 +886,8 @@ window.BUILDINGS_DATA = {
         ]
       },
       "properties": {
-        "name": "90 A  ISABELLA ST",
-        "address": "90 A  ISABELLA ST",
+        "name": "Foy/Smith House",
+        "address": "90A Isabella Street",
         "year_built": "1888",
         "firm": "LANGLEY AND BURKE",
         "style": "",
@@ -966,19 +896,19 @@ window.BUILDINGS_DATA = {
         "city": "Toronto",
         "ward": "13",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=2139",
+        "aco_id": "2139",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Residential",
-        "current_use": "",
+        "neighbourhood": "Church-Wellesley",
+        "building_type": "Semi-detached house",
+        "current_use": "Residential",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "Currently divided into three residences (90, 90A, 92 Isabella).",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/90-92Isabella1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/90-92Isabella1.jpg",
+        "image_count": 2
       }
     },
     {
@@ -991,8 +921,8 @@ window.BUILDINGS_DATA = {
         ]
       },
       "properties": {
-        "name": "92  ISABELLA ST",
-        "address": "92  ISABELLA ST",
+        "name": "Foy/Smith House",
+        "address": "92 Isabella Street",
         "year_built": "1888",
         "firm": "LANGLEY AND BURKE",
         "style": "",
@@ -1001,19 +931,19 @@ window.BUILDINGS_DATA = {
         "city": "Toronto",
         "ward": "13",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=2139",
+        "aco_id": "2139",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Residential",
-        "current_use": "",
+        "neighbourhood": "Church-Wellesley",
+        "building_type": "Semi-detached house",
+        "current_use": "Residential",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "Currently divided into three residences (90, 90A, 92 Isabella).",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/90-92Isabella1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/90-92Isabella1.jpg",
+        "image_count": 2
       }
     },
     {
@@ -1026,29 +956,29 @@ window.BUILDINGS_DATA = {
         ]
       },
       "properties": {
-        "name": "506  JARVIS ST",
-        "address": "506  JARVIS ST",
+        "name": "J. H. McKinnon House",
+        "address": "506 Jarvis Street",
         "year_built": "1888",
         "firm": "LANGLEY AND BURKE",
-        "style": "",
+        "style": "Queen Anne Revival",
         "heritage_status": "Part IV",
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "13",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=2062",
+        "aco_id": "2062",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Residential",
-        "current_use": "",
+        "neighbourhood": "Church-Wellesley",
+        "building_type": "Detached house",
+        "current_use": "Residential",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
         "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/JHMcKinnonHouse.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/JHMcKinnonHouse.jpg",
+        "image_count": 1
       }
     },
     {
@@ -1061,8 +991,8 @@ window.BUILDINGS_DATA = {
         ]
       },
       "properties": {
-        "name": "90  ISABELLA ST",
-        "address": "90  ISABELLA ST",
+        "name": "Foy/Smith House",
+        "address": "90 Isabella Street",
         "year_built": "1888",
         "firm": "LANGLEY AND BURKE",
         "style": "",
@@ -1071,19 +1001,19 @@ window.BUILDINGS_DATA = {
         "city": "Toronto",
         "ward": "13",
         "wikipedia_url": "",
-        "detail_url": "",
-        "aco_id": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=2139",
+        "aco_id": "2139",
         "alternate_name": "",
-        "neighbourhood": "",
-        "building_type": "Residential",
-        "current_use": "",
+        "neighbourhood": "Church-Wellesley",
+        "building_type": "Semi-detached house",
+        "current_use": "Residential",
         "former_use": "",
         "heritage_district": "",
         "awards": "",
-        "notes": "",
-        "thumbnail_url": "",
-        "primary_image": "",
-        "image_count": 0
+        "notes": "Currently divided into three residences (90, 90A, 92 Isabella).",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/90-92Isabella1.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/90-92Isabella1.jpg",
+        "image_count": 2
       }
     },
     {
@@ -2601,8 +2531,8 @@ window.BUILDINGS_DATA = {
         ]
       },
       "properties": {
-        "name": "447  EASTERN AVE",
-        "address": "447  EASTERN AVE",
+        "name": "447 Eastern Avenue, East Building",
+        "address": "447 Eastern Avenue",
         "year_built": "1912",
         "firm": "BURKE, HORWOOD, AND WHITE",
         "style": "",
@@ -3078,6 +3008,41 @@ window.BUILDINGS_DATA = {
         "notes": "",
         "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/xMG7nJqZ4C.jpg",
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/xMG7nJqZ4C.jpg",
+        "image_count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3933743,
+          43.6446562
+        ]
+      },
+      "properties": {
+        "name": "Clarence Terrace",
+        "address": "5-16 Clarence Square",
+        "year_built": "1879",
+        "firm": "Langley & Burke",
+        "style": "",
+        "heritage_status": "Designated under Part V, Ontario Heritage Act",
+        "source": "aco_toronto",
+        "city": "Toronto",
+        "ward": "",
+        "wikipedia_url": "",
+        "detail_url": "https://www.acotoronto.ca/building.php?ID=10720",
+        "aco_id": "10720",
+        "alternate_name": "",
+        "neighbourhood": "Wellington Place",
+        "building_type": "Rowhouse",
+        "current_use": "Abandoned",
+        "former_use": "Residential",
+        "heritage_district": "King-Spadina Heritage Conservation District",
+        "awards": "",
+        "notes": "The rowhouses were made to overlook the park canopy. These are the lone survivors of the residential buildings that once lined Clarence Square on three sides.",
+        "thumbnail_url": "https://www.acotoronto.ca/images/buildings/Medium/XMOarnt9jE.jpg",
+        "primary_image": "https://www.acotoronto.ca/images/buildings/Large/XMOarnt9jE.jpg",
         "image_count": 1
       }
     }

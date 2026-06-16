@@ -13,12 +13,6 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --c-langley : #1565C0; /* deep blue   — Langley & Burke          */
-      --c-solo    : #E65100; /* deep orange — Edmund Burke solo         */
-      --c-horwood : #2E7D32; /* deep green  — Burke & Horwood           */
-      --c-white   : #6A1B9A; /* deep purple — Burke, Horwood & White    */
-      --c-other   : #546E7A; /* blue-grey   — other / unknown           */
-
       /* Building-type icon colours */
       --ct-residential  : #EF6C00;
       --ct-commercial   : #00838F;
@@ -118,16 +112,6 @@
     .filter-item:hover { background: #eef0ff; }
     .filter-item input[type=checkbox] { width: 14px; height: 14px; cursor: pointer; accent-color: #1a237e; }
     .filter-count { color: var(--text-2); font-size: .75rem; margin-left: auto; }
-
-    .era-dot {
-      width: 10px; height: 10px; border-radius: 50%;
-      display: inline-block; flex: 0 0 10px;
-    }
-    .langley-burke .era-dot { background: var(--c-langley); }
-    .burke-solo    .era-dot { background: var(--c-solo);    }
-    .burke-horwood .era-dot { background: var(--c-horwood); }
-    .horwood-white .era-dot { background: var(--c-white);   }
-    .other-firm    .era-dot { background: var(--c-other);   }
 
     #results-count { font-size: .75rem; color: var(--text-2); padding: 0 4px; }
 
@@ -420,7 +404,8 @@
     </p>
     <hr />
     <p class="footnote">
-      Data: City of Toronto Heritage Preservation Register ·
+      Data: <a href="https://www.toronto.ca/city-government/accountability-operations-customer-service/access-to-city-government/freedom-of-information/" target="_blank" rel="noopener">City of Toronto</a> Heritage Register ·
+      <a href="https://www.acotoronto.ca/tobuilt.php" target="_blank" rel="noopener">ACO Toronto TOBuilt</a> ·
       Wikipedia · OpenStreetMap<br />
       Geocoding: <a href="https://nominatim.openstreetmap.org" target="_blank" rel="noopener">Nominatim</a> /
       OpenStreetMap contributors<br />
@@ -440,14 +425,6 @@
 'use strict';
 
 // ── Firm categorisation ──────────────────────────────────────────────────
-const FIRM_COLOUR = {
-  langley : '#1565C0',
-  solo    : '#E65100',
-  horwood : '#2E7D32',
-  white   : '#6A1B9A',
-  other   : '#546E7A',
-};
-
 const FIRM_LABEL = {
   langley : 'Langley & Burke',
   solo    : 'Edmund Burke',
