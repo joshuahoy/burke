@@ -854,18 +854,28 @@ document.addEventListener('keydown', e => {
     if (sidebar.classList.contains('sheet-open')) closeSheet(); else openSheet();
   }
 
-  handle.addEventListener('click', toggleSheet);
-  backdrop.addEventListener('click', closeSheet);
-
   // Swipe-up / swipe-down on the handle
   let startY = null;
-  handle.addEventListener('touchstart', e => { startY = e.touches[0].clientY; }, { passive: true });
+  let didSwipe = false;
+  handle.addEventListener('touchstart', e => {
+    startY = e.touches[0].clientY;
+    didSwipe = false;
+  }, { passive: true });
   handle.addEventListener('touchend', e => {
     if (startY === null) return;
     const dy = startY - e.changedTouches[0].clientY;
-    if (Math.abs(dy) > 30) { dy > 0 ? openSheet() : closeSheet(); }
+    if (Math.abs(dy) > 20) {
+      didSwipe = true;
+      dy > 0 ? openSheet() : closeSheet();
+    }
     startY = null;
   }, { passive: true });
+
+  // Suppress click after a swipe so toggleSheet doesn't undo the swipe action
+  handle.addEventListener('click', () => {
+    if (didSwipe) { didSwipe = false; return; }
+    toggleSheet();
+  });
 
   // When a list item is clicked on mobile, close the sheet so map is visible
   document.getElementById('building-list').addEventListener('click', () => {
