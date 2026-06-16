@@ -243,7 +243,7 @@
 
     /* ── Responsive ──────────────────────────────────────────────────── */
     @media (max-width: 640px) {
-      :root { --header-h: 54px; --sidebar-w: 280px; --sheet-peek: 64px; }
+      :root { --header-h: 54px; --sidebar-w: 280px; --sheet-peek: 130px; }
       #site-header h1 { font-size: 1rem; }
 
       /* ── Map takes full screen ── */
@@ -289,7 +289,11 @@
       /* search + filter stay pinned inside the sheet */
       #sidebar-fixed {
         flex-shrink: 0;
-        padding-bottom: max(14px, env(safe-area-inset-bottom, 14px));
+      }
+
+      /* safe-area padding at bottom of the whole sheet */
+      #sidebar {
+        padding-bottom: env(safe-area-inset-bottom, 0px);
       }
 
       /* hide the desktop sidebar toggle on mobile */
@@ -855,32 +859,39 @@ document.addEventListener('keydown', e => {
     if (sidebar.classList.contains('sheet-open')) closeSheet(); else openSheet();
   }
 
-  // Handle touch: swipe up opens, swipe down closes, short tap toggles.
-  // Track via pointermove so it works reliably on iOS and Android.
+  // Swipe/tap on the handle OR the sidebar-fixed area (bigger target)
+  const swipeTarget = document.getElementById('sidebar-fixed');
+  // Handle touch: swipe up opens, swipe down closes, short tap on handle toggles.
   let pointerStartY = null;
   let pointerMoved  = false;
-  handle.addEventListener('pointerdown', e => {
-    handle.setPointerCapture(e.pointerId);
-    pointerStartY = e.clientY;
-    pointerMoved  = false;
-  });
-  handle.addEventListener('pointermove', e => {
-    if (pointerStartY !== null && Math.abs(e.clientY - pointerStartY) > 8) {
-      pointerMoved = true;
-    }
-  });
-  handle.addEventListener('pointerup', e => {
-    if (pointerStartY === null) return;
-    const dy = pointerStartY - e.clientY;
-    pointerStartY = null;
-    if (pointerMoved) {
-      dy > 0 ? openSheet() : closeSheet();
-    } else {
-      toggleSheet();
-    }
-    pointerMoved = false;
-  });
-  handle.addEventListener('pointercancel', () => { pointerStartY = null; pointerMoved = false; });
+
+  function attachSwipe(el, tapAction) {
+    el.addEventListener('pointerdown', e => {
+      el.setPointerCapture(e.pointerId);
+      pointerStartY = e.clientY;
+      pointerMoved  = false;
+    });
+    el.addEventListener('pointermove', e => {
+      if (pointerStartY !== null && Math.abs(e.clientY - pointerStartY) > 12) {
+        pointerMoved = true;
+      }
+    });
+    el.addEventListener('pointerup', e => {
+      if (pointerStartY === null) return;
+      const dy = pointerStartY - e.clientY;
+      pointerStartY = null;
+      if (pointerMoved) {
+        dy > 0 ? openSheet() : closeSheet();
+      } else if (tapAction) {
+        tapAction();
+      }
+      pointerMoved = false;
+    });
+    el.addEventListener('pointercancel', () => { pointerStartY = null; pointerMoved = false; });
+  }
+
+  attachSwipe(handle, toggleSheet);
+  attachSwipe(swipeTarget, null); // swipe only on the fixed area, no tap action
 
   backdrop.addEventListener('click', closeSheet);
 
