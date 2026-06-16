@@ -824,7 +824,9 @@ async function init() {
   if (torontoCoords.length > 0) {
     const isMobile = window.innerWidth <= 640;
     map.fitBounds(L.latLngBounds(torontoCoords), {
-      padding: isMobile ? [20, 20] : [40, 40],
+      // Extra bottom padding on mobile shifts buildings ~30% higher on screen
+      paddingTopLeft:     isMobile ? [20, 20]  : [40, 40],
+      paddingBottomRight: isMobile ? [20, 160] : [40, 40],
       maxZoom: isMobile ? 13 : 12,
     });
   }
