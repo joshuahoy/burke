@@ -854,28 +854,26 @@ document.addEventListener('keydown', e => {
     if (sidebar.classList.contains('sheet-open')) closeSheet(); else openSheet();
   }
 
-  // Swipe-up / swipe-down on the handle
+  // Handle touch: swipe up opens, swipe down closes, short tap toggles.
+  // Use non-passive touchend + preventDefault to stop the ghost click.
   let startY = null;
-  let didSwipe = false;
   handle.addEventListener('touchstart', e => {
     startY = e.touches[0].clientY;
-    didSwipe = false;
   }, { passive: true });
   handle.addEventListener('touchend', e => {
     if (startY === null) return;
     const dy = startY - e.changedTouches[0].clientY;
-    if (Math.abs(dy) > 20) {
-      didSwipe = true;
-      dy > 0 ? openSheet() : closeSheet();
-    }
     startY = null;
-  }, { passive: true });
+    e.preventDefault(); // block subsequent click event
+    if (Math.abs(dy) > 20) {
+      dy > 0 ? openSheet() : closeSheet();
+    } else {
+      toggleSheet(); // short tap
+    }
+  }, { passive: false });
 
-  // Suppress click after a swipe so toggleSheet doesn't undo the swipe action
-  handle.addEventListener('click', () => {
-    if (didSwipe) { didSwipe = false; return; }
-    toggleSheet();
-  });
+  // Desktop fallback (mouse click on handle)
+  handle.addEventListener('click', toggleSheet);
 
   backdrop.addEventListener('click', closeSheet);
 
