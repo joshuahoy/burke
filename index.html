@@ -288,9 +288,10 @@
         flex-shrink: 0;
       }
 
-      /* safe-area padding at bottom of the whole sheet */
-      #sidebar {
-        padding-bottom: env(safe-area-inset-bottom, 0px);
+      /* scroll area in open sheet */
+      #sidebar-scroll {
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch;
       }
 
       /* hide the desktop sidebar toggle on mobile */
@@ -608,7 +609,11 @@ function flyTo(feature, globalIdx) {
 
   if (mobile && typeof window.closeSheet === 'function') {
     window.closeSheet();
-    setTimeout(fly, 360);
+    // Wait for sheet CSS transition + map resize before flying
+    setTimeout(() => {
+      map.invalidateSize({ animate: false });
+      fly();
+    }, 380);
   } else {
     fly();
   }
@@ -855,11 +860,13 @@ document.addEventListener('keydown', e => {
   function openSheet() {
     sidebar.classList.add('sheet-open');
     backdrop.classList.add('visible');
+    setTimeout(() => map.invalidateSize({ animate: false }), 340);
   }
   // Expose closeSheet globally so flyTo() can call it
   window.closeSheet = function closeSheet() {
     sidebar.classList.remove('sheet-open');
     backdrop.classList.remove('visible');
+    // Don't invalidateSize here — flyTo will do it after the transition
   };
   function toggleSheet() {
     if (sidebar.classList.contains('sheet-open')) window.closeSheet(); else openSheet();
