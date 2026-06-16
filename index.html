@@ -822,7 +822,11 @@ async function init() {
     .map(f => [f.geometry.coordinates[1], f.geometry.coordinates[0]]);
 
   if (torontoCoords.length > 0) {
-    map.fitBounds(L.latLngBounds(torontoCoords), { padding: [40, 40] });
+    const isMobile = window.innerWidth <= 640;
+    map.fitBounds(L.latLngBounds(torontoCoords), {
+      padding: isMobile ? [20, 20] : [40, 40],
+      maxZoom: isMobile ? 13 : 12,
+    });
   }
 
   setupTypeFilters(allFeatures);
