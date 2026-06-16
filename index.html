@@ -877,6 +877,13 @@ document.addEventListener('keydown', e => {
     toggleSheet();
   });
 
+  backdrop.addEventListener('click', closeSheet);
+
+  // Tapping the map also closes the sheet on mobile
+  document.getElementById('map').addEventListener('click', () => {
+    if (isMobile()) closeSheet();
+  });
+
   // When a list item is clicked on mobile, close the sheet so map is visible
   document.getElementById('building-list').addEventListener('click', () => {
     if (isMobile()) closeSheet();
