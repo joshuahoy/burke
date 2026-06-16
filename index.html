@@ -592,18 +592,26 @@ function flyTo(feature, globalIdx) {
   const [lng, lat] = feature.geometry.coordinates;
   const m = markerObjects[globalIdx];
   const mobile = window.innerWidth <= 640;
-  // On mobile reserve bottom padding for the sheet peek bar; top for header
   const padTop    = mobile ? 10 : 12;
   const padBottom = mobile ? 80 : 10;
 
-  // Open popup only after the fly animation fully ends so autoPan isn't
-  // overridden by the ongoing animation.
-  map.once('moveend', () => { if (m) m.openPopup(); });
-  map.flyTo([lat, lng], 16, {
-    duration: 0.9,
-    paddingTopLeft:      [0, padTop],
-    paddingBottomRight:  [0, padBottom],
-  });
+  // On mobile collapse the sheet first, then fly after the CSS transition
+  // finishes (~350ms) so the map resize doesn't trigger a spurious moveend.
+  const fly = () => {
+    map.once('moveend', () => { if (m) m.openPopup(); });
+    map.flyTo([lat, lng], 16, {
+      duration: 0.9,
+      paddingTopLeft:      [0, padTop],
+      paddingBottomRight:  [0, padBottom],
+    });
+  };
+
+  if (mobile && typeof closeSheet === 'function') {
+    closeSheet();
+    setTimeout(fly, 360);
+  } else {
+    fly();
+  }
 
   if (activeListItem) activeListItem.classList.remove('active');
   const el = document.querySelector(`.building-item[data-gidx="${globalIdx}"]`);
@@ -848,27 +856,23 @@ document.addEventListener('keydown', e => {
     sidebar.classList.add('sheet-open');
     backdrop.classList.add('visible');
   }
-  function closeSheet() {
+  // Expose closeSheet globally so flyTo() can call it
+  window.closeSheet = function closeSheet() {
     sidebar.classList.remove('sheet-open');
     backdrop.classList.remove('visible');
-  }
+  };
   function toggleSheet() {
-    if (sidebar.classList.contains('sheet-open')) closeSheet(); else openSheet();
+    if (sidebar.classList.contains('sheet-open')) window.closeSheet(); else openSheet();
   }
 
   // Tap handle to open/close. Tap map or backdrop to close.
   handle.addEventListener('click', toggleSheet);
 
-  backdrop.addEventListener('click', closeSheet);
+  backdrop.addEventListener('click', window.closeSheet);
 
   // Tapping the map also closes the sheet on mobile
   document.getElementById('map').addEventListener('click', () => {
-    if (isMobile()) closeSheet();
-  });
-
-  // When a list item is clicked on mobile, close the sheet so map is visible
-  document.getElementById('building-list').addEventListener('click', () => {
-    if (isMobile()) closeSheet();
+    if (isMobile()) window.closeSheet();
   });
 })();
 
