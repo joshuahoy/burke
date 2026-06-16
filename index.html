@@ -243,14 +243,81 @@
 
     /* ── Responsive ──────────────────────────────────────────────────── */
     @media (max-width: 640px) {
-      :root { --header-h: 54px; --sidebar-w: 280px; }
+      :root { --header-h: 54px; --sidebar-w: 280px; --sheet-peek: 64px; }
       #site-header h1 { font-size: 1rem; }
+
+      /* ── Map takes full screen ── */
+      #layout { flex-direction: column; }
+      #map-container { flex: 1; position: relative; }
+
+      /* ── Sidebar becomes bottom sheet ── */
       #sidebar {
-        position: absolute; top: 0; bottom: 0; left: 0;
-        box-shadow: 3px 0 16px rgba(0,0,0,.22);
+        position: fixed;
+        left: 0; right: 0;
+        bottom: 0;
+        width: 100%;
+        /* default: only the handle + search bar peeking up */
+        height: calc(var(--sheet-peek) + env(safe-area-inset-bottom, 0px));
+        max-height: 82vh;
+        border-right: none;
+        border-top: 1px solid var(--border);
+        border-radius: 14px 14px 0 0;
+        box-shadow: 0 -4px 24px rgba(0,0,0,.18);
+        transition: height .32s cubic-bezier(.4,0,.2,1), transform .32s cubic-bezier(.4,0,.2,1);
+        transform: none;
+        z-index: 600;
+        flex-direction: column;
       }
-      #legend { bottom: 60px; }
+      #sidebar.sheet-open {
+        height: 72vh;
+      }
+      /* override desktop collapsed behaviour */
+      #sidebar.collapsed { transform: none; }
+
+      /* drag handle */
+      #sheet-handle {
+        display: flex; justify-content: center; align-items: center;
+        height: 22px; flex-shrink: 0; cursor: pointer;
+        touch-action: none;
+      }
+      #sheet-handle::after {
+        content: ''; display: block;
+        width: 40px; height: 4px;
+        background: #bdbdbd; border-radius: 2px;
+      }
+
+      /* search + filter stay pinned inside the sheet */
+      #sidebar-fixed {
+        flex-shrink: 0;
+      }
+
+      /* hide the desktop sidebar toggle on mobile */
+      #sidebar-toggle { display: none; }
+
+      /* hide the type filter checkboxes when sheet is peeking; show when open */
+      #sidebar:not(.sheet-open) #type-filter-group { display: none; }
+
+      /* legend above sheet peek */
+      #legend { bottom: calc(var(--sheet-peek) + 8px + env(safe-area-inset-bottom, 0px)); right: 8px; }
+
+      /* popups: never wider than screen */
+      .burke-popup { max-width: calc(100vw - 20px) !important; }
+
+      /* backdrop (tap to close) */
+      #sheet-backdrop {
+        display: block;
+        position: fixed; inset: 0;
+        background: rgba(0,0,0,.25);
+        z-index: 599;
+        opacity: 0; pointer-events: none;
+        transition: opacity .28s;
+      }
+      #sheet-backdrop.visible { opacity: 1; pointer-events: auto; }
     }
+
+    /* hide handle on desktop */
+    #sheet-handle { display: none; }
+    #sheet-backdrop { display: none; }
   </style>
 </head>
 <body>
@@ -267,8 +334,9 @@
 <!-- ── Layout ────────────────────────────────────────────────────────── -->
 <div id="layout">
 
-  <!-- Sidebar -->
+  <!-- Sidebar / bottom sheet -->
   <aside id="sidebar">
+    <div id="sheet-handle" aria-label="Toggle building list"></div>
     <div id="sidebar-fixed">
 
       <input id="search-input" type="search" placeholder="Search buildings…" autocomplete="off" />
@@ -310,7 +378,9 @@
     </div>
   </main>
 
-</div>
+</div><!-- end layout -->
+
+<div id="sheet-backdrop"></div>
 
 <!-- ── About overlay ─────────────────────────────────────────────────── -->
 <div id="about-overlay" role="dialog" aria-modal="true" aria-labelledby="about-title">
@@ -517,11 +587,19 @@ function buildListItem(feature, globalIdx) {
 function flyTo(feature, globalIdx) {
   const [lng, lat] = feature.geometry.coordinates;
   const m = markerObjects[globalIdx];
+  const mobile = window.innerWidth <= 640;
+  // On mobile reserve bottom padding for the sheet peek bar; top for header
+  const padTop    = mobile ? 10 : 12;
+  const padBottom = mobile ? 80 : 10;
 
   // Open popup only after the fly animation fully ends so autoPan isn't
   // overridden by the ongoing animation.
   map.once('moveend', () => { if (m) m.openPopup(); });
-  map.flyTo([lat, lng], 16, { duration: 0.9 });
+  map.flyTo([lat, lng], 16, {
+    duration: 0.9,
+    paddingTopLeft:      [0, padTop],
+    paddingBottomRight:  [0, padBottom],
+  });
 
   if (activeListItem) activeListItem.classList.remove('active');
   const el = document.querySelector(`.building-item[data-gidx="${globalIdx}"]`);
@@ -753,6 +831,45 @@ document.addEventListener('keydown', e => {
     document.getElementById('about-overlay').classList.remove('open');
   }
 });
+
+// ── Bottom-sheet (mobile only) ────────────────────────────────────────────
+(function () {
+  const sidebar  = document.getElementById('sidebar');
+  const handle   = document.getElementById('sheet-handle');
+  const backdrop = document.getElementById('sheet-backdrop');
+
+  function isMobile() { return window.innerWidth <= 640; }
+
+  function openSheet() {
+    sidebar.classList.add('sheet-open');
+    backdrop.classList.add('visible');
+  }
+  function closeSheet() {
+    sidebar.classList.remove('sheet-open');
+    backdrop.classList.remove('visible');
+  }
+  function toggleSheet() {
+    if (sidebar.classList.contains('sheet-open')) closeSheet(); else openSheet();
+  }
+
+  handle.addEventListener('click', toggleSheet);
+  backdrop.addEventListener('click', closeSheet);
+
+  // Swipe-up / swipe-down on the handle
+  let startY = null;
+  handle.addEventListener('touchstart', e => { startY = e.touches[0].clientY; }, { passive: true });
+  handle.addEventListener('touchend', e => {
+    if (startY === null) return;
+    const dy = startY - e.changedTouches[0].clientY;
+    if (Math.abs(dy) > 30) { dy > 0 ? openSheet() : closeSheet(); }
+    startY = null;
+  }, { passive: true });
+
+  // When a list item is clicked on mobile, close the sheet so map is visible
+  document.getElementById('building-list').addEventListener('click', () => {
+    if (isMobile()) closeSheet();
+  });
+})();
 
 init();
 </script>
