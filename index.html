@@ -315,9 +315,11 @@
       #sheet-backdrop.visible { opacity: 1; pointer-events: auto; }
     }
 
-    /* hide handle on desktop */
-    #sheet-handle { display: none; }
-    #sheet-backdrop { display: none; }
+    /* hide handle and backdrop on desktop */
+    @media (min-width: 641px) {
+      #sheet-handle   { display: none; }
+      #sheet-backdrop { display: none; }
+    }
   </style>
 </head>
 <body>
