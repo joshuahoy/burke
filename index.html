@@ -277,18 +277,19 @@
       /* drag handle */
       #sheet-handle {
         display: flex; justify-content: center; align-items: center;
-        height: 22px; flex-shrink: 0; cursor: pointer;
+        height: 44px; flex-shrink: 0; cursor: pointer;
         touch-action: none;
       }
       #sheet-handle::after {
         content: ''; display: block;
-        width: 40px; height: 4px;
-        background: #bdbdbd; border-radius: 2px;
+        width: 56px; height: 5px;
+        background: #bdbdbd; border-radius: 3px;
       }
 
       /* search + filter stay pinned inside the sheet */
       #sidebar-fixed {
         flex-shrink: 0;
+        padding-bottom: max(14px, env(safe-area-inset-bottom, 14px));
       }
 
       /* hide the desktop sidebar toggle on mobile */
@@ -855,25 +856,31 @@ document.addEventListener('keydown', e => {
   }
 
   // Handle touch: swipe up opens, swipe down closes, short tap toggles.
-  // Use non-passive touchend + preventDefault to stop the ghost click.
-  let startY = null;
-  handle.addEventListener('touchstart', e => {
-    startY = e.touches[0].clientY;
-  }, { passive: true });
-  handle.addEventListener('touchend', e => {
-    if (startY === null) return;
-    const dy = startY - e.changedTouches[0].clientY;
-    startY = null;
-    e.preventDefault(); // block subsequent click event
-    if (Math.abs(dy) > 20) {
+  // Track via pointermove so it works reliably on iOS and Android.
+  let pointerStartY = null;
+  let pointerMoved  = false;
+  handle.addEventListener('pointerdown', e => {
+    handle.setPointerCapture(e.pointerId);
+    pointerStartY = e.clientY;
+    pointerMoved  = false;
+  });
+  handle.addEventListener('pointermove', e => {
+    if (pointerStartY !== null && Math.abs(e.clientY - pointerStartY) > 8) {
+      pointerMoved = true;
+    }
+  });
+  handle.addEventListener('pointerup', e => {
+    if (pointerStartY === null) return;
+    const dy = pointerStartY - e.clientY;
+    pointerStartY = null;
+    if (pointerMoved) {
       dy > 0 ? openSheet() : closeSheet();
     } else {
-      toggleSheet(); // short tap
+      toggleSheet();
     }
-  }, { passive: false });
-
-  // Desktop fallback (mouse click on handle)
-  handle.addEventListener('click', toggleSheet);
+    pointerMoved = false;
+  });
+  handle.addEventListener('pointercancel', () => { pointerStartY = null; pointerMoved = false; });
 
   backdrop.addEventListener('click', closeSheet);
 
