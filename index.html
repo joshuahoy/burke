@@ -274,16 +274,13 @@
       /* override desktop collapsed behaviour */
       #sidebar.collapsed { transform: none; }
 
-      /* drag handle */
+      /* sheet handle tap bar */
       #sheet-handle {
         display: flex; justify-content: center; align-items: center;
-        height: 44px; flex-shrink: 0; cursor: pointer;
-        touch-action: none;
-      }
-      #sheet-handle::after {
-        content: ''; display: block;
-        width: 56px; height: 5px;
-        background: #bdbdbd; border-radius: 3px;
+        height: 36px; flex-shrink: 0; cursor: pointer;
+        font-size: .7rem; font-weight: 600; letter-spacing: .04em;
+        color: #888; text-transform: uppercase; user-select: none;
+        border-bottom: 1px solid var(--border);
       }
 
       /* search + filter stay pinned inside the sheet */
@@ -343,7 +340,7 @@
 
   <!-- Sidebar / bottom sheet -->
   <aside id="sidebar">
-    <div id="sheet-handle" aria-label="Toggle building list"></div>
+    <div id="sheet-handle" aria-label="Toggle building list">Tap to expand or collapse</div>
     <div id="sidebar-fixed">
 
       <input id="search-input" type="search" placeholder="Search buildings…" autocomplete="off" />
@@ -859,39 +856,8 @@ document.addEventListener('keydown', e => {
     if (sidebar.classList.contains('sheet-open')) closeSheet(); else openSheet();
   }
 
-  // Swipe/tap on the handle OR the sidebar-fixed area (bigger target)
-  const swipeTarget = document.getElementById('sidebar-fixed');
-  // Handle touch: swipe up opens, swipe down closes, short tap on handle toggles.
-  let pointerStartY = null;
-  let pointerMoved  = false;
-
-  function attachSwipe(el, tapAction) {
-    el.addEventListener('pointerdown', e => {
-      el.setPointerCapture(e.pointerId);
-      pointerStartY = e.clientY;
-      pointerMoved  = false;
-    });
-    el.addEventListener('pointermove', e => {
-      if (pointerStartY !== null && Math.abs(e.clientY - pointerStartY) > 12) {
-        pointerMoved = true;
-      }
-    });
-    el.addEventListener('pointerup', e => {
-      if (pointerStartY === null) return;
-      const dy = pointerStartY - e.clientY;
-      pointerStartY = null;
-      if (pointerMoved) {
-        dy > 0 ? openSheet() : closeSheet();
-      } else if (tapAction) {
-        tapAction();
-      }
-      pointerMoved = false;
-    });
-    el.addEventListener('pointercancel', () => { pointerStartY = null; pointerMoved = false; });
-  }
-
-  attachSwipe(handle, toggleSheet);
-  attachSwipe(swipeTarget, null); // swipe only on the fixed area, no tap action
+  // Tap handle to open/close. Tap map or backdrop to close.
+  handle.addEventListener('click', toggleSheet);
 
   backdrop.addEventListener('click', closeSheet);
 
