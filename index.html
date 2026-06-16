@@ -85,7 +85,7 @@
       border-bottom: 1px solid var(--border);
     }
     #sidebar-scroll {
-      flex: 1; overflow-y: auto; overflow-x: hidden;
+      flex: 1 1 0; min-height: 0; overflow-y: auto; overflow-x: hidden;
       padding: 8px 10px 20px;
       display: flex; flex-direction: column; gap: 6px;
     }
@@ -290,6 +290,7 @@
 
       /* scroll area in open sheet */
       #sidebar-scroll {
+        min-height: 0;
         overflow-y: auto !important;
         -webkit-overflow-scrolling: touch;
       }
@@ -609,11 +610,17 @@ function flyTo(feature, globalIdx) {
 
   if (mobile && typeof window.closeSheet === 'function') {
     window.closeSheet();
-    // Wait for sheet CSS transition + map resize before flying
-    setTimeout(() => {
+    // Wait for sheet CSS transition to finish, then resize map, then fly
+    const sidebar = document.getElementById('sidebar');
+    const onEnd = () => {
+      sidebar.removeEventListener('transitionend', onEnd);
       map.invalidateSize({ animate: false });
-      fly();
-    }, 380);
+      // Delay one tick so moveend from invalidateSize fires before we register ours
+      setTimeout(fly, 20);
+    };
+    sidebar.addEventListener('transitionend', onEnd);
+    // Fallback if transitionend doesn't fire
+    setTimeout(onEnd, 400);
   } else {
     fly();
   }
