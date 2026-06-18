@@ -46,13 +46,29 @@
     #site-header h1 span { font-weight: 300; font-size: .85rem; }
     #site-header p   { font-size: .75rem; opacity: .75; white-space: nowrap; }
 
-    #about-btn {
-      flex: 0 0 auto; margin-left: auto;
+    #about-btn, #locate-btn {
+      flex: 0 0 auto;
       background: rgba(255,255,255,.18); border: 1px solid rgba(255,255,255,.35);
       color: #fff; padding: 6px 14px; border-radius: 6px; cursor: pointer;
       font-size: .8rem; white-space: nowrap; transition: background .15s;
     }
-    #about-btn:hover { background: rgba(255,255,255,.28); }
+    #about-btn { margin-left: auto; }
+    #locate-btn { margin-left: 8px; padding: 6px 10px; font-size: 1rem; line-height: 1; }
+    #about-btn:hover, #locate-btn:hover { background: rgba(255,255,255,.28); }
+    #locate-btn.locating { background: rgba(255,255,255,.35); }
+
+    /* User location dot */
+    .user-dot {
+      width: 14px; height: 14px; border-radius: 50%;
+      background: #2979FF; border: 2px solid #fff;
+      box-shadow: 0 0 0 0 rgba(41,121,255,.6);
+      animation: pulse-loc 2s ease-out infinite;
+    }
+    @keyframes pulse-loc {
+      0%   { box-shadow: 0 0 0 0   rgba(41,121,255,.6); }
+      70%  { box-shadow: 0 0 0 10px rgba(41,121,255,0); }
+      100% { box-shadow: 0 0 0 0   rgba(41,121,255,0); }
+    }
 
     /* ── Layout ──────────────────────────────────────────────────────── */
     #layout {
@@ -319,6 +335,7 @@
     <h1>Edmund Burke <span>1851–1919</span></h1>
     <p>Architect of Ontario · Heritage map</p>
   </div>
+  <button id="locate-btn" title="Show my location">&#x25CE;</button>
   <button id="about-btn">About</button>
 </header>
 
@@ -839,6 +856,50 @@ document.addEventListener('keydown', e => {
     document.getElementById('about-overlay').classList.remove('open');
   }
 });
+
+// ── Geolocation ─────────────────────────────────────────────────────────────
+(function () {
+  const btn = document.getElementById('locate-btn');
+  let userMarker = null;
+  let accuracyCircle = null;
+
+  function clearLocation() {
+    if (userMarker)     { map.removeLayer(userMarker);     userMarker = null; }
+    if (accuracyCircle) { map.removeLayer(accuracyCircle); accuracyCircle = null; }
+  }
+
+  btn.addEventListener('click', () => {
+    btn.classList.add('locating');
+    map.locate({ setView: true, maxZoom: 16, enableHighAccuracy: true });
+  });
+
+  map.on('locationfound', e => {
+    btn.classList.remove('locating');
+    clearLocation();
+
+    // Accuracy circle
+    accuracyCircle = L.circle(e.latlng, {
+      radius: e.accuracy,
+      color: '#2979FF', fillColor: '#2979FF',
+      fillOpacity: .08, weight: 1,
+    }).addTo(map);
+
+    // Pulsing dot marker
+    const icon = L.divIcon({
+      className: '', iconSize: [14, 14], iconAnchor: [7, 7],
+      html: '<div class="user-dot"></div>',
+    });
+    userMarker = L.marker(e.latlng, { icon, interactive: false, zIndexOffset: 1000 }).addTo(map);
+  });
+
+  map.on('locationerror', e => {
+    btn.classList.remove('locating');
+    const msg = e.code === 1 ? 'Location access denied.'
+              : e.code === 2 ? 'Location unavailable.'
+              : 'Location request timed out.';
+    alert(msg);
+  });
+})();
 
 // ── Bottom-sheet (mobile only) ────────────────────────────────────────────
 (function () {
