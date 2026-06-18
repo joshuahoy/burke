@@ -2975,6 +2975,41 @@ window.BUILDINGS_DATA = {
         "primary_image": "https://www.acotoronto.ca/images/buildings/Large/XMOarnt9jE.jpg",
         "image_count": 1
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3580645,
+          43.6761835
+        ]
+      },
+      "properties": {
+        "name": "The Edmund Burke",
+        "address": "1260 Danforth Avenue",
+        "year_built": "",
+        "firm": "",
+        "style": "",
+        "heritage_status": "",
+        "source": "other",
+        "city": "Toronto",
+        "ward": "",
+        "wikipedia_url": "",
+        "detail_url": "https://www.theburke.ca/",
+        "aco_id": "",
+        "alternate_name": "",
+        "neighbourhood": "Danforth",
+        "building_type": "Commercial",
+        "current_use": "Restaurant / Bar",
+        "former_use": "",
+        "heritage_district": "",
+        "awards": "",
+        "notes": "A bar and restaurant named in honour of architect Edmund Burke. Not designed by Burke.",
+        "thumbnail_url": "",
+        "primary_image": "",
+        "image_count": 0
+      }
     }
   ]
 };
