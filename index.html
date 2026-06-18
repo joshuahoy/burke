@@ -543,7 +543,15 @@ function buildPopup(props, cat) {
       ? `<a href="${esc(props.wikipedia_url)}" target="_blank" rel="noopener" class="popup-link">Wikipedia ↗</a>`
       : '',
     props.detail_url
-      ? `<a href="${esc(props.detail_url)}" target="_blank" rel="noopener" class="popup-link">ACO TOBuilt ↗</a>`
+      ? (() => {
+          const url = props.detail_url;
+          let label;
+          if (url.includes('acotoronto.ca'))  label = 'ACO TOBuilt';
+          else if (url.includes('toronto.ca')) label = 'City of Toronto';
+          else if (url.includes('wikipedia.org')) label = 'Wikipedia';
+          else                                label = 'Website';
+          return `<a href="${esc(url)}" target="_blank" rel="noopener" class="popup-link">${label} ↗</a>`;
+        })()
       : '',
   ].filter(Boolean).join('');
 

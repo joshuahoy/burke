@@ -2330,7 +2330,7 @@ window.BUILDINGS_DATA = {
         "source": "toronto_heritage_register",
         "city": "Toronto",
         "ward": "13",
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Covenant_House",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Covenant_House_Toronto",
         "detail_url": "https://www.acotoronto.ca/building.php?ID=2157",
         "aco_id": "2157",
         "alternate_name": "Willard Hall / Young Women's Christian Association",
